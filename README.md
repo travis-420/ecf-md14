@@ -9,9 +9,7 @@ VERIFICATION.md is an independent blind replication record: a separate
 session, given the code but not the results, fetched the data and
 reproduced every reported statistic exactly.
 
-Headline: dchi2 = -7.6 vs LCDM with one parameter (tau = 2.1 +0.6/-0.4 e-folds);
-beats the 2-parameter w0waCDM in absolute fit; first on AIC; ties LCDM on BIC.
-~2.8 sigma. Not a detection. Falsifiable by DESI final / Euclid.
+Headline: dchi2 = -11.64 vs LCDM with one parameter under the full Planck likelihood (plik-lite TTTEEE + tau prior + DESI DR2 BAO + Pantheon+); certified tau_ecf = 2.41 +0.87/-0.51 (68%, 6-chain MPI, R-1 = 0.019); beats the 2-parameter w0waCDM (dchi2 = -8.85) in every data block with one fewer parameter; first on AIC; BIC now favors the model over LCDM. ~3.4 sigma. Not a detection. Kill condition 2 executed: did not fire. Falsifiable by DESI final / Euclid. Full details in RESULTS_FULLPLANCK.md.
 
 ## Reproduce
 Requirements: python 3.12+, numpy, scipy, pandas. Fetch data first:
