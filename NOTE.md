@@ -123,7 +123,7 @@ After the analysis above was frozen, the kernel was identified term-by-term with
 | source (per-time) | decline z=1→0 | Δχ² vs ΛCDM | best-fit k |
 |---|---|---|---|
 | star formation (MD14) | ×4.4 | −3.11 | 1.91 |
-| steepened representative shapes | ×11 / ×16 | −5.31 / −6.38 | 2.405 / 2.57 |
+| steepened representative shapes | ×11 / ×16 | −5.31 / −6.38 | 2.41 / 2.57 |
 | Shen et al. (2020) QLF, global fit B | ×24 | +0.93 | 2.38 |
 | Shen et al. (2020) QLF, global fit A | ×24 | +0.54 | 2.39 |
 | X-ray-census (MH08-anchored), ×8 / ×12 | ×8 / ×12 | −4.62 / −5.58 | 2.19 / 2.40 |
