@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21252690.svg)](https://doi.org/10.5281/zenodo.21252690)
 # ECF-MD14: dark energy as a delayed response to cosmic structure formation
 
 One-parameter phenomenological model (leaky integrator of the Madau-Dickinson
