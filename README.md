@@ -31,5 +31,5 @@ Runtime: minutes on one CPU. No data are redistributed here; everything is
 fetched from the official public releases.
 
 ## License / citation
-Timestamped research note, July 7, 2026. If this is useful, cite the Zenodo
-DOI once minted.
+Timestamped research note, July 7, 2026. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21252690.svg)](https://doi.org/10.5281/zenodo.21252690)
