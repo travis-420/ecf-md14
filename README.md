@@ -1,4 +1,4 @@
-If this is useful, cite: https://doi.org/10.5281/zenodo.21252690 (v1.0) or the concept DOI https://doi.org/10.5281/zenodo.21252689 (always latest version).
+If this is useful, cite: https://doi.org/10.5281/zenodo.21252690 (v1.0), https://doi.org/10.5281/zenodo.21269478 (full-Planck update), or the concept DOI https://doi.org/10.5281/zenodo.21252689 (always latest version).
 # ECF-MD14: dark energy as a delayed response to cosmic structure formation
 
 One-parameter phenomenological model (leaky integrator of the Madau-Dickinson
@@ -25,9 +25,30 @@ and run in order 01 -> 05. Scripts 06-08 are the model-development stages
 (one-parameter projection test, source scan incl. the FAILED linear-growth
 variant, growth/fsigma8 degeneracy checks) kept for completeness.
 
+IMPORTANT — one setup step: scripts 03, 04, and 09-12 bootstrap by executing
+a file named gateb2.py, the pre-publication working name of
+02_gateB2_cmb_anchor.py. Before running them, create the alias in your data
+directory (or wherever you point the exec() paths):
+
+  cp 02_gateB2_cmb_anchor.py <your-data-dir>/gateb2.py
+
+Filename note: the scripts were renamed for publication after the blind
+replication. VERIFICATION.md therefore refers to them by their original
+working names — likelihood.py = 01_gateB_bao_sn.py, gateb2.py =
+02_gateB2_cmb_anchor.py, prof2.py = 03_tau_profile.py, diag.py =
+04_diagnostics.py. The code is identical; only the filenames changed.
+
+Scripts 09-14 are the CCBH-identification chain documented in the NOTE.md
+Addendum: 09 verifies the kernel/CCBH identity and measures k; 10 brackets
+the required source decline; 11 tests the Shen et al. (2020) quasar
+luminosity density source; 12 is the pre-registered X-ray-census source
+test; 13 computes the coupled Soltan closure prediction (kill condition 5);
+14 is the fsigma8 growth consistency check. Scripts 09-12 require the
+gateb2.py alias above; 13 and 14 are standalone.
+
 Runtime: minutes on one CPU. No data are redistributed here; everything is
 fetched from the official public releases.
 
 ## License / citation
 Timestamped research note, July 7, 2026. 
-If this is useful, cite: https://doi.org/10.5281/zenodo.21252690 (v1.0) or the concept DOI https://doi.org/10.5281/zenodo.21252689 (always latest version).
+If this is useful, cite: https://doi.org/10.5281/zenodo.21252690 (v1.0), https://doi.org/10.5281/zenodo.21269478 (full-Planck update), or the concept DOI https://doi.org/10.5281/zenodo.21252689 (always latest version).
