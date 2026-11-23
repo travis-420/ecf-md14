@@ -1,0 +1,22 @@
+test_module config: num_nu_massless=3.046 num_nu_massive=0 nu_mass_eigenstates=0 omnuh2=0.0 N_eff=3.046
+same with num_massive_neutrinos=0: num_nu_massless=3.046 num_nu_massive=0 N_eff=3.046
+
+fit3_lcdm_mnufree at certified lcdm best-fit point (other params fixed):
+  mnu=0        chi2_total=   2031.9464  N_eff=3.0440  num_nu_massless=3.0440 num_nu_massive=0
+  mnu=1e-08    chi2_total=   2031.9464  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=1e-06    chi2_total=   2031.9464  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.0001   chi2_total=   2031.9464  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.001    chi2_total=   2032.0615  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.01     chi2_total=   2025.3453  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.03     chi2_total=   2011.8423  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.06     chi2_total=   2005.5316  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+
+fit4_ecf_mnufree at certified ecf best-fit point (other params fixed):
+  mnu=0        chi2_total=   2023.2183  N_eff=3.0440  num_nu_massless=3.0440 num_nu_massive=0
+  mnu=1e-08    chi2_total=   2023.2183  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=1e-06    chi2_total=   2023.2183  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.0001   chi2_total=   2023.2183  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.001    chi2_total=   2023.1668  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.01     chi2_total=   2016.1655  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.03     chi2_total=   2001.7487  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1
+  mnu=0.06     chi2_total=   1993.8935  N_eff=3.0440  num_nu_massless=2.0293 num_nu_massive=1

@@ -1,0 +1,11 @@
+$ /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python --version
+Python 3.12.12
+numpy 2.1.3 scipy 1.14.1 camb 1.6.6 cobaya 3.6.2
+$ shasum -a 256 fullplanck kit files + July kit copies
+5491101a62105dbfab4c4a5c4f76475170f599bc324424ce060a3a42aee39020  test_module.py
+ea7802b23386911fa8d55f07f93862b1028063475b79d22bd23ed7bab726fb10  ecf_physics.py
+7acdb5b9a55ead99302e4f80530f24c4b33cc0093388d0cbd92620f496f964fe  ecf_theory_cobaya.py
+99092928bce6b2cf0586de49813860029ee41f96393acdf4bdfda67867c5ddca  reference_checkpoints.csv
+5491101a62105dbfab4c4a5c4f76475170f599bc324424ce060a3a42aee39020  /Users/420-420/Downloads/ecf-fullplanck-kit/test_module.py
+ea7802b23386911fa8d55f07f93862b1028063475b79d22bd23ed7bab726fb10  /Users/420-420/Downloads/ecf-fullplanck-kit/ecf_physics.py
+c71fccd18b746066efeb2318a013655205ed429f1b62bb53366033b1b83bf643  /Users/420-420/Downloads/ecf-fullplanck-kit/reference_checkpoints.csv

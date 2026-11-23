@@ -1,0 +1,18 @@
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains', with prefix 'fit2_ecf_mnufixed_s4'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 2004
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0435086089883603), 'ns': np.float64(0.960381923394267), 'H0': np.float64(67.0278907766495), 'ombh2': np.float64(0.022461374962610747), 'omch2': np.float64(0.12024095458736463), 'tau': np.float64(0.059372725746748116), 'A_planck': np.float64(1.002445098581655), 'tau_ecf': np.float64(2.839022168710396)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 981.875
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2     omch2       tau  A_planck   tau_ecf            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    981.874827  3.054256  0.964599  67.646033  0.022394  0.119812  0.059277  1.000664  2.083425  2.120541e-09   9.206592  582.220997  1402.680113     -15.179024        -15.402226                  0.223202  1994.107702                                       582.220997            9.206592            1402.680113
+EXIT=0 start=2026-11-23T11:05:36Z end=2026-11-23T11:16:35Z

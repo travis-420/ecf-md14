@@ -1,0 +1,61 @@
+== fit1_lcdm_mnufixed_s1
+85,87c85,89
+<     seed: 1001
+<     covmat: /Users/420-420/ecf-md14/fullplanck/tier2/covmats/lcdm.covmat
+< output: /Users/420-420/ecf-md14/fullplanck/tier2/chains/fit1_lcdm_mnufixed_s1
+---
+>     seed: 2001
+>     covmat: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/lcdm.covmat
+>     override_bobyqa:
+>       rhoend: 0.005
+> output: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit1_lcdm_mnufixed_s1
+== fit2_ecf_mnufixed_s3
+96,98c96,100
+<     seed: 1003
+<     covmat: /Users/420-420/ecf-md14/fullplanck/tier2/covmats/ecf.covmat
+< output: /Users/420-420/ecf-md14/fullplanck/tier2/chains/fit2_ecf_mnufixed_s3
+---
+>     seed: 2003
+>     covmat: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/ecf.covmat
+>     override_bobyqa:
+>       rhoend: 0.005
+> output: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit2_ecf_mnufixed_s3
+== fit1_lcdm_mnufixed_s0
+12c12
+<     ref: 3.044
+---
+>     ref: 3.0527393
+22c22
+<     ref: 0.965
+---
+>     ref: 0.96940593
+28c28
+<     ref: 67.7
+---
+>     ref: 68.340261
+34c34
+<     ref: 0.02237
+---
+>     ref: 0.022538053
+40c40
+<     ref: 0.1195
+---
+>     ref: 0.11784319
+46c46
+<     ref: 0.0544
+---
+>     ref: 0.06057025
+53c53
+<     ref: 1
+---
+>     ref: 1.0009786
+64,66c64,68
+<     seed: 1000
+<     covmat: /Users/420-420/ecf-md14/fullplanck/tier2/covmats/lcdm.covmat
+< output: /Users/420-420/ecf-md14/fullplanck/tier2/chains/fit1_lcdm_mnufixed_s0
+---
+>     seed: 2000
+>     covmat: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/lcdm.covmat
+>     override_bobyqa:
+>       rhoend: 0.005
+> output: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit1_lcdm_mnufixed_s0

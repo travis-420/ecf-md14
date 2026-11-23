@@ -1,0 +1,25 @@
+# cwd=fullplanck/  $ /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python test_module.py   2026-11-23T11:02:12Z
+tau=1.50 z=0.20  E_camb=1.13190  E_ref=1.13190  diff=0.000%  ok 
+tau=1.50 z=0.51  E_camb=1.36449  E_ref=1.36449  diff=0.000%  ok 
+tau=1.50 z=1.00  E_camb=1.80638  E_ref=1.80638  diff=0.000%  ok 
+tau=1.50 z=2.00  E_camb=2.98778  E_ref=2.98778  diff=0.000%  ok 
+tau=1.50 z=2.33  E_camb=3.45453  E_ref=3.45453  diff=0.000%  ok 
+tau=1.50 z=5.00  E_camb=8.22155  E_ref=8.22157  diff=0.000%  ok 
+tau=1.50 z=10.00  E_camb=20.41125  E_ref=20.41124  diff=0.000%  ok 
+tau=2.10 z=0.20  E_camb=1.12293  E_ref=1.12293  diff=0.000%  ok 
+tau=2.10 z=0.51  E_camb=1.34775  E_ref=1.34775  diff=0.000%  ok 
+tau=2.10 z=1.00  E_camb=1.78772  E_ref=1.78772  diff=0.000%  ok 
+tau=2.10 z=2.00  E_camb=2.97844  E_ref=2.97843  diff=0.000%  ok 
+tau=2.10 z=2.33  E_camb=3.44782  E_ref=3.44782  diff=0.000%  ok 
+tau=2.10 z=5.00  E_camb=8.22094  E_ref=8.22095  diff=0.000%  ok 
+tau=2.10 z=10.00  E_camb=20.41121  E_ref=20.41120  diff=0.000%  ok 
+tau=3.00 z=0.20  E_camb=1.11613  E_ref=1.11614  diff=0.000%  ok 
+tau=3.00 z=0.51  E_camb=1.33537  E_ref=1.33536  diff=0.000%  ok 
+tau=3.00 z=1.00  E_camb=1.77432  E_ref=1.77432  diff=0.000%  ok 
+tau=3.00 z=2.00  E_camb=2.97192  E_ref=2.97192  diff=0.000%  ok 
+tau=3.00 z=2.33  E_camb=3.44315  E_ref=3.44315  diff=0.000%  ok 
+tau=3.00 z=5.00  E_camb=8.22051  E_ref=8.22053  diff=0.000%  ok 
+tau=3.00 z=10.00  E_camb=20.41118  E_ref=20.41117  diff=0.000%  ok 
+
+PASS - proceed to chains
+EXIT=0

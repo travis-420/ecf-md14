@@ -1,0 +1,75 @@
+
+== fit3_lcdm_mnufree @ certified lcdm best-fit
+  chi2(mnu=0.0, clean model)          = 2031.946442   N_eff=3.0440 num_nu_massive=0 num_nu_massless=3.0440
+     components: planck_2018_highl_plik.TTTEEE_lite_native=612.602880, bao.desi_dr2=13.420879, sn.pantheonplus=1405.922683
+  chi2(mnu=1e-5, state i: base@0.06)  = 2031.946442   N_eff=3.0440 num_nu_massive=1 num_nu_massless=2.0293
+     components: planck_2018_highl_plik.TTTEEE_lite_native=612.602880, bao.desi_dr2=13.420879, sn.pantheonplus=1405.922683
+  chi2(mnu=1e-5, state ii: base@0.0)  = 2031.946442   N_eff=3.0440 num_nu_massive=1
+  diff  chi2(1e-5, i)  - chi2(0 clean) = -0.000000
+  diff  chi2(1e-5, ii) - chi2(0 clean) = -0.000000
+  [defect] chi2(mnu=0.0, state i)      = 17183.940096   N_eff=4.0587 num_nu_massive=1 num_nu_massless=3.0440
+  [context] chi2(mnu=0.06)             = 2005.531639
+
+== fit3_lcdm_mnufree @ kit ref point
+  chi2(mnu=0.0, clean model)          = 2026.587261   N_eff=3.0440 num_nu_massive=0 num_nu_massless=3.0440
+     components: planck_2018_highl_plik.TTTEEE_lite_native=599.083741, bao.desi_dr2=23.091087, sn.pantheonplus=1404.412433
+  chi2(mnu=1e-5, state i: base@0.06)  = 2026.587261   N_eff=3.0440 num_nu_massive=1 num_nu_massless=2.0293
+     components: planck_2018_highl_plik.TTTEEE_lite_native=599.083741, bao.desi_dr2=23.091087, sn.pantheonplus=1404.412433
+  chi2(mnu=1e-5, state ii: base@0.0)  = 2026.587261   N_eff=3.0440 num_nu_massive=1
+  diff  chi2(1e-5, i)  - chi2(0 clean) = +0.000000
+  diff  chi2(1e-5, ii) - chi2(0 clean) = +0.000000
+  [defect] chi2(mnu=0.0, state i)      = 16800.312686   N_eff=4.0587 num_nu_massive=1 num_nu_massless=3.0440
+  [context] chi2(mnu=0.06)             = 2015.391920
+
+== fit4_ecf_mnufree @ certified ecf best-fit
+  chi2(mnu=0.0, clean model)          = 2023.218342   N_eff=3.0440 num_nu_massive=0 num_nu_massless=3.0440
+     components: planck_2018_highl_plik.TTTEEE_lite_native=610.328386, bao.desi_dr2=10.361042, sn.pantheonplus=1402.528915
+  chi2(mnu=1e-5, state i: base@0.06)  = 2023.218343   N_eff=3.0440 num_nu_massive=1 num_nu_massless=2.0293
+     components: planck_2018_highl_plik.TTTEEE_lite_native=610.328386, bao.desi_dr2=10.361042, sn.pantheonplus=1402.528915
+  chi2(mnu=1e-5, state ii: base@0.0)  = 2023.218343   N_eff=3.0440 num_nu_massive=1
+  diff  chi2(1e-5, i)  - chi2(0 clean) = +0.000001
+  diff  chi2(1e-5, ii) - chi2(0 clean) = +0.000001
+  [defect] chi2(mnu=0.0, state i)      = 16979.964567   N_eff=4.0587 num_nu_massive=1 num_nu_massless=3.0440
+  [context] chi2(mnu=0.06)             = 1993.893491
+
+== fit4_ecf_mnufree @ kit ref point
+  chi2(mnu=0.0, clean model)          = 2036.408237   N_eff=3.0440 num_nu_massive=0 num_nu_massless=3.0440
+     components: planck_2018_highl_plik.TTTEEE_lite_native=623.702916, bao.desi_dr2=10.122866, sn.pantheonplus=1402.582454
+  chi2(mnu=1e-5, state i: base@0.06)  = 2036.408237   N_eff=3.0440 num_nu_massive=1 num_nu_massless=2.0293
+     components: planck_2018_highl_plik.TTTEEE_lite_native=623.702917, bao.desi_dr2=10.122866, sn.pantheonplus=1402.582454
+  chi2(mnu=1e-5, state ii: base@0.0)  = 2036.408237   N_eff=3.0440 num_nu_massive=1
+  diff  chi2(1e-5, i)  - chi2(0 clean) = +0.000000
+  diff  chi2(1e-5, ii) - chi2(0 clean) = +0.000000
+  [defect] chi2(mnu=0.0, state i)      = 17304.448942   N_eff=4.0587 num_nu_massive=1 num_nu_massless=3.0440
+  [context] chi2(mnu=0.06)             = 1997.370949
+
+== fit5_cpl_mnufree @ certified cpl best-fit
+  chi2(mnu=0.0, clean model)          = 2025.150817   N_eff=3.0440 num_nu_massive=0 num_nu_massless=3.0440
+     components: planck_2018_highl_plik.TTTEEE_lite_native=610.788594, bao.desi_dr2=11.342771, sn.pantheonplus=1403.019452
+  chi2(mnu=1e-5, state i: base@0.06)  = 2025.150848   N_eff=3.0440 num_nu_massive=1 num_nu_massless=2.0293
+     components: planck_2018_highl_plik.TTTEEE_lite_native=610.788625, bao.desi_dr2=11.342771, sn.pantheonplus=1403.019452
+  chi2(mnu=1e-5, state ii: base@0.0)  = 2025.150848   N_eff=3.0440 num_nu_massive=1
+  diff  chi2(1e-5, i)  - chi2(0 clean) = +0.000032
+  diff  chi2(1e-5, ii) - chi2(0 clean) = +0.000032
+  [defect] chi2(mnu=0.0, state i)      = 17052.153241   N_eff=4.0587 num_nu_massive=1 num_nu_massless=3.0440
+  [context] chi2(mnu=0.06)             = 1996.685811
+
+== fit5_cpl_mnufree @ kit ref point
+  chi2(mnu=0.0, clean model)          = 1998.425423   N_eff=3.0440 num_nu_massive=0 num_nu_massless=3.0440
+     components: planck_2018_highl_plik.TTTEEE_lite_native=585.696414, bao.desi_dr2=9.867035, sn.pantheonplus=1402.861974
+  chi2(mnu=1e-5, state i: base@0.06)  = 1998.425400   N_eff=3.0440 num_nu_massive=1 num_nu_massless=2.0293
+     components: planck_2018_highl_plik.TTTEEE_lite_native=585.696391, bao.desi_dr2=9.867035, sn.pantheonplus=1402.861974
+  chi2(mnu=1e-5, state ii: base@0.0)  = 1998.425400   N_eff=3.0440 num_nu_massive=1
+  diff  chi2(1e-5, i)  - chi2(0 clean) = -0.000023
+  diff  chi2(1e-5, ii) - chi2(0 clean) = -0.000023
+  [defect] chi2(mnu=0.0, state i)      = 16130.948550   N_eff=4.0587 num_nu_massive=1 num_nu_massless=3.0440
+  [context] chi2(mnu=0.06)             = 2016.627791
+
+SUMMARY  fit | point | chi2(0 clean) | chi2(1e-5, minimizer state) | diff(i) | diff(ii) | chi2(0, corrupted)
+  fit3_lcdm_mnufree | certified lcdm best-fit | 2031.946442 | 2031.946442 | -0.000000 | -0.000000 | 17183.9401
+  fit3_lcdm_mnufree | kit ref point | 2026.587261 | 2026.587261 | +0.000000 | +0.000000 | 16800.3127
+  fit4_ecf_mnufree | certified ecf best-fit | 2023.218342 | 2023.218343 | +0.000001 | +0.000001 | 16979.9646
+  fit4_ecf_mnufree | kit ref point | 2036.408237 | 2036.408237 | +0.000000 | +0.000000 | 17304.4489
+  fit5_cpl_mnufree | certified cpl best-fit | 2025.150817 | 2025.150848 | +0.000032 | +0.000032 | 17052.1532
+  fit5_cpl_mnufree | kit ref point | 1998.425423 | 1998.425400 | -0.000023 | -0.000023 | 16130.9485
+max |diff| over all = 3.157e-05

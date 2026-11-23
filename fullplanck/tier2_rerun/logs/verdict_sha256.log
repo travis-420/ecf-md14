@@ -1,0 +1,6 @@
+verdict.py frozen at 2026-11-23T11:05:33Z, before any rerun fit was launched
+10df7db58b2e109fa336da051e3c34422861fed54e3dd8930556dce0e623890d  verdict.py
+e69a4725eaa768b1a644b7be45c4d4b420830956692e3f20f05449aac99830a8  make_yamls.py
+263319629bbf45d8e7a84e8cf448db26c8475dabf044f18b2147eace38f413a4  run_starts.sh
+e4004560b460a79359cd2bbdba10453e528d3c6b998716c0d8539b5d81b42229  G0_maxdiff.py
+-r--r--r--  1 420-420  staff  17709 Nov 23 03:04 verdict.py

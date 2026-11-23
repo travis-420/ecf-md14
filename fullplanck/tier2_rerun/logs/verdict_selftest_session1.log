@@ -1,0 +1,63 @@
+verdict.py mode=g1 root=/Users/420-420/ecf-md14/fullplanck/tier2 nstarts=5
+====================================================================================================
+G1 (AMENDMENT_TIER2_MINIMIZER.md sections 1, 2.4, 3, 4)
+certified: fit 1 chi2 2005.5316, -log post 986.02170; fit 2 chi2 1993.8933, -log post 981.93936; Delta chi2 -11.6383
+
+### Fit 1 (fit1_lcdm_mnufixed)
+converged starts: 5 of 5; in window: 5; stopped short: 0
+| start | seed | rhoend | exit | converged | status | -log post | -log post - best | -2 log post | total chi2 | chi2 CMB | chi2 BAO | chi2 SN | tau-prior term (2x) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| s0 | 1000 | 0.05 | 0 | True | in window | 986.0241 | 0.0177 | 1972.0481 | 2005.7647 | 587.6318 | 12.4892 | 1405.6437 | 0.5708 |
+| s1 | 1001 | 0.05 | 0 | True | in window | 986.0065 | 0.0002 | 1972.0131 | 2005.3693 | 587.1336 | 12.6364 | 1405.5994 | 0.9019 |
+| s2 | 1002 | 0.05 | 0 | True | in window (SELECTED) | 986.0064 | 0.0000 | 1972.0127 | 2005.4501 | 587.1472 | 12.7282 | 1405.5747 | 0.8067 |
+| s3 | 1003 | 0.05 | 0 | True | in window | 986.0840 | 0.0776 | 1972.1680 | 2004.7839 | 586.3913 | 12.8485 | 1405.5441 | 1.6300 |
+| s4 | 1004 | 0.05 | 0 | True | in window | 986.0151 | 0.0088 | 1972.0303 | 2005.2791 | 586.9225 | 12.7998 | 1405.5569 | 1.0390 |
+start points (from each run log):
+  s0: {'logA': 3.044, 'ns': 0.965, 'H0': 67.7, 'ombh2': 0.02237, 'omch2': 0.1195, 'tau': 0.0544, 'A_planck': 1.0}
+  s1: {'logA': 3.0278552651006283, 'ns': 0.9759581164779292, 'H0': 67.11400617658367, 'ombh2': 0.02240472099534723, 'omch2': 0.11887653318139581, 'tau': 0.042911627565794606, 'A_planck': 1.0010056492774142}
+  s2: {'logA': 3.0192023724633206, 'ns': 0.9679594883540189, 'H0': 67.75008422468369, 'ombh2': 0.022261556035911956, 'omch2': 0.12008316695467613, 'tau': 0.05674325055667291, 'A_planck': 1.0026511133586324}
+  s3: {'logA': 3.0633670741074392, 'ns': 0.9695271136976849, 'H0': 69.28841296870503, 'ombh2': 0.022668647175341283, 'omch2': 0.11684147251912061, 'tau': 0.06611366782218978, 'A_planck': 1.0000932710424881}
+  s4: {'logA': 3.024194141298564, 'ns': 0.9534494461491988, 'H0': 67.82065397244754, 'ombh2': 0.022339363503334018, 'omch2': 0.11691780251056015, 'tau': 0.06036137250237272, 'A_planck': 0.9963116880074313}
+selected start (section 1): s2  -log post = 986.0064  total chi2 = 2005.4501
+S (in-window spread of total chi2) = 0.9808   over in-window starts ['s0', 's1', 's2', 's3', 's4']
+spread of total chi2 over ALL converged starts (reporting only) = 0.9808
+minimizer-failed by 4-of-8 rule: no (5 in-window converged; requirement >= 4)
+
+### Fit 2 (fit2_ecf_mnufixed)
+converged starts: 5 of 5; in window: 3; stopped short: 2
+| start | seed | rhoend | exit | converged | status | -log post | -log post - best | -2 log post | total chi2 | chi2 CMB | chi2 BAO | chi2 SN | tau-prior term (2x) | tau_ecf |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| s0 | 1000 | 0.05 | 0 | True | in window | 982.0951 | 0.1748 | 1964.1903 | 1995.0480 | 583.2622 | 9.1428 | 1402.6430 | 0.0141 | 2.07202 |
+| s1 | 1001 | 0.05 | 0 | True | stopped short | 983.8802 | 1.9599 | 1967.7604 | 1996.9373 | 584.5376 | 9.9043 | 1402.4955 | 1.5884 | 2.36384 |
+| s2 | 1002 | 0.05 | 0 | True | in window (SELECTED) | 981.9203 | 0.0000 | 1963.8406 | 1994.3348 | 582.4006 | 9.4006 | 1402.5336 | 0.3787 | 2.20775 |
+| s3 | 1003 | 0.05 | 0 | True | stopped short | 982.1810 | 0.2607 | 1964.3620 | 1993.3268 | 581.4312 | 9.3402 | 1402.5554 | 1.8785 | 2.17541 |
+| s4 | 1004 | 0.05 | 0 | True | in window | 982.0527 | 0.1325 | 1964.1055 | 1994.6622 | 582.7990 | 8.9095 | 1402.9537 | 0.2753 | 1.94345 |
+start points (from each run log):
+  s0: {'logA': 3.044, 'ns': 0.965, 'H0': 67.7, 'ombh2': 0.02237, 'omch2': 0.1195, 'tau': 0.0544, 'A_planck': 1.0, 'tau_ecf': 2.1}
+  s1: {'logA': 3.0278552651006283, 'ns': 0.9759581164779292, 'H0': 67.11400617658367, 'ombh2': 0.02240472099534723, 'omch2': 0.11887653318139581, 'tau': 0.042911627565794606, 'A_planck': 1.0010056492774142, 'tau_ecf': 1.944367409418153}
+  s2: {'logA': 3.0192023724633206, 'ns': 0.9679594883540189, 'H0': 67.75008422468369, 'ombh2': 0.022261556035911956, 'omch2': 0.12008316695467613, 'tau': 0.05674325055667291, 'A_planck': 1.0026511133586324, 'tau_ecf': 3.306084693842324}
+  s3: {'logA': 3.0633670741074392, 'ns': 0.9695271136976849, 'H0': 69.28841296870503, 'ombh2': 0.022668647175341283, 'omch2': 0.11684147251912061, 'tau': 0.06611366782218978, 'A_planck': 1.0000932710424881, 'tau_ecf': 2.055013037687782}
+  s4: {'logA': 3.024194141298564, 'ns': 0.9534494461491988, 'H0': 67.82065397244754, 'ombh2': 0.022339363503334018, 'omch2': 0.11691780251056015, 'tau': 0.06036137250237272, 'A_planck': 0.9963116880074313, 'tau_ecf': 1.869364619913127}
+selected start (section 1): s2  -log post = 981.9203  total chi2 = 1994.3348  tau_ecf = 2.20775
+S (in-window spread of total chi2) = 0.7132   over in-window starts ['s0', 's2', 's4']
+spread of total chi2 over ALL converged starts (reporting only) = 3.6105
+minimizer-failed by 4-of-8 rule: YES (3 in-window converged; requirement >= 4)
+
+Cross-model -2 log posterior differences (reporting only; no rule uses them):
+  (fit 2, fit 1): Delta(-2 log posterior) = -8.1721;  net of 2 ln 5.7 (3.4809): -11.6531
+  July certified (fit 2, fit 1): -8.1647; net -11.6456
+
+--- Section 3 ---
+fit 1: selected -log post - certified July minuslogpost = -0.0153  (-2 log post: -0.0307)
+fit 2: selected -log post - certified July minuslogpost = -0.0191  (-2 log post: -0.0381)
+G1 criterion 1: |chi2(fit 1) - 2005.5316| = |2005.4501 - 2005.5316| = 0.0815 (-0.0815) -> pass
+G1 criterion 2: |chi2(fit 2) - 1993.8933| = |1994.3348 - 1993.8933| = 0.4415 (+0.4415) -> pass
+G1 criterion 3: Delta chi2 (fit 2 - fit 1) = -11.1153; |Delta chi2 - (-11.6383)| = 0.5230 (+0.5230) -> FAIL
+fit 1: S = 0.9808 (guard 0.5); in-window converged = 5; July-suboptimal condition (b) [d < -0.25]: no; rerun-worse [d > +0.25]: no
+fit 2: S = 0.7132 (guard 0.5); in-window converged = 3; July-suboptimal condition (b) [d < -0.25]: no; rerun-worse [d > +0.25]: no
+
+G1 LABEL: failed: minimizer-failed
+  fit 1: minimizer-failed — G1 spread guard (S = 0.9808 > 0.5)
+  fit 2: minimizer-failed — 4-of-8 rule (3 in-window converged starts < 4); G1 spread guard (S = 0.7132 > 0.5)
+Erratum: none (readout-drift clause NOT declared because a fit is minimizer-failed)
+Proceed to fits 3-5: NO (run stops)

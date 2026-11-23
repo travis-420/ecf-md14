@@ -1,0 +1,41 @@
+
+fit1 (fit1_lcdm_mnufixed) per start:  minuslogpost | chi2 | minuslogprior__0 | minuslogprior__tau_prior
+  s0: 986.0241 | 2005.7647 | -17.1437 | 0.2854
+  s1: 986.0065 | 2005.3693 | -17.1291 | 0.4510
+  s2: 986.0064 | 2005.4501 | -17.1220 | 0.4034
+  s3: 986.0840 | 2004.7839 | -17.1229 | 0.8150
+  s4: 986.0151 | 2005.2791 | -17.1439 | 0.5195
+  certified: 986.0217 | 2005.5316 | -17.1013 | 0.3572
+
+fit2 (fit2_ecf_mnufixed) per start:  minuslogpost | chi2 | minuslogprior__0 | minuslogprior__tau_prior
+  s0: 982.0951 | 1995.0480 | -15.4359 | 0.0071
+  s1: 983.8802 | 1996.9373 | -15.3827 | 0.7942
+  s2: 981.9203 | 1994.3348 | -15.4364 | 0.1893
+  s3: 982.1810 | 1993.3268 | -15.4217 | 0.9393
+  s4: 982.0527 | 1994.6622 | -15.4160 | 0.1377
+  certified: 981.9394 | 1993.8933 | -15.3461 | 0.3389
+
+certified chi2: fit1 2005.5316, fit2 1993.8933, Dchi2 -11.6383
+
+Rule A (lowest minuslogpost): fit1 best s2, fit2 best s2
+  fit1 chi2 2005.4501  vs certified: -0.0815  -> pass
+  fit2 chi2 1994.3348  vs certified: +0.4415  -> pass  (tau_ecf 2.2077)
+  Dchi2 -11.1153  vs certified -11.6383: +0.5230  -> FAIL
+  G1 under rule A (lowest minuslogpost): FAIL
+
+Rule B (lowest chi2): fit1 best s3, fit2 best s3
+  fit1 chi2 2004.7839  vs certified: -0.7477  -> FAIL
+  fit2 chi2 1993.3268  vs certified: -0.5665  -> FAIL  (tau_ecf 2.1754)
+  Dchi2 -11.4571  vs certified -11.6383: +0.1812  -> pass
+  G1 under rule B (lowest chi2): FAIL
+
+G1 VERDICT: FAIL under both readings
+
+Diagnostic (minimized objective, not a G1 criterion):
+  fit1 best minuslogpost 986.0064 vs certified 986.0217: -0.0153
+  fit2 best minuslogpost 981.9203 vs certified 981.9394: -0.0191
+  2*D(minuslogpost): this run -8.1721, certified -8.1647, diff -0.0075
+  fit1: spread over starts  minuslogpost 0.0776, chi2 0.9808
+  fit1: starts within 0.1 of best minuslogpost: ['s0', 's1', 's2', 's3', 's4'], their chi2 range 2004.7839-2005.7647
+  fit2: spread over starts  minuslogpost 1.9599, chi2 3.6105
+  fit2: starts within 0.1 of best minuslogpost: ['s2'], their chi2 range 1994.3348-1994.3348

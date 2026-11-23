@@ -1,0 +1,18 @@
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2/chains', with prefix 'fit2_ecf_mnufixed_s2'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 1002
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0192023724633206), 'ns': np.float64(0.9679594883540189), 'H0': np.float64(67.75008422468369), 'ombh2': np.float64(0.022261556035911956), 'omch2': np.float64(0.12008316695467613), 'tau': np.float64(0.05674325055667291), 'A_planck': np.float64(1.0026511133586324), 'tau_ecf': np.float64(3.306084693842324)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 981.92
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA       ns         H0     ombh2     omch2       tau  A_planck   tau_ecf            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    981.920288  3.051976  0.96464  67.824946  0.022395  0.119804  0.058892  0.999887  2.207745  2.115711e-09    9.40055  582.400603  1402.533622       -15.2471        -15.436427                  0.189327  1994.334776                                       582.400603             9.40055            1402.533622
+EXIT=0 start=2026-11-23T08:44:05Z end=2026-11-23T08:55:46Z

@@ -1,0 +1,4 @@
+results written / session end: 2026-11-23T11:42:24Z
+G1 fits 2026-11-23T11:05:36Z -> 2026-11-23T11:41:46Z = 0:36:10
+session (pre-flight log to results) 2026-11-23T11:01:54Z -> 2026-11-23T11:42:24Z = 0:40:30
+caffeinate -dims stopped 2026-11-23T11:43:57Z

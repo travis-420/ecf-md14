@@ -1,0 +1,95 @@
+
+=== fit1_lcdm_mnufixed  (yaml fit1_lcdm_mnufixed_s0.yaml)
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+  sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+  theory camb extra_args (yaml): {'halofit_version': 'mead', 'num_massive_neutrinos': 1, 'mnu': 0.06}
+  [certified lcdm min] chi2_total = 2005.5316  minuslogpost = 986.0217  (0.2 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 587.4225
+      chi2__bao.desi_dr2 = 12.4510
+      chi2__sn.pantheonplus = 1405.6582
+      vs certified lcdm chi2 2005.5316: diff = +0.00004; minuslogpost vs 986.0217: diff = +0.00003
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.000644866570625114, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24592745149766843, 'DarkEnergy': 'DarkEnergyFluid', 'NonLinearModel.halofit_version': 'mead2020'}
+  timing: one uncached logposterior evaluation = 0.24 s
+
+=== fit2_ecf_mnufixed  (yaml fit2_ecf_mnufixed_s0.yaml)
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+  sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+  theory ecf_theory_cobaya.ECFCAMB extra_args (yaml): {'halofit_version': 'mead', 'num_massive_neutrinos': 1, 'mnu': 0.06}
+  [certified ecf min] chi2_total = 1993.8935  minuslogpost = 981.9395  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 581.9638
+      chi2__bao.desi_dr2 = 9.3800
+      chi2__sn.pantheonplus = 1402.5496
+      vs certified ecf chi2 1993.8933: diff = +0.00019; minuslogpost vs 981.9394: diff = +0.00010
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.000644866570625114, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24585833453781927, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  timing: one uncached logposterior evaluation = 0.32 s
+
+=== fit3_lcdm_mnufree  (yaml fit3_lcdm_mnufree_s0.yaml)
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+  sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'mnu']
+  theory camb extra_args (yaml): {'halofit_version': 'mead', 'num_massive_neutrinos': 1}
+  [certified lcdm min, mnu=0.06] chi2_total = 2005.5316  minuslogpost = 986.0217  (0.2 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 587.4225
+      chi2__bao.desi_dr2 = 12.4510
+      chi2__sn.pantheonplus = 1405.6582
+      vs certified lcdm chi2 2005.5316: diff = +0.00004
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.000644866570625114, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24592745149766843, 'DarkEnergy': 'DarkEnergyFluid', 'NonLinearModel.halofit_version': 'mead2020'}
+  [certified lcdm min, mnu=0.0] chi2_total = 17183.9401  minuslogpost = 8575.2260  (0.2 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 15572.6367
+      chi2__bao.desi_dr2 = 205.3846
+      chi2__sn.pantheonplus = 1405.9188
+      CAMB neutrino settings: {'num_nu_massless': 3.044, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.0, 'share_delta_neff': False, 'N_eff': 4.058666666666666, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24592745149766843, 'DarkEnergy': 'DarkEnergyFluid', 'NonLinearModel.halofit_version': 'mead2020'}
+  [certified lcdm min, mnu=0.3] chi2_total = 2530.5770  minuslogpost = 1248.5444  (0.2 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 1114.1629
+      chi2__bao.desi_dr2 = 11.6995
+      chi2__sn.pantheonplus = 1404.7145
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.00322433285312557, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24592745149766843, 'DarkEnergy': 'DarkEnergyFluid', 'NonLinearModel.halofit_version': 'mead2020'}
+  timing: one uncached logposterior evaluation = 0.22 s
+
+=== fit4_ecf_mnufree  (yaml fit4_ecf_mnufree_s0.yaml)
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+  sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf', 'mnu']
+  theory ecf_theory_cobaya.ECFCAMB extra_args (yaml): {'halofit_version': 'mead', 'num_massive_neutrinos': 1}
+  [certified ecf min, mnu=0.06] chi2_total = 1993.8935  minuslogpost = 981.9395  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 581.9638
+      chi2__bao.desi_dr2 = 9.3800
+      chi2__sn.pantheonplus = 1402.5496
+      vs certified ecf chi2 1993.8933: diff = +0.00019
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.000644866570625114, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24585833453781927, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  [certified ecf min, mnu=0.0] chi2_total = 16979.9646  minuslogpost = 8474.9750  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 15392.2895
+      chi2__bao.desi_dr2 = 185.1460
+      chi2__sn.pantheonplus = 1402.5291
+      CAMB neutrino settings: {'num_nu_massless': 3.044, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.0, 'share_delta_neff': False, 'N_eff': 4.058666666666666, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24585833453781927, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  [certified ecf min, mnu=0.3] chi2_total = 2502.8640  minuslogpost = 1236.4247  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 1091.8992
+      chi2__bao.desi_dr2 = 8.2198
+      chi2__sn.pantheonplus = 1402.7449
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.00322433285312557, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.24585833453781927, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  timing: one uncached logposterior evaluation = 0.31 s
+
+=== fit5_cpl_mnufree  (yaml fit5_cpl_mnufree_s0.yaml)
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+  sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'w', 'wa', 'mnu']
+  theory camb extra_args (yaml): {'halofit_version': 'mead', 'num_massive_neutrinos': 1, 'dark_energy_model': 'ppf'}
+  [certified cpl min, mnu=0.06] chi2_total = 1996.6858  minuslogpost = 982.8059  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 583.3897
+      chi2__bao.desi_dr2 = 10.2585
+      chi2__sn.pantheonplus = 1403.0375
+      vs certified cpl chi2 1996.6858: diff = +0.00001
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.000644866570625114, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.2458783414913833, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  [certified cpl min, mnu=0.0] chi2_total = 17052.1532  minuslogpost = 8510.5396  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 15455.7632
+      chi2__bao.desi_dr2 = 193.3705
+      chi2__sn.pantheonplus = 1403.0195
+      CAMB neutrino settings: {'num_nu_massless': 3.044, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.0, 'share_delta_neff': False, 'N_eff': 4.058666666666666, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.2458783414913833, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  [certified cpl min, mnu=0.3] chi2_total = 2509.4439  minuslogpost = 1239.1850  (0.3 s)
+      chi2__planck_2018_highl_plik.TTTEEE_lite_native = 1097.3793
+      chi2__bao.desi_dr2 = 8.8408
+      chi2__sn.pantheonplus = 1403.2237
+      CAMB neutrino settings: {'num_nu_massless': 2.0293333333333337, 'num_nu_massive': 1, 'nu_mass_eigenstates': 1, 'nu_mass_degeneracies': [1.0146666666666666], 'nu_mass_fractions': [1.0], 'nu_mass_numbers': [1], 'omnuh2': 0.00322433285312557, 'share_delta_neff': False, 'N_eff': 3.0440000000000005, 'MassiveNuMethod': 'Nu_best', 'YHe': 0.2458783414913833, 'DarkEnergy': 'DarkEnergyPPF', 'NonLinearModel.halofit_version': 'mead2020'}
+  timing: one uncached logposterior evaluation = 0.29 s

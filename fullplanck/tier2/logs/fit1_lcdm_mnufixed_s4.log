@@ -1,0 +1,18 @@
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2/chains', with prefix 'fit1_lcdm_mnufixed_s4'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 1004
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.024194141298564), 'ns': np.float64(0.9534494461491988), 'H0': np.float64(67.82065397244754), 'ombh2': np.float64(0.022339363503334018), 'omch2': np.float64(0.11691780251056015), 'tau': np.float64(0.06036137250237272), 'A_planck': np.float64(0.9963116880074313)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.015
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2     omch2       tau  A_planck            As  chi2__BAO  chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.015135  3.054619  0.969318  68.287006  0.022512  0.117902  0.061841  1.000652  2.121311e-09  12.799754  586.92249  1405.556884     -16.624429         -17.14391                  0.519481  2005.279128                                        586.92249           12.799754            1405.556884
+EXIT=0 start=2026-11-23T08:44:05Z end=2026-11-23T08:47:43Z

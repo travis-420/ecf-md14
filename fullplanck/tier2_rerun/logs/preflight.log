@@ -1,0 +1,32 @@
+# Tier 2 rerun pre-flight checks  2026-11-23T11:01:54Z
+$ git rev-parse HEAD
+1fd858e097c0a683aea6c0c9e2e0a483047c8f8b
+$ git ls-remote origin refs/heads/main
+1fd858e097c0a683aea6c0c9e2e0a483047c8f8b	refs/heads/main
+$ git status --porcelain --untracked-files=no   (empty = no tracked file modified)
+[end of output]
+$ git diff --stat HEAD   (empty = no tracked change)
+[end of output]
+$ md5 -q AMENDMENT_TIER2_MINIMIZER.md
+9e78b57fac13fe53879104c4aa9caac7
+expected: 9e78b57fac13fe53879104c4aa9caac7
+$ git diff --stat 37b8f12 HEAD -- fullplanck/   (empty = kit code and chains identical to 37b8f12)
+[end of output]
+$ git log --oneline -1 -- AMENDMENT_TIER2_MINIMIZER.md
+1fd858e Amend Tier 2 prereg: minimizer rhoend 0.005, 8 starts, -logpost selection, in-window spread, G1 clauses (July-suboptimal, readout-drift, rerun-worse, spread guard); before any rerun
+$ git log -1 --format='%H %ci' 1fd858e
+1fd858e097c0a683aea6c0c9e2e0a483047c8f8b 2026-11-23 02:54:32 -0800
+$ shasum -a 256 (covmat sources)
+6389f86fbd59fb43acb95f4c6192460bcc423c9bfc009459fa2cf67a7402b1ce  /Users/420-420/Downloads/ecf-fullplanck-kit/chains/lcdm.covmat
+3daad637a048f6cab7aeffb739f9e7df270c67f051aa954033a4c8b4e161ba12  /Users/420-420/Downloads/ecf-fullplanck-kit/chains/cpl.covmat
+5590b82f782cb4daa455daccef51f13c537a2305da4deb984b00fe89dd8c5b97  fullplanck/chains/ecf.covmat
+3daad637a048f6cab7aeffb739f9e7df270c67f051aa954033a4c8b4e161ba12  fullplanck/tier2/covmats/cpl.covmat
+5590b82f782cb4daa455daccef51f13c537a2305da4deb984b00fe89dd8c5b97  fullplanck/tier2/covmats/ecf.covmat
+6389f86fbd59fb43acb95f4c6192460bcc423c9bfc009459fa2cf67a7402b1ce  fullplanck/tier2/covmats/lcdm.covmat
+expected: lcdm 6389f86fbd59fb43acb95f4c6192460bcc423c9bfc009459fa2cf67a7402b1ce
+expected: ecf  5590b82f782cb4daa455daccef51f13c537a2305da4deb984b00fe89dd8c5b97
+expected: cpl  3daad637a048f6cab7aeffb739f9e7df270c67f051aa954033a4c8b4e161ba12
+3daad637a048f6cab7aeffb739f9e7df270c67f051aa954033a4c8b4e161ba12  tier2_rerun/covmats/cpl.covmat
+5590b82f782cb4daa455daccef51f13c537a2305da4deb984b00fe89dd8c5b97  tier2_rerun/covmats/ecf.covmat
+6389f86fbd59fb43acb95f4c6192460bcc423c9bfc009459fa2cf67a7402b1ce  tier2_rerun/covmats/lcdm.covmat
+session wall-clock start (pre-flight): 2026-11-23T11:01:54Z

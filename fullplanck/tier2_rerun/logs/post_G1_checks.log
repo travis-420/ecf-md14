@@ -1,0 +1,13 @@
+# post-G1 checks 2026-11-23T11:42:16Z
+$ find fullplanck/tier2 -newer fullplanck/tier2_rerun/logs/preflight.log  (empty = session-1 outputs untouched)
+[end]
+$ git status --porcelain --untracked-files=no
+[end]
+$ git rev-parse HEAD
+1fd858e097c0a683aea6c0c9e2e0a483047c8f8b
+$ shasum -a 256 RESULTS_NEUTRINO_TIER2.md (before append)
+1e665d34597a2f76bf62d8094ea7be8743d6c82614eb81a13d2ce45a489741da  RESULTS_NEUTRINO_TIER2.md
+   15177 RESULTS_NEUTRINO_TIER2.md
+$ shasum -a 256 fullplanck/tier2_rerun/verdict.py
+10df7db58b2e109fa336da051e3c34422861fed54e3dd8930556dce0e623890d  fullplanck/tier2_rerun/verdict.py
+0

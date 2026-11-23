@@ -1,0 +1,20 @@
+tau=1.50 z=0.00  E_camb=1.00000  E_ref=1.00000  diff=0.000%  ok 
+tau=1.50 z=0.25  E_camb=1.16702  E_ref=1.16655  diff=0.040%  ok 
+tau=1.50 z=0.50  E_camb=1.35642  E_ref=1.35631  diff=0.008%  ok 
+tau=1.50 z=1.00  E_camb=1.80638  E_ref=1.80523  diff=0.063%  ok 
+tau=1.50 z=2.00  E_camb=2.98778  E_ref=2.98506  diff=0.091%  ok 
+tau=1.50 z=3.00  E_camb=4.49998  E_ref=4.50145  diff=0.033%  ok 
+tau=2.10 z=0.00  E_camb=1.00000  E_ref=1.00000  diff=0.000%  ok 
+tau=2.10 z=0.25  E_camb=1.15633  E_ref=1.15588  diff=0.039%  ok 
+tau=2.10 z=0.50  E_camb=1.33984  E_ref=1.33973  diff=0.008%  ok 
+tau=2.10 z=1.00  E_camb=1.78772  E_ref=1.78657  diff=0.064%  ok 
+tau=2.10 z=2.00  E_camb=2.97844  E_ref=2.97570  diff=0.092%  ok 
+tau=2.10 z=3.00  E_camb=4.49658  E_ref=4.49806  diff=0.033%  ok 
+tau=3.00 z=0.00  E_camb=1.00000  E_ref=1.00000  diff=0.000%  ok 
+tau=3.00 z=0.25  E_camb=1.14827  E_ref=1.14783  diff=0.038%  ok 
+tau=3.00 z=0.50  E_camb=1.32756  E_ref=1.32745  diff=0.008%  ok 
+tau=3.00 z=1.00  E_camb=1.77432  E_ref=1.77316  diff=0.065%  ok 
+tau=3.00 z=2.00  E_camb=2.97192  E_ref=2.96917  diff=0.093%  ok 
+tau=3.00 z=3.00  E_camb=4.49423  E_ref=4.49571  diff=0.033%  ok 
+
+PASS - proceed to chains
