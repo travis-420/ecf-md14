@@ -1,0 +1,6 @@
+step3B launch 2026-11-23T22:31:00Z; variant bobyqa_rhoend0.005_nptfull_softrestart; start = session-2 endpoints; new-round deadline 2026-11-23T23:50:00Z (epoch 1795477800); MAXR=5 TOL=0.001
+reason: alternative A crashed (EXIT_LINALG_ERROR, 'Singular matrix in mini-model interpolation (main loop)') in several starts; see logs/step3A_*.log, logs/step3_synthetic_npt_check.log
+5e2675fc587d502d963b6fd22b959d667618a696ea6b76b61ab5e5633345088d  scripts/polish.py
+05159550983402419e558da15d8f60b52106674058a5923d557c8a3c68bef4db  scripts/launch.sh
+8a4416dbba248b850cc85970ab7e6a96f74e74b3d5bb6b413b51742db342691d  scripts/synthetic_npt_check.py
+all done: step3B 2026-11-23T23:25:22Z

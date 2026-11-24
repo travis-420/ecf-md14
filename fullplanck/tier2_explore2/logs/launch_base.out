@@ -1,0 +1,2 @@
+all done: base fit1_lcdm_mnufixed fit2_ecf_mnufixed cpl_mnufixed 2026-11-24T04:17:57Z
+scripts/launch2.sh:27: parse error near `do'

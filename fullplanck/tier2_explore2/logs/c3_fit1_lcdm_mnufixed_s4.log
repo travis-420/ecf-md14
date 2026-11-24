@@ -1,0 +1,20 @@
+ROUND0 {"tag": "c3", "fit": "fit1_lcdm_mnufixed", "start": 4, "round": 0, "mlp": 986.0056230571575, "x": {"logA": 3.053604125, "ns": 0.9692908611, "H0": 68.30275369, "ombh2": 0.02251810997, "omch2": 0.1178810841, "tau": 0.06118674046, "A_planck": 1.000783264}, "source": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit1_lcdm_mnufixed_s4.minimum", "yaml": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/yamls/fit1_lcdm_mnufixed_s4.yaml"}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'c3_fit1_lcdm_mnufixed_s4_r1'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.053604125), 'ns': np.float64(0.9692908611), 'H0': np.float64(68.30275369), 'ombh2': np.float64(0.02251810997), 'omch2': np.float64(0.1178810841), 'tau': np.float64(0.06118674046), 'A_planck': np.float64(1.000783264)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.006
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2    omch2       tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.005592  3.053597  0.969288  68.303556  0.022519  0.11788  0.061181  1.000783  2.119144e-09   12.68015  587.135898  1405.589934     -16.697398        -17.128875                  0.431477  2005.405982                                       587.135898            12.68015            1405.589934
+ROUND {"tag": "c3", "fit": "fit1_lcdm_mnufixed", "start": 4, "round": 1, "variant": "c3_powell", "mlp": 986.0055924912944, "chi2": 2005.4059818012797, "chi2_cmb": 587.1358977520617, "chi2_bao": 12.68015012331933, "chi2_sn": 1405.5899339258985, "tauterm": 0.8629540736069226, "x": {"logA": 3.053597272314984, "ns": 0.9692883806761063, "H0": 68.30355632401297, "ombh2": 0.0225187093843536, "omch2": 0.11788013900613009, "tau": 0.06118135846143771, "A_planck": 1.0007829882305237}, "improvement": 3.0565863198717125e-05, "wall_s": 1885.1504609584808, "nf": 269, "flag": 0, "msg": "Optimization terminated successfully.", "nit": 3, "success": true}
+STOP: round 1 improved -log post by 0.000031 < 0.001
+EXIT=0 start=2026-11-24T02:47:55Z end=2026-11-24T03:19:25Z

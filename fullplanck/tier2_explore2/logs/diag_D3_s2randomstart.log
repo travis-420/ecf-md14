@@ -1,0 +1,85 @@
+CONFIG {"label": "D3_s2randomstart", "sampler": {"minimize": {"best_of": 1, "seed": 9001, "covmat": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/ecf.covmat", "override_bobyqa": {"rhoend": 0.005, "npt": 45, "maxfun": 100}}}, "x0": {"logA": 3.0175012207008547, "ns": 0.9621080327642921, "H0": 68.17168362897849, "ombh2": 0.022551238548628772, "omch2": 0.11857554396291284, "tau": 0.03769214163313703, "A_planck": 0.9987815984533148, "tau_ecf": 4.0437323749183385}}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'diag_D3_s2randomstart'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 9001
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0175012207008547), 'ns': np.float64(0.9621080327642921), 'H0': np.float64(68.17168362897849), 'ombh2': np.float64(0.022551238548628772), 'omch2': np.float64(0.11857554396291284), 'tau': np.float64(0.03769214163313703), 'A_planck': np.float64(0.9987815984533148), 'tau_ecf': np.float64(4.0437323749183385)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] *ERROR* Finished unsuccessfully. Reason: Maximum allowed objective evaluations reached. This is the most likely return value when using multiple restarts.
+[minimize] *ERROR* Minimization failed! Here is the raw result object:
+****** Py-BOBYQA Results ******
+Solution xmin = [-0.67595242  0.70525073  0.7120241  -2.02268182  3.91532866  4.50172787
+  1.6517875  -4.81700289]
+Objective value f(xmin) = 985.7391204
+Needed 100 objective evaluations (at 100 points)
+Approximate gradient = [-0.01742121 -0.29985133  0.14265819  0.00916303  0.25317361 -0.14385056
+  0.34190526  0.35972054]
+Approximate Hessian = [[ 3.03028798  0.47146576 -0.25719279 -1.61421455 -0.90171651 -3.34290874
+  -0.69652721 -0.8174212 ]
+ [ 0.47146576  0.96695662 -2.04076101  1.35330297 -3.8166476   1.25411986
+   0.21807548  2.15852331]
+ [-0.25719279 -2.04076101  5.50771991 -2.32041469  3.44779783 -0.05125951
+   0.18093088 -4.244384  ]
+ [-1.61421455  1.35330297 -2.32041469  1.10351566 -1.44228589  0.71065278
+   0.55830697  1.54510863]
+ [-0.90171651 -3.8166476   3.44779783 -1.44228589  4.31170689  1.58685205
+   0.80621748 -2.22533744]
+ [-3.34290874  1.25411986 -0.05125951  0.71065278  1.58685205  1.83841061
+  -0.33205181  0.49787819]
+ [-0.69652721  0.21807548  0.18093088  0.55830697  0.80621748 -0.33205181
+   0.44165126 -0.61747818]
+ [-0.8174212   2.15852331 -4.244384    1.54510863 -2.22533744  0.49787819
+  -0.61747818  3.23251279]]
+Exit flag = 1
+Warning (max evals): Objective has been called MAXFUN times
+******************************
+
+Traceback (most recent call last):
+  File "/Users/420-420/ecf-md14/fullplanck/tier2_explore2/scripts/crash_repro.py", line 122, in <module>
+    upd, sampler = run(info)
+                   ^^^^^^^^^
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/run.py", line 182, in run
+    sampler.run()
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/samplers/minimize/minimize.py", line 369, in run
+    self.process_results(
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/mpi.py", line 278, in wrapper
+    result = method(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/samplers/minimize/minimize.py", line 413, in process_results
+    raise LoggedError(
+cobaya.log.LoggedError: Minimization failed! Here is the raw result object:
+****** Py-BOBYQA Results ******
+Solution xmin = [-0.67595242  0.70525073  0.7120241  -2.02268182  3.91532866  4.50172787
+  1.6517875  -4.81700289]
+Objective value f(xmin) = 985.7391204
+Needed 100 objective evaluations (at 100 points)
+Approximate gradient = [-0.01742121 -0.29985133  0.14265819  0.00916303  0.25317361 -0.14385056
+  0.34190526  0.35972054]
+Approximate Hessian = [[ 3.03028798  0.47146576 -0.25719279 -1.61421455 -0.90171651 -3.34290874
+  -0.69652721 -0.8174212 ]
+ [ 0.47146576  0.96695662 -2.04076101  1.35330297 -3.8166476   1.25411986
+   0.21807548  2.15852331]
+ [-0.25719279 -2.04076101  5.50771991 -2.32041469  3.44779783 -0.05125951
+   0.18093088 -4.244384  ]
+ [-1.61421455  1.35330297 -2.32041469  1.10351566 -1.44228589  0.71065278
+   0.55830697  1.54510863]
+ [-0.90171651 -3.8166476   3.44779783 -1.44228589  4.31170689  1.58685205
+   0.80621748 -2.22533744]
+ [-3.34290874  1.25411986 -0.05125951  0.71065278  1.58685205  1.83841061
+  -0.33205181  0.49787819]
+ [-0.69652721  0.21807548  0.18093088  0.55830697  0.80621748 -0.33205181
+   0.44165126 -0.61747818]
+ [-0.8174212   2.15852331 -4.244384    1.54510863 -2.22533744  0.49787819
+  -0.61747818  3.23251279]]
+Exit flag = 1
+Warning (max evals): Objective has been called MAXFUN times
+******************************
+
+SUMMARY label=D3_s2randomstart outcome=exception: Minimization failed! Here is the raw result object: n_evals=100 n_snapshots=43 wall_s=270.7 json=/Users/420-420/ecf-md14/fullplanck/tier2_explore2/logs/diag_D3_s2randomstart.json
+EXIT=0 end=2026-11-24T02:47:31Z

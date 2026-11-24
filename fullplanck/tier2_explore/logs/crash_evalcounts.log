@@ -1,0 +1,20 @@
+step3A_fit1_lcdm_mnufixed_s1.log: Needed 37 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s0.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s1.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s2.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s3.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s4.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s5.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s6.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3A_fit2_ecf_mnufixed_s7.log: Needed 48 objective evaluations | Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+step3B_fit1_lcdm_mnufixed_s1.log: Needed 37 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit1_lcdm_mnufixed_s3.log: Needed 37 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit1_lcdm_mnufixed_s5.log: Needed 37 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s0.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s1.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s2.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s3.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s4.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s5.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s6.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step
+step3B_fit2_ecf_mnufixed_s7.log: Needed 48 objective evaluations | Error (linear algebra): Error when calculating geometry-improving step

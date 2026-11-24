@@ -1,0 +1,2 @@
+Powell fit1_lcdm_mnufixed: completed rounds 9; nfev per round 190-2155; all success: True; rounds ending above their start (negative gain): 0: 
+Powell fit2_ecf_mnufixed: completed rounds 7; nfev per round 101-1680; all success: True; rounds ending above their start (negative gain): 5: s0 r1 -0.0040, s1 r1 -0.0008, s4 r1 -0.0028, s6 r1 -0.0048, s7 r2 -0.0016

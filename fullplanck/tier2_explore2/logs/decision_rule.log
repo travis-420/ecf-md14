@@ -1,0 +1,38 @@
+Written 2026-11-24T02:50:06Z, after launch of step-2 candidates (i)-(iii) and before any candidate round had completed
+(no candidate ROUND line existed: 0 logs with a ROUND line).
+
+Criteria (from the brief): (a) never crashes; (b) all 8 starts of fit 1 and of fit 2 agree, target S <= 0.1.
+Operational definitions used for step 2:
+ - (a) met  <=> no start of fit 1 or fit 2 has a failed round (Py-BOBYQA/scipy unsuccessful, cobaya 'Minimization failed!', or any exception).
+ - (b) met  <=> all 8 starts of each fit produce a result (end on the 0.001 stop rule or the 5-round cap) and
+               S = max - min total chi2 over the 8 final results <= 0.1, separately for fit 1 and for fit 2.
+Best candidate:
+ 1. among candidates meeting (a) and (b): fewest total evaluations (fit 1 + fit 2);
+ 2. if none meets both: run candidate (iv) (brief); for steps 3-4 use the candidate meeting (a) with the smallest
+    max(S fit1, S fit2); if none meets (a), the one with the fewest failed starts, then the smallest max S.
+ 3. If a candidate is still running when the others have finished and one of the finished ones meets (a) and (b),
+    the choice is made among the finished candidates and this is recorded; the running one is still reported in full.
+
+Addendum written 2026-11-24T03:47:52Z, BEFORE candidate (iv) was launched (no c4 log exists: 0 files).
+Status that triggers (iv): fit-2 S over the starts that had already finished is already > 0.1 for every one of (i)-(iii),
+so none of them can meet (b) whatever the remaining starts do: (i) S >= 0.2242 over 3 finished starts; (ii) S >= 0.1357 over 5;
+(iii) S >= 0.2193 over 3 (logs/c*_fit2_ecf_mnufixed_s*.log; tables2.py). No candidate has crashed so far.
+(iv) = c4_nptfull_randdirs (scripts/polish2.py): full npt, rhobeg 1.0, Py-BOBYQA non-orthogonal random initial directions,
+numpy global RNG seeded 9100+k per round. Chosen from the step-1 diagnosis and offline checks only (logs/step2_c4_offline_check*.log).
+Timing fallback (4-hour cap): if (iv)'s step-2 outcome for criteria (a)/(b) is not determined by 2026-11-24T04:55:00Z, steps 3-4
+use the candidate given by rule 2 among (i)-(iii) and (iv) is reported in step 2 only.
+
+Decision for steps 3-4, written 2026-11-24T04:09:23Z, before any step-3/4 polish exists.
+No candidate can meet (b): fit-2 S over finished starts already exceeds 0.1 for (i) 0.2416 (7/8 finished), (ii) 0.1357 (7/8),
+(iii) 0.3532 (4/8); for (iv) fit-2 s0 finished at 981.88646 / chi2 1993.9534 while every other (iv) fit-2 start is running
+at chi2 1994.09-1994.31. No candidate has a failed round. So rule 2 applies (candidate meeting (a) with smallest
+max(S fit1, S fit2)). Fit-1 S (final): (i) 0.0205, (ii) 0.0159, (iii) >= 0.0551 (3/8), (iv) 0.0105.
+Rule 2 is not formally determined until the running starts finish, and waiting for that (est. 30-50 min) would not leave
+time for steps 3-4 under the 4-hour cap. Decision now: steps 3-4 use (ii) c2_nptfull_rhobeg0.1.
+This decision is overturned by the final step-2 values only if one of these happens, and the report will check each:
+  (A) (ii) fit-2 s0 fails a round (then (ii) fails (a));
+  (B) (ii) fit-2 s0 ends with total chi2 < 1993.9996 or > 1994.3470 (then (ii) fit-2 S > 0.2416, and (i) could be smaller);
+  (C) (iv) ends with fit-2 S < (ii)'s final fit-2 S and no failed round;
+  (D) (i)'s last fit-2 start or (iii) ends with a smaller max S than (ii) (impossible for (iii): its lower bound 0.3532 > (ii)'s
+      possible range unless (B)).
+Steps 3-4 deadline for new rounds: 2026-11-24T05:40:00Z. (iii) is at nice 15; (iv) reniced to 5 so steps 3-4 (nice 0) get CPU first.

@@ -1,0 +1,4 @@
+launch c4 2026-11-24T03:47:52Z
+deadline (no new round after) c4: 1795497600 = 2026-11-24T05:20:00Z; nice 0
+a88882ddf25e7c644fb545c670f03f9aa37a6e923f4b5457dff574cfe56f3ea4  scripts/polish2.py
+d5d9fc978e6b66cf26f41b8fc2e6c98a7391ad0c6af3d8777c48fff645e9a2a0  scripts/launch2.sh

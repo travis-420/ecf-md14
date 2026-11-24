@@ -1,0 +1,30 @@
+
+**base, Fit 1 (ΛCDM, Σmν = 0.06 eV fixed).** AMENDMENT_TIER2_MINIMIZER.md §2 settings, seeds 9000+k.
+
+| start | start point | status | −log post | −log post − best | total χ² | χ²_CMB | χ²_BAO | χ²_SN | τ-prior term | extra | evals | min |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
+| s0 | certified July best fit (seed 9000, inert) | converged | 986.0182 | 0.0128 | 2005.5291 | 587.4169 | 12.4571 | 1405.6551 | 0.7140 |  | 50 | 9.2 |
+| s1 | random, seed 9001 | converged | 986.0055 | 0.0001 | 2005.4358 | 587.1507 | 12.7013 | 1405.5838 | 0.8357 |  | 198 | 32.3 |
+| s2 | random, seed 9002 | converged | 986.0072 | 0.0018 | 2005.5406 | 587.2359 | 12.7299 | 1405.5747 | 0.7412 |  | 263 | 39.5 |
+| s3 | random, seed 9003 | converged | 986.0311 | 0.0257 | 2005.8569 | 587.6228 | 12.6361 | 1405.5980 | 0.5051 |  | 175 | 29.4 |
+| s4 | random, seed 9004 | converged | 986.0062 | 0.0008 | 2005.4368 | 587.0955 | 12.7801 | 1405.5613 | 0.8445 |  | 310 | 44.8 |
+| s5 | random, seed 9005 | converged | 986.0058 | 0.0004 | 2005.4439 | 587.1769 | 12.6764 | 1405.5906 | 0.8130 |  | 183 | 30.4 |
+| s6 | random, seed 9006 | converged | 986.0054 | 0.0000 | 2005.4403 | 587.1827 | 12.6637 | 1405.5938 | 0.8327 |  | 260 | 39.2 |
+| s7 | random, seed 9007 | converged | 986.0058 | 0.0003 | 2005.4198 | 587.1946 | 12.6185 | 1405.6067 | 0.8497 |  | 228 | 35.9 |
+
+SUMMARY base fit1_lcdm_mnufixed: converged 8/8; in window (≤0.25) 8/8; −log post spread 0.02568; S in window 0.4371; S all converged 0.4371; lowest −log post s6 986.00542, total χ² 2005.4403; evaluations 1667 total, 50–310 per start
+
+**base, Fit 2 (ECF, Σmν = 0.06 eV fixed).** AMENDMENT_TIER2_MINIMIZER.md §2 settings, seeds 9000+k.
+
+| start | start point | status | −log post | −log post − best | total χ² | χ²_CMB | χ²_BAO | χ²_SN | τ-prior term | extra | evals | min |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
+| s0 | certified July best fit (seed 9000, inert) | converged | 981.8865 | 0.0176 | 1993.9537 | 582.0550 | 9.3166 | 1402.5821 | 0.6445 | tau_ecf 2.15362 | 211 | 46.8 |
+| s1 | random, seed 9001 | converged | 981.9039 | 0.0349 | 1994.1049 | 582.2729 | 9.2399 | 1402.5920 | 0.3846 | tau_ecf 2.12915 | 225 | 49.0 |
+| s2 | random, seed 9002 | converged | 982.1851 | 0.3162 | 1994.8338 | 582.8749 | 9.3816 | 1402.5772 | 0.0004 | tau_ecf 2.16986 | 449 | 79.1 |
+| s3 | random, seed 9003 | converged | 981.8743 | 0.0053 | 1994.0296 | 582.1738 | 9.2132 | 1402.6426 | 0.5481 | tau_ecf 2.10086 | 398 | 73.5 |
+| s4 | random, seed 9004 | converged | 982.0432 | 0.1743 | 1994.9511 | 583.1031 | 9.2315 | 1402.6165 | 0.0094 | tau_ecf 2.11857 | 481 | 81.7 |
+| s5 | random, seed 9005 | converged | 981.8690 | 0.0000 | 1994.1372 | 582.2833 | 9.2200 | 1402.6339 | 0.4008 | tau_ecf 2.10664 | 426 | 76.8 |
+| s6 | random, seed 9006 | converged | 981.8785 | 0.0095 | 1994.3522 | 582.4875 | 9.2183 | 1402.6464 | 0.2355 | tau_ecf 2.10103 | 418 | 76.0 |
+| s7 | random, seed 9007 | converged | 981.9380 | 0.0690 | 1994.6427 | 582.7409 | 9.3075 | 1402.5942 | 0.1063 | tau_ecf 2.14686 | 539 | 90.0 |
+
+SUMMARY base fit2_ecf_mnufixed: converged 8/8; in window (≤0.25) 7/8; −log post spread 0.31618; S in window 0.9975; S all converged 0.9975; lowest −log post s5 981.86897, total χ² 1994.1372; evaluations 3147 total, 211–539 per start

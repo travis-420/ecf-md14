@@ -1,0 +1,59 @@
+/Users/420-420/ecf-md14/fullplanck/tier2_explore2/scripts/crash_analyze.py:46: LinAlgWarning: Diagonal number 39 is exactly zero. Singular matrix.
+  lu, piv = LA.lu_factor(A, check_finite=False)
+label=D1_repro outcome=exception: Minimization failed! Here is the raw result object: n_evals=48 result=None
+solve kwargs (except objfun): {'maxfun': 300, 'rhobeg': 1.0, 'do_logging': False, 'rhoend': 0.005, 'npt': 45}
+scaled bounds relative to x0 (lower, upper), in units of rhobeg-scaled widths:
+  logA      [   -97.735,    +95.214]  within 1.0 of x0: False
+  ns        [   -15.773,    +16.170]  within 1.0 of x0: False
+  H0        [   -32.272,    +34.696]  within 1.0 of x0: False
+  ombh2     [   -24.382,    +16.391]  within 1.0 of x0: False
+  omch2     [   -54.656,    +55.419]  within 1.0 of x0: False
+  tau       [   -49.353,    +54.532]  within 1.0 of x0: False
+  A_planck  [   -17.830,    +15.926]  within 1.0 of x0: False
+  tau_ecf   [    -7.177,    +15.039]  within 1.0 of x0: False
+number of interpolate_model calls: 3; ok flags: [True, True, False]
+  snapshot 1: points changed vs previous: [35]; kopt 0->0; xbase changed: False
+  snapshot 2: points changed vs previous: [17, 40]; kopt 0->0; xbase changed: False
+events:
+  nf=45 TR step |d|=1.0000 delta=1 rho=1 kopt=0 exact-zero comps=[] d=[ 0.302  -0.0406  0.4903 -0.0603  0.199   0.5482 -0.3213  0.4688]
+   {'type': 'choose_replace', 'nf': 45, 'skip_kopt': True, 'knew': 35, 'exit': None}
+   {'type': 'reduce_rho', 'nf': 46, 'rho': 0.07071067811865475, 'delta': 0.5}
+  nf=46 TR step |d|=0.5000 delta=0.5 rho=0.07071 kopt=0 exact-zero comps=[] d=[-0.0384 -0.0245  0.3117 -0.0613  0.1317 -0.1977  0.0221  0.3002]
+   {'type': 'choose_replace', 'nf': 46, 'skip_kopt': True, 'knew': 40, 'exit': None}
+   {'type': 'geometry_step', 'nf': 47, 'knew': 17, 'adelt': 0.14142135623730953}
+evaluations after initialisation (i, f, scaled x):
+    45 f=985.2951654 x=[ 0.  0.  0. -1.  0.  0.  0.  1.]
+    46 f=981.9145898 x=[ 0.302  -0.0406  0.4903 -0.0603  0.199   0.5482 -0.3213  0.4688]
+    47 f=981.9104429 x=[-0.0384 -0.0245  0.3117 -0.0613  0.1317 -0.1977  0.0221  0.3002]
+    48 f=981.8809292 x=[0. 0. 0. 0. 0. 0. 0. 0.]
+f(x0) = 981.8809291660; min f over evals = 981.8809291660; mean eval time 2.50 s
+--- first snapshot (after initialisation): npt=45 kopt=0 ok=True evals so far=45 approx_delta=1.414 A shape=(44, 44)
+  min pairwise distance between interpolation points: 1.000e+00 (points 0,1); exact duplicates: 0
+  distances to xopt: min 1.000e+00 max 1.414e+00
+  exactly-zero columns of A: []
+  columns with <= 2 nonzero entries: {'logA*ns': 1, 'logA*H0': 1, 'ns*H0': 1, 'logA*ombh2': 1, 'ns*ombh2': 1, 'H0*ombh2': 1, 'logA*omch2': 1, 'ns*omch2': 1, 'H0*omch2': 1, 'ombh2*omch2': 1, 'logA*tau': 1, 'ns*tau': 1, 'H0*tau': 1, 'ombh2*tau': 1, 'omch2*tau': 1, 'logA*A_planck': 1, 'ns*A_planck': 1, 'H0*A_planck': 1, 'ombh2*A_planck': 1, 'omch2*A_planck': 1, 'tau*A_planck': 1, 'logA*tau_ecf': 1, 'ns*tau_ecf': 1, 'H0*tau_ecf': 1, 'ombh2*tau_ecf': 1, 'omch2*tau_ecf': 1, 'tau*tau_ecf': 1, 'A_planck*tau_ecf': 1}
+  LU: exactly-zero pivots at (1-based diagonal numbers) [] -> columns []
+  LU: smallest |pivot| 5.000e-01; next 5.000e-01
+  singular values: max 3.002e+00, smallest 4 [0.176 0.176 0.176 0.125]; cond 2.409e+01
+  null-space direction of A (largest components): ns*omch2:-0.182, omch2*A_planck:+0.182, ombh2*omch2:+0.182, logA*omch2:+0.182, omch2*tau_ecf:-0.182, omch2*tau:-0.182
+  number of points (excl. xopt) with nonzero displacement in each coordinate: {'logA': 9, 'ns': 9, 'H0': 9, 'ombh2': 9, 'omch2': 9, 'tau': 9, 'A_planck': 9, 'tau_ecf': 9}
+--- last successful snapshot: npt=45 kopt=0 ok=True evals so far=46 approx_delta=1.414 A shape=(44, 44)
+  min pairwise distance between interpolation points: 9.506e-01 (points 6,35); exact duplicates: 0
+  distances to xopt: min 1.000e+00 max 1.414e+00
+  exactly-zero columns of A: []
+  columns with <= 2 nonzero entries: {'logA*ns': 2, 'logA*H0': 2, 'ns*H0': 2, 'logA*ombh2': 2, 'ns*ombh2': 2, 'H0*ombh2': 2, 'logA*omch2': 2, 'ns*omch2': 2, 'H0*omch2': 2, 'ombh2*omch2': 2, 'logA*tau': 2, 'ns*tau': 2, 'H0*tau': 1, 'ombh2*tau': 2, 'omch2*tau': 2, 'logA*A_planck': 2, 'ns*A_planck': 2, 'H0*A_planck': 2, 'ombh2*A_planck': 2, 'omch2*A_planck': 2, 'tau*A_planck': 2, 'logA*tau_ecf': 2, 'ns*tau_ecf': 2, 'H0*tau_ecf': 2, 'ombh2*tau_ecf': 2, 'omch2*tau_ecf': 2, 'tau*tau_ecf': 2, 'A_planck*tau_ecf': 2}
+  LU: exactly-zero pivots at (1-based diagonal numbers) [] -> columns []
+  LU: smallest |pivot| 1.344e-01; next 5.000e-01
+  singular values: max 2.980e+00, smallest 4 [0.176 0.176 0.131 0.095]; cond 3.145e+01
+  null-space direction of A (largest components): H0*tau:+0.909, logA*tau:-0.154, logA*H0:-0.145, logA*omch2:+0.130, omch2*tau:-0.117, H0*omch2:-0.108
+  number of points (excl. xopt) with nonzero displacement in each coordinate: {'logA': 10, 'ns': 10, 'H0': 9, 'ombh2': 10, 'omch2': 10, 'tau': 9, 'A_planck': 10, 'tau_ecf': 10}
+--- LAST snapshot: npt=45 kopt=0 ok=False evals so far=48 approx_delta=1.414 A shape=(44, 44)
+  min pairwise distance between interpolation points: 0.000e+00 (points 0,17); exact duplicates: 1
+  distances to xopt: min 0.000e+00 max 1.414e+00
+  exactly-zero columns of A: []
+  columns with <= 2 nonzero entries: {'logA*ns': 2, 'H0*tau': 2, 'H0*tau_ecf': 2}
+  LU: exactly-zero pivots at (1-based diagonal numbers) [np.int64(39), np.int64(42), np.int64(43)] -> columns ['H0*tau_ecf', 'tau*tau_ecf', 'A_planck*tau_ecf']
+  LU: smallest |pivot| 0.000e+00; next 0.000e+00
+  singular values: max 2.897e+00, smallest 4 [1.426e-01 1.111e-01 5.105e-02 6.470e-17]; cond 4.478e+16
+  null-space direction of A (largest components): logA*ns:+0.999, H0*tau:+0.035, H0*tau_ecf:+0.013, ombh2*tau_ecf:-0.000, logA*tau:+0.000, tau*tau_ecf:-0.000
+  number of points (excl. xopt) with nonzero displacement in each coordinate: {'logA': 10, 'ns': 10, 'H0': 9, 'ombh2': 11, 'omch2': 11, 'tau': 10, 'A_planck': 11, 'tau_ecf': 10}

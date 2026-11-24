@@ -1,0 +1,17 @@
+pre-append checks: 2026-11-23T23:32:57Z
+--- running polish/noise processes:
+none
+--- newer than session_start.log in tier2/ and tier2_rerun/:
+(end of list)
+--- git:
+81f7db8b9119ce38243a6e432b3041dbb93c96c4
+?? .DS_Store
+?? fullplanck/__pycache__/
+?? fullplanck/tier2_explore/
+--- RESULTS sha256 (whole file, expect cf576d3a...):
+cf576d3a20c7eea437dcbc03b6fb217a611c5a1cbfa08a06a46a9b762e194daf  /Users/420-420/ecf-md14/RESULTS_NEUTRINO_TIER2.md
+--- fit3/4/5 or mnufree in explore outputs:
+none
+--- yamls: count, and all have fixed mnu 0.06 and no sampled mnu:
+      80
+no sampled mnu param

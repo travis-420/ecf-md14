@@ -1,0 +1,40 @@
+
+**e2e, Fit 1 (ΛCDM, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (base endpoint) | round 1 | round 2 | outcome | evals | min |
+|---|---|---|---|---|---|---|
+| s0 | 986.01818 | 986.00563 / 2005.4780 / 0.7997 | 986.00540 / 2005.4383 / 0.8321 | round 2 gain 0.000234 < 0.001 → stop | 243 | 19.3 |
+| s1 | 986.00551 | 986.00540 / 2005.4407 / 0.8300 | = | round 1 gain 0.000114 < 0.001 → stop | 76 | 6.9 |
+| s2 | 986.00720 | 986.00548 / 2005.4568 / 0.8166 | 986.00539 / 2005.4415 / 0.8308 | round 2 gain 0.000094 < 0.001 → stop | 163 | 13.7 |
+| s3 | 986.03110 | 986.00535 / 2005.4483 / 0.8233 | 986.00535 / 2005.4483 / 0.8233 | round 2 gain 0.000000 < 0.001 → stop | 192 | 15.8 |
+| s4 | 986.00622 | 986.00547 / 2005.4233 / 0.8514 | = | round 1 gain 0.000750 < 0.001 → stop | 83 | 7.5 |
+| s5 | 986.00580 | 986.00540 / 2005.4392 / 0.8338 | = | round 1 gain 0.000399 < 0.001 → stop | 74 | 6.8 |
+| s6 | 986.00542 | 986.00540 / 2005.4399 / 0.8339 | = | round 1 gain 0.000018 < 0.001 → stop | 71 | 6.5 |
+| s7 | 986.00576 | 986.00541 / 2005.4447 / 0.8312 | = | round 1 gain 0.000350 < 0.001 → stop | 79 | 7.2 |
+| starts entering spread and S (completed, not failed) | 0/8 | 8/8 | 8/8 | | | |
+| spread of −log post (max − min) | n/a | 0.00029 | 0.00012 | | | |
+| **S** = max − min total χ² | n/a | **0.0547** | **0.0250** | | | |
+| lowest −log post start: its total χ² | n/a | s3: 2005.4483 | s3: 2005.4483 | | | |
+| evaluations in this round | — | 763 (8 starts ran it) | 218 (3 starts ran it) | | | |
+
+SUMMARY e2e fit1_lcdm_mnufixed: starts failed (crash) 0/8; starts producing a result 8/8; still running/not finished 0; evaluations total 981, per start 71–243; wall per start (min) 6.5–19.3; final −log post spread 0.00012; S (all result starts) 0.0250; in window (≤0.25) 8/8, S in window 0.0250; lowest −log post s3 986.00535 with total χ² 2005.4483; total χ² range 2005.4233–2005.4483
+
+**e2e, Fit 2 (ECF, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (base endpoint) | round 1 | round 2 | round 3 | round 4 | round 5 | outcome | evals | min |
+|---|---|---|---|---|---|---|---|---|---|
+| s0 | 981.88652 | 981.88323 / 1993.9737 / 0.6153 | 981.88193 / 1993.9673 / 0.6130 | 981.86716 / 1994.1684 / 0.3931 | 981.86716 / 1994.1684 / 0.3931 | = | round 4 gain 0.000000 < 0.001 → stop | 421 | 39.4 |
+| s1 | 981.90386 | 981.86867 / 1994.1092 / 0.4477 | 981.86795 / 1994.1272 / 0.4321 | = | = | = | round 2 gain 0.000718 < 0.001 → stop | 232 | 26.3 |
+| s2 | 982.18515 | 981.86729 / 1994.2044 / 0.3622 | 981.86703 / 1994.1910 / 0.3750 | = | = | = | round 2 gain 0.000257 < 0.001 → stop | 241 | 27.2 |
+| s3 | 981.87425 | 981.87169 / 1994.0505 / 0.5145 | 981.87064 / 1994.0642 / 0.4989 | 981.86945 / 1994.0816 / 0.4797 | 981.86945 / 1994.0816 / 0.4797 | = | round 4 gain 0.000000 < 0.001 → stop | 378 | 36.9 |
+| s4 | 982.04325 | 981.86835 / 1994.2379 / 0.3350 | 981.86833 / 1994.2386 / 0.3348 | = | = | = | round 2 gain 0.000012 < 0.001 → stop | 259 | 28.6 |
+| s5 | 981.86897 | 981.86808 / 1994.1480 / 0.4065 | = | = | = | = | round 1 gain 0.000888 < 0.001 → stop | 95 | 12.7 |
+| s6 | 981.87847 | 981.87726 / 1994.3454 / 0.2435 | 981.87165 / 1994.2911 / 0.2916 | 981.86984 / 1994.2651 / 0.3067 | 981.86868 / 1994.2440 / 0.3281 | 981.86860 / 1994.2434 / 0.3282 | round 5 gain 0.000077 < 0.001 → stop | 500 | 43.0 |
+| s7 | 981.93800 | 981.86911 / 1994.2552 / 0.3227 | 981.86848 / 1994.2419 / 0.3348 | = | = | = | round 2 gain 0.000629 < 0.001 → stop | 244 | 23.8 |
+| starts entering spread and S (completed, not failed) | 0/8 | 8/8 | 8/8 | 8/8 | 8/8 | 8/8 | | | |
+| spread of −log post (max − min) | n/a | 0.01594 | 0.01490 | 0.00281 | 0.00241 | 0.00241 | | | |
+| **S** = max − min total χ² | n/a | **0.3717** | **0.3238** | **0.1835** | **0.1625** | **0.1618** | | | |
+| lowest −log post start: its total χ² | n/a | s2: 1994.2044 | s2: 1994.1910 | s2: 1994.1910 | s2: 1994.1910 | s2: 1994.1910 | | | |
+| evaluations in this round | — | 992 (8 starts ran it) | 666 (7 starts ran it) | 335 (3 starts ran it) | 285 (3 starts ran it) | 92 (1 starts ran it) | | | |
+
+SUMMARY e2e fit2_ecf_mnufixed: starts failed (crash) 0/8; starts producing a result 8/8; still running/not finished 0; evaluations total 2370, per start 95–500; wall per start (min) 12.7–43.0; final −log post spread 0.00241; S (all result starts) 0.1618; in window (≤0.25) 8/8, S in window 0.1618; lowest −log post s2 981.86703 with total χ² 1994.1910; total χ² range 1994.0816–1994.2434

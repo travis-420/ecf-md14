@@ -1,0 +1,4 @@
+npt=45: flag=0 (Success: rho has reached rhoend) nf=52 f-f*=0.00e+00; deterministic: True
+   initial set: |grad L_k(x0)| min 3.888e-01 median 1.395e+00; points with |grad|<1e-8: 0; distances to x0 1.000-1.000; antipodal pairs: 0
+npt=44: flag=0 (Success: rho has reached rhoend) nf=91 f-f*=9.42e-10; deterministic: True
+   initial set: |grad L_k(x0)| min 4.035e-01 median 1.347e+00; points with |grad|<1e-8: 0; distances to x0 1.000-1.000; antipodal pairs: 0

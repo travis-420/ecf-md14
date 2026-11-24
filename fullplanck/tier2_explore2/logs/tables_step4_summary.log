@@ -1,0 +1,3 @@
+| candidate | fit | starts with a failed round | starts producing a result | no result: deadline / stopped / running | −log post spread (final) | **S** (final, starts with a result) | in window (≤0.25) | evaluations: total (per start) | wall min per start |
+|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| cpl | cpl | 0/8 | 8/8 | 0 | 0.03564 | **0.2812** | 8/8 | 4419 (320–794) | 31.6–53.9 |

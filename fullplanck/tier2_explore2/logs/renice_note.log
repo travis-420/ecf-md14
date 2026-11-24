@@ -1,0 +1,15 @@
+2026-11-24T04:09:52Z execution note: intended to renice the 7 running (iv) fit-2 processes to nice 5 (renice -n 5); they ended at nice 15
+(ps output below). A non-root user cannot lower nice again, so (iv) fit-2 continued at nice 15 from 04:09Z. Scheduling only; no effect on results.
+75997 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+75998 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+75999 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+76000 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+76001 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+76002 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+76003 15 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c4 fit2_ecf_m
+
+CORRECTION appended 2026-11-24T05:11:34Z: logs/bgnice_check.log shows zsh's BG_NICE option (on by default) adds +5 per background level.
+Every start was launched as a background subshell of a launcher that was itself started in the background, so a start
+launched with 'nice -n 0' ran at nice 10 and one launched with 'nice -n 15' (Powell) ran at nice 20 (the maximum).
+The renice -n 5 above was an increment: (iv) fit-2 went from 10 to 15, as intended in effect (lower than steps 3-4 at 10,
+higher than Powell at 20). Scheduling only; no effect on results.

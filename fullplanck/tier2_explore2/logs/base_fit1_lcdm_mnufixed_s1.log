@@ -1,0 +1,19 @@
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'base_fit1_lcdm_mnufixed_s1'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 9001
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0726149319076503), 'ns': np.float64(0.9605211905956159), 'H0': np.float64(67.39385626880447), 'ombh2': np.float64(0.022197123747022394), 'omch2': np.float64(0.12076465617018985), 'tau': np.float64(0.05276924122630014), 'A_planck': np.float64(0.9971348307637047)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.006
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2     omch2       tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0     986.00551  3.053368  0.969272  68.301083  0.022518  0.117886  0.061073  1.000772  2.118657e-09  12.701265  587.150681  1405.583808     -16.712367        -17.130207                  0.417839  2005.435755                                       587.150681           12.701265            1405.583808
+BASE {"fit": "fit1_lcdm_mnufixed", "start": 1, "yaml": "yamls/base_fit1_lcdm_mnufixed_s1.yaml", "seed": 9001, "status": "converged", "mlp": 986.0055098250189, "chi2": 2005.4357545010835, "chi2_cmb": 587.1506808376865, "chi2_bao": 12.701265195595376, "chi2_sn": 1405.5838084678014, "tauterm": 0.8356786249320182, "x": {"logA": 3.0533675202000854, "ns": 0.9692723441707214, "H0": 68.30108286193664, "ombh2": 0.022517981640310145, "omch2": 0.11788592651595248, "tau": 0.06107332854897968, "A_planck": 1.0007722884313128}, "nf": 198, "flag": 0, "msg": "Success: rho has reached rhoend", "x0": {"logA": 3.0726149319076503, "ns": 0.9605211905956159, "H0": 67.39385626880447, "ombh2": 0.022197123747022394, "omch2": 0.12076465617018985, "tau": 0.05276924122630014, "A_planck": 0.9971348307637047}, "wall_s": 1931.826786994934}
+EXIT=0 start=2026-11-24T02:47:55Z end=2026-11-24T03:20:12Z

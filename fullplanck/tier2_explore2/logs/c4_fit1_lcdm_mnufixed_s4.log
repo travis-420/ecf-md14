@@ -1,0 +1,21 @@
+ROUND0 {"tag": "c4", "fit": "fit1_lcdm_mnufixed", "start": 4, "round": 0, "mlp": 986.0056230571575, "x": {"logA": 3.053604125, "ns": 0.9692908611, "H0": 68.30275369, "ombh2": 0.02251810997, "omch2": 0.1178810841, "tau": 0.06118674046, "A_planck": 1.000783264}, "source": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit1_lcdm_mnufixed_s4.minimum", "yaml": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/yamls/fit1_lcdm_mnufixed_s4.yaml"}
+numpy global RNG seeded with 9104 before round 1
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'c4_fit1_lcdm_mnufixed_s4_r1'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.053604125), 'ns': np.float64(0.9692908611), 'H0': np.float64(68.30275369), 'ombh2': np.float64(0.02251810997), 'omch2': np.float64(0.1178810841), 'tau': np.float64(0.06118674046), 'A_planck': np.float64(1.000783264)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.005
+[minimize] Parameter values at minimum:
+   weight  minuslogpost     logA        ns         H0     ombh2     omch2      tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.005396  3.05329  0.969284  68.303597  0.022518  0.117879  0.06105  1.000766  2.118494e-09  12.676882  587.175555  1405.590557     -16.716101        -17.130976                  0.414875  2005.442993                                       587.175555           12.676882            1405.590557
+ROUND {"tag": "c4", "fit": "fit1_lcdm_mnufixed", "start": 4, "round": 1, "variant": "c4_nptfull_randdirs", "mlp": 986.0053956111162, "chi2": 2005.4429933926403, "chi2_cmb": 587.1755547783887, "chi2_bao": 12.676881666733614, "chi2_sn": 1405.590556947518, "tauterm": 0.8297497915791242, "x": {"logA": 3.053290320432687, "ns": 0.9692841294364046, "H0": 68.3035974584842, "ombh2": 0.02251833254207874, "omch2": 0.11787913268422212, "tau": 0.061049614003327674, "A_planck": 1.000766037782085}, "improvement": 0.00022744604132185486, "wall_s": 678.716322183609, "nf": 111, "flag": 0, "msg": "Success: rho has reached rhoend", "nruns": 1, "success": true}
+STOP: round 1 improved -log post by 0.000227 < 0.001
+EXIT=0 start=2026-11-24T03:47:52Z end=2026-11-24T03:59:13Z

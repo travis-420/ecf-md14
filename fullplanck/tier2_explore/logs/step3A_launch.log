@@ -1,0 +1,6 @@
+step3A launch 2026-11-23T22:17:54Z; variant bobyqa_rhoend0.005_nptfull (npt=(n+1)(n+2)/2: 36 fit1, 45 fit2); start = session-2 endpoints; new-round deadline 2026-11-23T23:20:00Z (epoch 1795476000); MAXR=5 TOL=0.001
+step-3 condition: step 2 leaves fit-2 S > 0.3 (six fit-2 starts already stopped spanning 1993.9517..1994.6128 => S >= 0.661) [logs/step2_*.log]
+fbb3a613157c6a8aacfe811b62f30d8a1c642be5f6bf83c86319b26502ca51cf  scripts/polish.py
+f187484686a09c12253ad5e57b509ec821ed831369badd33ae1c41e865792253  scripts/polish_step2_asrun.py
+05159550983402419e558da15d8f60b52106674058a5923d557c8a3c68bef4db  scripts/launch.sh
+all done: step3A 2026-11-23T22:41:32Z

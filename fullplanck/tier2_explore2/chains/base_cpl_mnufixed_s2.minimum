@@ -1,0 +1,21 @@
+ -log(Like) = 982.7980483048237
+  chi-sq    = 1965.5960966096475
+
+    1  3.053039320e+00   logA                                              \log A_s
+    3  9.663313913e-01   ns                                                ns
+    4  6.758142331e+01   H0                                                H0
+    5  2.243635866e-02   ombh2                                             ombh2
+    6  1.191044884e-01   omch2                                             omch2
+    7  5.973486885e-02   tau                                               tau
+    8  1.000469852e+00   A_planck                                          y_\mathrm{cal}
+    9  -8.460843506e-01  w                                                 w_0
+   10  -5.642424868e-01  wa                                                w_a
+
+
+    2  2.117961833e-09   As                                                As
+   11  9.941781489e+00   chi2__BAO                                         \chi^2_\mathrm{BAO}
+   12  5.834956398e+02   chi2__CMB                                         \chi^2_\mathrm{CMB}
+   13  1.403074952e+03   chi2__SN                                          \chi^2_\mathrm{SN}
+   14  5.834956398e+02   chi2__planck_2018_highl_plik.TTTEEE_lite_native   \chi^2_{\rm planck\ 2018\ highl\ plik.TTTEEE\ lite\ native}
+   15  9.941781489e+00   chi2__bao.desi_dr2                                \chi^2_{\rm bao.desi\ dr2}
+   16  1.403074952e+03   chi2__sn.pantheonplus                             \chi^2_{\rm sn.pantheonplus}

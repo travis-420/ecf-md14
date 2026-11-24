@@ -1,0 +1,18 @@
+e2e fit1_lcdm_mnufixed s0: base 50 evals 9.1 min; polish 243 evals in 2 rounds 19.3 min; total 293 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s1: base 198 evals 32.2 min; polish 76 evals in 1 rounds 6.9 min; total 274 evals; status STOP: round 1 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s2: base 263 evals 39.4 min; polish 163 evals in 2 rounds 13.7 min; total 426 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s3: base 175 evals 29.3 min; polish 192 evals in 2 rounds 15.8 min; total 367 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s4: base 310 evals 44.8 min; polish 83 evals in 1 rounds 7.5 min; total 393 evals; status STOP: round 1 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s5: base 183 evals 30.3 min; polish 74 evals in 1 rounds 6.8 min; total 257 evals; status STOP: round 1 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s6: base 260 evals 39.1 min; polish 71 evals in 1 rounds 6.5 min; total 331 evals; status STOP: round 1 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed s7: base 228 evals 35.8 min; polish 79 evals in 1 rounds 7.2 min; total 307 evals; status STOP: round 1 improved -log post by 0.00
+e2e fit1_lcdm_mnufixed TOTAL: base 1667 + polish 981 = 2648 evals; per start 257-426; polish rounds per start 1-2; polish evals per start 71-243
+e2e fit2_ecf_mnufixed s0: base 211 evals 46.7 min; polish 421 evals in 4 rounds 39.4 min; total 632 evals; status STOP: round 4 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s1: base 225 evals 48.9 min; polish 232 evals in 2 rounds 26.3 min; total 457 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s2: base 449 evals 79.1 min; polish 241 evals in 2 rounds 27.2 min; total 690 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s3: base 398 evals 73.4 min; polish 378 evals in 4 rounds 36.9 min; total 776 evals; status STOP: round 4 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s4: base 481 evals 81.7 min; polish 259 evals in 2 rounds 28.6 min; total 740 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s5: base 426 evals 76.8 min; polish 95 evals in 1 rounds 12.7 min; total 521 evals; status STOP: round 1 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s6: base 418 evals 75.9 min; polish 500 evals in 5 rounds 43.0 min; total 918 evals; status STOP: round 5 improved -log post by 0.00
+e2e fit2_ecf_mnufixed s7: base 539 evals 90.0 min; polish 244 evals in 2 rounds 23.8 min; total 783 evals; status STOP: round 2 improved -log post by 0.00
+e2e fit2_ecf_mnufixed TOTAL: base 3147 + polish 2370 = 5517 evals; per start 457-918; polish rounds per start 1-5; polish evals per start 95-500

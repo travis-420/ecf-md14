@@ -1,0 +1,37 @@
+ROUND0 {"tag": "c2", "fit": "fit1_lcdm_mnufixed", "start": 5, "round": 0, "mlp": 986.0068953176964, "x": {"logA": 3.052511828, "ns": 0.9693224699, "H0": 68.30695987, "ombh2": 0.02251781557, "omch2": 0.1178684697, "tau": 0.06073898594, "A_planck": 1.000710887}, "source": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit1_lcdm_mnufixed_s5.minimum", "yaml": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/yamls/fit1_lcdm_mnufixed_s5.yaml"}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'c2_fit1_lcdm_mnufixed_s5_r1'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.052511828), 'ns': np.float64(0.9693224699), 'H0': np.float64(68.30695987), 'ombh2': np.float64(0.02251781557), 'omch2': np.float64(0.1178684697), 'tau': np.float64(0.06073898594), 'A_planck': np.float64(1.000710887)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.005
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2     omch2       tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.005335  3.053304  0.969288  68.305378  0.022519  0.117878  0.061064  1.000757  2.118523e-09   12.66074  587.186792  1405.594082     -16.715472        -17.132087                  0.416615  2005.441614                                       587.186792            12.66074            1405.594082
+ROUND {"tag": "c2", "fit": "fit1_lcdm_mnufixed", "start": 5, "round": 1, "variant": "c2_nptfull_rhobeg0.1", "mlp": 986.0053347363929, "chi2": 2005.441613595813, "chi2_cmb": 587.186792337255, "chi2_bao": 12.660739736237154, "chi2_sn": 1405.5940815223207, "tauterm": 0.833230307060426, "x": {"logA": 3.0533044206998947, "ns": 0.9692875304516693, "H0": 68.30537777804348, "ombh2": 0.02251851552794414, "omch2": 0.11787752205785115, "tau": 0.061063545832606696, "A_planck": 1.0007569170746873}, "improvement": 0.0015605813034653693, "wall_s": 790.0847060680389, "nf": 76, "flag": 0, "msg": "Success: rho has reached rhoend", "nruns": 1, "success": true}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'c2_fit1_lcdm_mnufixed_s5_r2'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0533044206998947), 'ns': np.float64(0.9692875304516693), 'H0': np.float64(68.30537777804348), 'ombh2': np.float64(0.02251851552794414), 'omch2': np.float64(0.11787752205785115), 'tau': np.float64(0.061063545832606696), 'A_planck': np.float64(1.0007569170746873)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.005
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2     omch2       tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.005335  3.053304  0.969288  68.305378  0.022519  0.117878  0.061064  1.000757  2.118523e-09   12.66074  587.186792  1405.594082     -16.715472        -17.132087                  0.416615  2005.441614                                       587.186792            12.66074            1405.594082
+ROUND {"tag": "c2", "fit": "fit1_lcdm_mnufixed", "start": 5, "round": 2, "variant": "c2_nptfull_rhobeg0.1", "mlp": 986.0053347363929, "chi2": 2005.441613595813, "chi2_cmb": 587.186792337255, "chi2_bao": 12.660739736237154, "chi2_sn": 1405.5940815223207, "tauterm": 0.833230307060426, "x": {"logA": 3.0533044206998947, "ns": 0.9692875304516693, "H0": 68.30537777804348, "ombh2": 0.02251851552794414, "omch2": 0.11787752205785115, "tau": 0.061063545832606696, "A_planck": 1.0007569170746873}, "improvement": 0.0, "wall_s": 669.9626297950745, "nf": 71, "flag": 0, "msg": "Success: rho has reached rhoend", "nruns": 1, "success": true}
+STOP: round 2 improved -log post by 0.000000 < 0.001
+EXIT=0 start=2026-11-24T02:47:55Z end=2026-11-24T03:12:20Z

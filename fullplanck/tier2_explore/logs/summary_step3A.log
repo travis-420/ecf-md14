@@ -1,0 +1,124 @@
+
+===== step3A fit1_lcdm_mnufixed =====
+s0: rounds run 2; STOP: round 2 improved -log post by 0.000000 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:26:02Z
+s1: rounds run 1; CRASHED during round 2 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:23:44Z
+s2: rounds run 1; STOP: round 1 improved -log post by 0.000520 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:22:35Z
+s3: rounds run 2; STOP: round 2 improved -log post by 0.000103 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:25:46Z
+s4: rounds run 1; STOP: round 1 improved -log post by 0.000216 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:22:32Z
+s5: rounds run 2; STOP: round 2 improved -log post by 0.000018 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:25:54Z
+s6: rounds run 1; STOP: round 1 improved -log post by 0.000557 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:22:30Z
+s7: rounds run 2; STOP: round 2 improved -log post by 0.000000 < 0.001; EXIT=0 start=2026-11-23T22:17:54Z end=2026-11-23T22:25:58Z
+-- round 0
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    986.01818 |       0.01255 |      2005.5291 |          0.7140 |  587.4169  12.4571  1405.6551 |
+   s1    |    986.00698 |       0.00136 |      2005.4602 |          0.8073 |  587.2929  12.5374  1405.6298 |
+   s2    |    986.00589 |       0.00027 |      2005.4967 |          0.7848 |  587.2459  12.6544  1405.5965 |
+   s3    |    986.02498 |       0.01935 |      2005.1325 |          1.1755 |  586.7292  12.8618  1405.5416 |
+   s4    |    986.00562 |       0.00000 |      2005.4046 |          0.8643 |  587.1319  12.6842  1405.5885 |
+   s5    |    986.00690 |       0.00127 |      2005.5347 |          0.7540 |  587.2966  12.6375  1405.6006 |
+   s6    |    986.00597 |       0.00035 |      2005.4545 |          0.8053 |  587.2141  12.6394  1405.6011 |
+   s7    |    986.01012 |       0.00450 |      2005.2923 |          0.9761 |  586.9622  12.7642  1405.5658 |
+   spread(-log post, all 8) = 0.01935;  S (total chi2 max-min, all 8) = 0.4022;  in 0.25 window: 8/8, in-window S = 0.4022
+   lowest -log post: s4 986.00562 (vs July 986.0217: -0.01608); its total chi2 2005.4046 (vs certified 2005.5316: -0.1270); mean chi2 over 8 = 2005.4131 (-0.1185); median 2005.4574
+-- round 1
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    986.00540 |       0.00003 |      2005.4460 |          0.8261 |  587.1870  12.6658  1405.5932 |  114     291  True
+   s1    |    986.00541 |       0.00004 |      2005.4423 |          0.8278 |  587.1745  12.6774  1405.5904 |  110     283  True
+   s2    |    986.00537 |       0.00000 |      2005.4392 |          0.8318 |  587.1702  12.6788  1405.5902 |  108     279  True
+   s3    |    986.00543 |       0.00006 |      2005.4359 |          0.8396 |  587.1736  12.6701  1405.5922 |  106     274  True
+   s4    |    986.00541 |       0.00004 |      2005.4394 |          0.8333 |  587.1696  12.6801  1405.5897 |  107     277  True
+   s5    |    986.00542 |       0.00005 |      2005.4503 |          0.8228 |  587.1780  12.6836  1405.5887 |  110     283  True
+   s6    |    986.00542 |       0.00004 |      2005.4439 |          0.8285 |  587.1772  12.6764  1405.5903 |  106     274  True
+   s7    |    986.00541 |       0.00004 |      2005.4314 |          0.8393 |  587.1725  12.6655  1405.5934 |  111     284  True
+   spread(-log post, all 8) = 0.00006;  S (total chi2 max-min, all 8) = 0.0188;  in 0.25 window: 8/8, in-window S = 0.0188
+   lowest -log post: s2 986.00537 (vs July 986.0217: -0.01633); its total chi2 2005.4392 (vs certified 2005.5316: -0.0924); mean chi2 over 8 = 2005.4411 (-0.0905); median 2005.4409
+   round 1 cost over the 8 starts that ran it: evaluations (pybobyqa nf) total 872, per start min/median/max 106/109/114; wall per start min/median/max 4.6/4.7/4.9 min
+-- round 2
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    986.00540 |       0.00007 |      2005.4460 |          0.8261 |  587.1870  12.6658  1405.5932 |  106     195  True
+   s1!   |    986.00541 |       0.00008 |      2005.4423 |          0.8278 |  587.1745  12.6774  1405.5904 |
+   s2=   |    986.00537 |       0.00004 |      2005.4392 |          0.8318 |  587.1702  12.6788  1405.5902 |
+   s3    |    986.00533 |       0.00000 |      2005.4395 |          0.8347 |  587.1732  12.6751  1405.5912 |  105     196  True
+   s4=   |    986.00541 |       0.00008 |      2005.4394 |          0.8333 |  587.1696  12.6801  1405.5897 |
+   s5    |    986.00540 |       0.00008 |      2005.4492 |          0.8235 |  587.1755  12.6853  1405.5883 |  105     195  True
+   s6=   |    986.00542 |       0.00009 |      2005.4439 |          0.8285 |  587.1772  12.6764  1405.5903 |
+   s7    |    986.00541 |       0.00008 |      2005.4314 |          0.8393 |  587.1725  12.6655  1405.5934 |  106     198  True
+   ! = start crashed in an earlier-or-this round; value shown is its last completed round (NOT a result of this procedure). Over the 7 non-crashed starts: spread(-log post) = 0.00009, S = 0.0177
+   spread(-log post, all 8) = 0.00009;  S (total chi2 max-min, all 8) = 0.0177;  in 0.25 window: 8/8, in-window S = 0.0177
+   lowest -log post: s3 986.00533 (vs July 986.0217: -0.01637); its total chi2 2005.4395 (vs certified 2005.5316: -0.0921); mean chi2 over 8 = 2005.4414 (-0.0902); median 2005.4409
+   round 2 cost over the 4 starts that ran it: evaluations (pybobyqa nf) total 422, per start min/median/max 105/105/106; wall per start min/median/max 3.3/3.3/3.3 min
+
+===== step3A fit2_ecf_mnufixed =====
+s0: rounds run 1; CRASHED during round 2 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:28:08Z
+s1: rounds run 0; CRASHED during round 1 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:21:09Z
+s2: rounds run 2; CRASHED during round 3 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:41:32Z
+s3: rounds run 0; CRASHED during round 1 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:21:09Z
+s4: rounds run 0; CRASHED during round 1 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:21:09Z
+s5: rounds run 2; CRASHED during round 3 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:41:03Z
+s6: rounds run 1; CRASHED during round 2 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:28:33Z
+s7: rounds run 1; CRASHED during round 2 (Error (linear algebra): Singular matrix in mini-model interpolation (main loop)); EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:28:30Z
+-- round 0
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    981.88652 |       0.01359 |      1993.9537 |          0.6445 |  582.0550   9.3166  1402.5821 |
+   s1    |    981.88093 |       0.00799 |      1994.3124 |          0.2440 |  582.3886   9.3205  1402.6033 |
+   s2    |    981.92850 |       0.05557 |      1993.8171 |          0.7768 |  581.9297   9.3303  1402.5571 |
+   s3    |    982.07342 |       0.20048 |      1993.9251 |          0.9697 |  581.6989   9.7229  1402.5034 |
+   s4    |    981.87483 |       0.00189 |      1994.1077 |          0.4464 |  582.2210   9.2066  1402.6801 |
+   s5    |    981.94752 |       0.07459 |      1994.6910 |          0.0677 |  582.8103   9.2245  1402.6562 |
+   s6    |    981.87294 |       0.00000 |      1994.0853 |          0.4563 |  582.1887   9.3135  1402.5831 |
+   s7    |    981.91492 |       0.04198 |      1994.4802 |          0.1248 |  582.5822   9.3171  1402.5809 |
+   spread(-log post, all 8) = 0.20048;  S (total chi2 max-min, all 8) = 0.8739;  in 0.25 window: 8/8, in-window S = 0.8739
+   lowest -log post: s6 981.87294 (vs July 981.93936: -0.06642); its total chi2 1994.0853 (vs certified 1993.8933: +0.1920); mean chi2 over 8 = 1994.1716 (+0.2783); median 1994.0965
+-- round 1
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    981.87162 |       0.00184 |      1994.0817 |          0.4855 |  582.1831   9.3166  1402.5820 |  137     489  True
+   s1!   |    981.88093 |       0.01115 |      1994.3124 |          0.2440 |  582.3886   9.3205  1402.6033 |
+   s2    |    981.87139 |       0.00161 |      1994.0650 |          0.4951 |  582.1872   9.2520  1402.6258 |  224     737  True
+   s3!   |    982.07342 |       0.20364 |      1993.9251 |          0.9697 |  581.6989   9.7229  1402.5034 |
+   s4!   |    981.87483 |       0.00505 |      1994.1077 |          0.4464 |  582.2210   9.2066  1402.6801 |
+   s5    |    981.87145 |       0.00167 |      1994.2910 |          0.2921 |  582.4395   9.2194  1402.6321 |  219     721  True
+   s6    |    981.86978 |       0.00000 |      1994.1098 |          0.4493 |  582.2055   9.3164  1402.5879 |  146     514  True
+   s7    |    981.87723 |       0.00745 |      1994.3373 |          0.2415 |  582.4325   9.3169  1402.5879 |  145     511  True
+   ! = start crashed in an earlier-or-this round; value shown is its last completed round (NOT a result of this procedure). Over the 5 non-crashed starts: spread(-log post) = 0.00745, S = 0.2723
+   spread(-log post, all 8) = 0.20364;  S (total chi2 max-min, all 8) = 0.4122;  in 0.25 window: 8/8, in-window S = 0.4122
+   lowest -log post: s6 981.86978 (vs July 981.93936: -0.06958); its total chi2 1994.1098 (vs certified 1993.8933: +0.2165); mean chi2 over 8 = 1994.1537 (+0.2604); median 1994.1087
+   round 1 cost over the 5 starts that ran it: evaluations (pybobyqa nf) total 871, per start min/median/max 137/146/224; wall per start min/median/max 8.1/8.6/12.3 min
+-- round 2
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0!   |    981.87162 |       0.00438 |      1994.0817 |          0.4855 |  582.1831   9.3166  1402.5820 |
+   s1!   |    981.88093 |       0.01369 |      1994.3124 |          0.2440 |  582.3886   9.3205  1402.6033 |
+   s2    |    981.86738 |       0.00014 |      1994.1929 |          0.3648 |  582.3339   9.2246  1402.6344 |  138     528  True
+   s3!   |    982.07342 |       0.20618 |      1993.9251 |          0.9697 |  581.6989   9.7229  1402.5034 |
+   s4!   |    981.87483 |       0.00759 |      1994.1077 |          0.4464 |  582.2210   9.2066  1402.6801 |
+   s5    |    981.86724 |       0.00000 |      1994.1554 |          0.4165 |  582.3026   9.2209  1402.6319 |  135     510  True
+   s6!   |    981.86978 |       0.00254 |      1994.1098 |          0.4493 |  582.2055   9.3164  1402.5879 |
+   s7!   |    981.87723 |       0.00999 |      1994.3373 |          0.2415 |  582.4325   9.3169  1402.5879 |
+   ! = start crashed in an earlier-or-this round; value shown is its last completed round (NOT a result of this procedure). Over the 2 non-crashed starts: spread(-log post) = 0.00014, S = 0.0375
+   spread(-log post, all 8) = 0.20618;  S (total chi2 max-min, all 8) = 0.4122;  in 0.25 window: 8/8, in-window S = 0.4122
+   lowest -log post: s5 981.86724 (vs July 981.93936: -0.07212); its total chi2 1994.1554 (vs certified 1993.8933: +0.2621); mean chi2 over 8 = 1994.1528 (+0.2595); median 1994.1326
+   round 2 cost over the 2 starts that ran it: evaluations (pybobyqa nf) total 273, per start min/median/max 135/136/138; wall per start min/median/max 8.5/8.6/8.8 min
+
+===== cross-fit (lowest -log post start of each fit; reporting only, no gate) =====
+round 0: chi2(fit2)-chi2(fit1) = -11.3193 (certified -11.6383: +0.3190); using 8-start means: -11.2415 (+0.3968)
+round 1: chi2(fit2)-chi2(fit1) = -11.3295 (certified -11.6383: +0.3088); using 8-start means: -11.2873 (+0.3510)
+round 2: chi2(fit2)-chi2(fit1) = -11.2841 (certified -11.6383: +0.3542); using 8-start means: -11.2886 (+0.3497)
+
+===== cumulative cost per start (all rounds of this tag) =====
+fit1_lcdm_mnufixed s0: rounds 2, evaluations 220, wall 8.1 min
+fit1_lcdm_mnufixed s1: rounds 1, evaluations 110, wall 4.7 min
+fit1_lcdm_mnufixed s2: rounds 1, evaluations 108, wall 4.7 min
+fit1_lcdm_mnufixed s3: rounds 2, evaluations 211, wall 7.8 min
+fit1_lcdm_mnufixed s4: rounds 1, evaluations 107, wall 4.6 min
+fit1_lcdm_mnufixed s5: rounds 2, evaluations 215, wall 8.0 min
+fit1_lcdm_mnufixed s6: rounds 1, evaluations 106, wall 4.6 min
+fit1_lcdm_mnufixed s7: rounds 2, evaluations 217, wall 8.0 min
+fit1_lcdm_mnufixed: total evaluations 1294; max per-start wall 8.1 min
+fit2_ecf_mnufixed s0: rounds 1, evaluations 137, wall 8.1 min
+fit2_ecf_mnufixed s1: rounds 0, evaluations 0, wall 0.0 min
+fit2_ecf_mnufixed s2: rounds 2, evaluations 362, wall 21.1 min
+fit2_ecf_mnufixed s3: rounds 0, evaluations 0, wall 0.0 min
+fit2_ecf_mnufixed s4: rounds 0, evaluations 0, wall 0.0 min
+fit2_ecf_mnufixed s5: rounds 2, evaluations 354, wall 20.5 min
+fit2_ecf_mnufixed s6: rounds 1, evaluations 146, wall 8.6 min
+fit2_ecf_mnufixed s7: rounds 1, evaluations 145, wall 8.5 min
+fit2_ecf_mnufixed: total evaluations 1144; max per-start wall 21.1 min

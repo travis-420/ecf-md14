@@ -1,0 +1,8 @@
+EXPLORATORY minimizer study (not a gate attempt). Session start: 2026-11-23T21:59:14Z / Mon Nov 23 13:59:14 PST 2026
+HEAD: 81f7db8b9119ce38243a6e432b3041dbb93c96c4
+caffeinate pids: 60337 60410 
+MD5 (/Users/420-420/ecf-md14/RESULTS_NEUTRINO_TIER2.md) = 7f9457fe648abb031084e8f10fcaf36b
+cf576d3a20c7eea437dcbc03b6fb217a611c5a1cbfa08a06a46a9b762e194daf  /Users/420-420/ecf-md14/RESULTS_NEUTRINO_TIER2.md
+?? .DS_Store
+?? fullplanck/__pycache__/
+?? fullplanck/tier2_explore/

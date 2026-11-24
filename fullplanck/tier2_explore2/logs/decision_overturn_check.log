@@ -1,0 +1,14 @@
+Overturn check for the steps 3-4 decision, 2026-11-24T04:46:02Z (tables2.py summary, from logs):
+| c1 | fit2 | 0/8 | 8/8 | 0 | 0.00884 | **0.2416** | 8/8 | 2882 (266–492) | 53.9–82.0 |
+| c2 | fit2 | 0/8 | 8/8 | 0 | 0.00523 | **0.1994** | 8/8 | 2318 (186–495) | 41.7–81.3 |
+| c3 | fit2 | 0/8 | 5/8 | 3 | 0.02646 | **0.5372** | 5/8 | 1489 (0–729) | 23.0–100.4 |
+| c4 | fit2 | 0/8 | 5/8 | 3 | 0.01946 | **0.3500** | 5/8 | 2991 (136–510) | 19.1–57.4 |
+(ii) fit-2 s0 final total chi2:
+"chi2": 1994.041731911476
+STOP: reached 5 rounds
+EXIT=0 start=2026-11-24T02:47:55Z end=2026-11-24T04:09:12Z
+(A) (ii) fit-2 s0 failed round: no (CRASH lines in c2 logs: 0)
+(B) s0 final chi2 1994.0417 within [1993.9996, 1994.3470]: not triggered; (ii) fit-2 S final 0.1994
+(C) (iv) fit-2 S over finished starts already 0.3500 > 0.1994 and can only grow: cannot trigger
+(D) (i) final fit-2 S 0.2416 > 0.1994; (iii) fit-2 S over finished starts 0.5372 > 0.1994: cannot trigger
+=> rule 2 selects (ii); the 04:09Z decision stands.

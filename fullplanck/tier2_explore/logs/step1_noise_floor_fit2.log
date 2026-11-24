@@ -1,0 +1,63 @@
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+# fit2: fit2_ecf_mnufixed_s6; endpoint from fit2_ecf_mnufixed_s6.minimum (-log post in file 981.8729352427)
+# sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+# x0 = {"logA": 3.054500742, "ns": 0.9646719815, "H0": 67.74615623, "ombh2": 0.02239672786, "omch2": 0.1198273707, "tau": 0.05933128843, "A_planck": 1.00070337, "tau_ecf": 2.152939296}
+# OMP_NUM_THREADS=1
+centre#1                     mlp=981.872941 chi2=1994.085310 tauterm=0.456326 chi2_planck=582.188705 chi2_bao=9.313494 chi2_sn=1402.583110 dt=2.80s
+eps=1e-06 dir0 +             mlp=981.872965 chi2=1994.085143 tauterm=0.456315 chi2_planck=582.188400 chi2_bao=9.313623 chi2_sn=1402.583120 dt=2.82s
+eps=1e-06 dir0 -             mlp=981.872930 chi2=1994.085502 tauterm=0.456337 chi2_planck=582.189037 chi2_bao=9.313365 chi2_sn=1402.583100 dt=2.78s
+eps=1e-06 dir1 +             mlp=981.872909 chi2=1994.085460 tauterm=0.456337 chi2_planck=582.189044 chi2_bao=9.313331 chi2_sn=1402.583085 dt=2.81s
+eps=1e-06 dir1 -             mlp=981.872990 chi2=1994.085192 tauterm=0.456315 chi2_planck=582.188400 chi2_bao=9.313657 chi2_sn=1402.583136 dt=2.81s
+eps=1e-06 dir2 +             mlp=981.872910 chi2=1994.085483 tauterm=0.456315 chi2_planck=582.188673 chi2_bao=9.313678 chi2_sn=1402.583132 dt=2.83s
+eps=1e-06 dir2 -             mlp=981.872988 chi2=1994.085167 tauterm=0.456337 chi2_planck=582.188769 chi2_bao=9.313310 chi2_sn=1402.583088 dt=2.82s
+eps=1e-06 dir3 +             mlp=981.872894 chi2=1994.085430 tauterm=0.456337 chi2_planck=582.188620 chi2_bao=9.313678 chi2_sn=1402.583132 dt=2.82s
+eps=1e-06 dir3 -             mlp=981.873005 chi2=1994.085222 tauterm=0.456315 chi2_planck=582.188824 chi2_bao=9.313310 chi2_sn=1402.583088 dt=2.84s
+eps=1e-06 dir4 +             mlp=981.872972 chi2=1994.085134 tauterm=0.456337 chi2_planck=582.188793 chi2_bao=9.313243 chi2_sn=1402.583098 dt=2.83s
+eps=1e-06 dir4 -             mlp=981.872949 chi2=1994.085561 tauterm=0.456315 chi2_planck=582.188694 chi2_bao=9.313745 chi2_sn=1402.583122 dt=2.86s
+eps=1e-06 dir5 +             mlp=981.872952 chi2=1994.085546 tauterm=0.456337 chi2_planck=582.188661 chi2_bao=9.313765 chi2_sn=1402.583119 dt=2.86s
+eps=1e-06 dir5 -             mlp=981.872992 chi2=1994.085196 tauterm=0.456315 chi2_planck=582.188872 chi2_bao=9.313223 chi2_sn=1402.583101 dt=2.86s
+eps=1e-06 dir6 +             mlp=981.872960 chi2=1994.085584 tauterm=0.456315 chi2_planck=582.189260 chi2_bao=9.313223 chi2_sn=1402.583101 dt=2.88s
+eps=1e-06 dir6 -             mlp=981.872971 chi2=1994.085134 tauterm=0.456337 chi2_planck=582.188249 chi2_bao=9.313765 chi2_sn=1402.583119 dt=2.86s
+eps=1e-06 dir7 +             mlp=981.872960 chi2=1994.085584 tauterm=0.456315 chi2_planck=582.189260 chi2_bao=9.313223 chi2_sn=1402.583101 dt=2.88s
+eps=1e-06 dir7 -             mlp=981.872971 chi2=1994.085134 tauterm=0.456337 chi2_planck=582.188249 chi2_bao=9.313765 chi2_sn=1402.583119 dt=2.84s
+eps=1e-06 dir8 +             mlp=981.872915 chi2=1994.085042 tauterm=0.456315 chi2_planck=582.188593 chi2_bao=9.313345 chi2_sn=1402.583104 dt=2.84s
+eps=1e-06 dir8 -             mlp=981.872937 chi2=1994.085515 tauterm=0.456337 chi2_planck=582.188755 chi2_bao=9.313643 chi2_sn=1402.583116 dt=2.83s
+eps=1e-06 dir9 +             mlp=981.872875 chi2=1994.085413 tauterm=0.456315 chi2_planck=582.188890 chi2_bao=9.313432 chi2_sn=1402.583090 dt=2.82s
+eps=1e-06 dir9 -             mlp=981.872951 chi2=1994.085093 tauterm=0.456337 chi2_planck=582.188407 chi2_bao=9.313556 chi2_sn=1402.583130 dt=2.80s
+centre#2                     mlp=981.872941 chi2=1994.085310 tauterm=0.456326 chi2_planck=582.188705 chi2_bao=9.313494 chi2_sn=1402.583110 dt=2.83s
+eps=0.0001 dir0 +            mlp=981.919732 chi2=1994.155863 tauterm=0.455228 chi2_planck=582.230642 chi2_bao=9.341228 chi2_sn=1402.583993 dt=2.79s
+eps=0.0001 dir0 -            mlp=981.927956 chi2=1994.215162 tauterm=0.457425 chi2_planck=582.345941 chi2_bao=9.286986 chi2_sn=1402.582235 dt=2.81s
+eps=0.0001 dir1 +            mlp=981.931467 chi2=1994.224380 tauterm=0.455228 chi2_planck=582.306377 chi2_bao=9.332661 chi2_sn=1402.585342 dt=2.83s
+eps=0.0001 dir1 -            mlp=981.929386 chi2=1994.172974 tauterm=0.457425 chi2_planck=582.296149 chi2_bao=9.295902 chi2_sn=1402.580923 dt=2.83s
+eps=0.0001 dir2 +            mlp=981.916135 chi2=1994.146473 tauterm=0.457425 chi2_planck=582.234068 chi2_bao=9.328663 chi2_sn=1402.583742 dt=2.83s
+eps=0.0001 dir2 -            mlp=981.923357 chi2=1994.208161 tauterm=0.455228 chi2_planck=582.326896 chi2_bao=9.298783 chi2_sn=1402.582482 dt=2.82s
+eps=0.0001 dir3 +            mlp=981.949728 chi2=1994.213658 tauterm=0.457425 chi2_planck=582.344437 chi2_bao=9.286986 chi2_sn=1402.582235 dt=2.87s
+eps=0.0001 dir3 -            mlp=981.944154 chi2=1994.249754 tauterm=0.455228 chi2_planck=582.324533 chi2_bao=9.341228 chi2_sn=1402.583993 dt=2.88s
+eps=0.0001 dir4 +            mlp=981.924630 chi2=1994.165658 tauterm=0.455228 chi2_planck=582.288833 chi2_bao=9.295902 chi2_sn=1402.580923 dt=2.82s
+eps=0.0001 dir4 -            mlp=981.926488 chi2=1994.212227 tauterm=0.457425 chi2_planck=582.294224 chi2_bao=9.332661 chi2_sn=1402.585342 dt=2.76s
+eps=0.0001 dir5 +            mlp=981.882757 chi2=1994.124765 tauterm=0.457425 chi2_planck=582.241816 chi2_bao=9.300800 chi2_sn=1402.582149 dt=2.74s
+eps=0.0001 dir5 -            mlp=981.884851 chi2=1994.086101 tauterm=0.455228 chi2_planck=582.175463 chi2_bao=9.326560 chi2_sn=1402.584078 dt=2.77s
+eps=0.0001 dir6 +            mlp=981.872484 chi2=1994.106413 tauterm=0.455228 chi2_planck=582.195775 chi2_bao=9.326560 chi2_sn=1402.584078 dt=2.75s
+eps=0.0001 dir6 -            mlp=981.885636 chi2=1994.085475 tauterm=0.457425 chi2_planck=582.202526 chi2_bao=9.300800 chi2_sn=1402.582149 dt=2.77s
+eps=0.0001 dir7 +            mlp=981.937358 chi2=1994.236163 tauterm=0.455228 chi2_planck=582.359338 chi2_bao=9.295902 chi2_sn=1402.580923 dt=2.76s
+eps=0.0001 dir7 -            mlp=981.933515 chi2=1994.181232 tauterm=0.457425 chi2_planck=582.263229 chi2_bao=9.332661 chi2_sn=1402.585342 dt=2.75s
+eps=0.0001 dir8 +            mlp=981.942863 chi2=1994.247173 tauterm=0.455228 chi2_planck=582.334767 chi2_bao=9.328663 chi2_sn=1402.583742 dt=2.74s
+eps=0.0001 dir8 -            mlp=981.947222 chi2=1994.208647 tauterm=0.457425 chi2_planck=582.327382 chi2_bao=9.298783 chi2_sn=1402.582482 dt=2.77s
+eps=0.0001 dir9 +            mlp=981.872999 chi2=1994.105247 tauterm=0.457425 chi2_planck=582.194609 chi2_bao=9.326560 chi2_sn=1402.584078 dt=2.82s
+eps=0.0001 dir9 -            mlp=981.886356 chi2=1994.089111 tauterm=0.455228 chi2_planck=582.206162 chi2_bao=9.300800 chi2_sn=1402.582149 dt=2.80s
+centre#3                     mlp=981.872941 chi2=1994.085310 tauterm=0.456326 chi2_planck=582.188705 chi2_bao=9.313494 chi2_sn=1402.583110 dt=2.81s
+
+# SUMMARY fit2
+centre repeats (mlp, chi2, tauterm): (981.872941, 1994.085310, 0.456326); (981.872941, 1994.085310, 0.456326); (981.872941, 1994.085310, 0.456326)
+centre repeat max-min: mlp 0.00e+00  chi2 0.00e+00
+eps=1e-06: 20 perturbations
+   -log post  : std 3.42e-05  max-min 1.30e-04  max|f-f0| 6.63e-05  | 2nd diff mean 1.73e-05 std 3.50e-05 | antisym std 2.28e-05
+   total chi2 : std 1.89e-04  max-min 5.42e-04  max|f-f0| 2.74e-04  | 2nd diff mean 3.43e-05 std 6.99e-05 | antisym std 1.77e-04
+   tau term   : std 1.10e-05  max-min 2.20e-05
+eps=0.0001: 20 perturbations
+   -log post  : std 2.53e-02  max-min 7.72e-02  max|f-f0| 7.68e-02  | 2nd diff mean 8.80e-02 std 5.01e-02 | antisym std 3.15e-03
+   total chi2 : std 5.49e-02  max-min 1.64e-01  max|f-f0| 1.64e-01  | 2nd diff mean 1.73e-01 std 1.00e-01 | antisym std 2.24e-02
+   tau term   : std 1.10e-03  max-min 2.20e-03
+EXIT=0 end=2026-11-23T22:03:42Z

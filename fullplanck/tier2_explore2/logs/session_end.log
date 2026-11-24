@@ -1,0 +1,30 @@
+== post_append 2026-11-24T05:30:08Z (21:30:08 PST)
+-- files in read-only dirs newer than this session's start stamp (expect none):
+-- kit files newer than start stamp (expect none):
+-- git
+81f7db8b9119ce38243a6e432b3041dbb93c96c4
+ M RESULTS_NEUTRINO_TIER2.md
+?? .DS_Store
+?? fullplanck/__pycache__/
+?? fullplanck/tier2_explore/
+?? fullplanck/tier2_explore2/
+ RESULTS_NEUTRINO_TIER2.md | 1206 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1206 insertions(+)
+-- RESULTS_NEUTRINO_TIER2.md: size, whole-file SHA-256, SHA-256 of first 62486 bytes (expect 249511e0342ede647f794a7cb74e9769e33a95c51a5227ca996921e0177ac49b)
+  130303 RESULTS_NEUTRINO_TIER2.md
+235c2b1da602aabcc960047104a9b78cb90ee16ee4e92d4a7e3c0f749c29a0eb  RESULTS_NEUTRINO_TIER2.md
+249511e0342ede647f794a7cb74e9769e33a95c51a5227ca996921e0177ac49b  -
+-- every yaml written by this study: sampled params and Sigma-mnu setting (expect mnu fixed 0.06, never sampled):
+yamls checked: 422; fixed mnu=0.06 and mnu not a parameter: 422; violations: []
+-- outputs whose name suggests fits 3-5 (expect none):
+none
+-- running study processes:
+       0
+-- appended section SHA-256 (bytes after 62486):
+aec7371bdd670c1ec396c1bebdaee715e2733fef50e43e531d5ed491234a4a01  -
+aec7371bdd670c1ec396c1bebdaee715e2733fef50e43e531d5ed491234a4a01  fullplanck/tier2_explore2/section_appended.md
+-- caffeinate before stop:
+72308 caffeinate -dimsu
+-- caffeinate after stop (expect nothing):
+none running
+2026-11-24T05:30:11Z session end

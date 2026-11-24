@@ -1,0 +1,7 @@
+step3A fit1_lcdm_mnufixed round 1 (8 starts completed it): mlp 986.00537..986.00543 (-0.01633..-0.01627 vs July); chi2 2005.4314..2005.4503 (-0.1002..-0.0813 vs certified 2005.5316)
+step3A fit2_ecf_mnufixed round 1 (5 starts completed it): mlp 981.86978..981.87723 (-0.06958..-0.06213 vs July); chi2 1994.0650..1994.3373 (+0.1717..+0.4440 vs certified 1993.8933)
+step3B fit1_lcdm_mnufixed round 1 (8 starts completed it): mlp 986.00534..986.00541 (-0.01636..-0.01629 vs July); chi2 2005.4314..2005.4460 (-0.1002..-0.0856 vs certified 2005.5316)
+step3B fit2_ecf_mnufixed round 1 (5 starts completed it): mlp 981.86689..981.87145 (-0.07247..-0.06791 vs July); chi2 1994.1098..1994.2910 (+0.2165..+0.3977 vs certified 1993.8933)
+fit2: completed A/B results within 0.0005 of the lowest -log post 981.86689: step3B s0 r1: 981.86689/1994.1613/0.4049 (+0.2680); step3B s2 r1: 981.86690/1994.1641/0.3970 (+0.2708); step3A s5 r2: 981.86724/1994.1554/0.4165 (+0.2621); step3B s5 r2: 981.86724/1994.1554/0.4165 (+0.2621); step3A s2 r2: 981.86738/1994.1929/0.3648 (+0.2996)
+fit2: their total chi2 1994.1554..1994.1929 (+0.2621..+0.2996 vs certified)
+fit2: all completed A/B results (13 start-rounds): total chi2 1994.0650..1994.3373 (+0.1717..+0.4440 vs certified)

@@ -1,0 +1,8 @@
+rep 0: flag=0 (Success: rho has reached rhoend) nf=52 f-f*=0.00e+00
+rep 1: flag=0 (Success: rho has reached rhoend) nf=52 f-f*=0.00e+00
+deterministic given the seed (same points, bitwise): True
+initial random set: |grad L_k(x0)| min 4.783e-16 max 5.000e-01; distances to x0 1.000-1.000
+per-point |grad L_k(x0)| (k=1..npt-1): [5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 5.00e-01 8.88e-16 2.08e-15 4.78e-16 2.52e-15 4.23e-15 7.51e-16
+ 3.59e-15 1.30e-15 8.40e-16 7.77e-16 5.23e-15 1.21e-15 8.11e-16 9.74e-16 5.47e-16 7.19e-16 2.58e-15 1.51e-15 1.91e-15 7.59e-16 3.47e-15 6.80e-16 4.17e-15 1.55e-15 1.83e-15 2.35e-15 3.07e-15 6.65e-16]
+points with |grad| < 1e-8: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44] of 44
+antipodal pairs among first 2n points: [True, True, True, True, True, True, True, True]

@@ -1,0 +1,21 @@
+ROUND0 {"tag": "step2", "fit": "fit1_lcdm_mnufixed", "start": 6, "round": 0, "mlp": 986.0059717715861, "x": {"logA": 3.053196362, "ns": 0.9693250355, "H0": 68.30879345, "ombh2": 0.02252050841, "omch2": 0.1178722341, "tau": 0.06095104174, "A_planck": 1.00082123}, "source": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit1_lcdm_mnufixed_s6.minimum"}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore/chains', with prefix 'step2_fit1_lcdm_mnufixed_s6_r1'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 2006
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.053196362), 'ns': np.float64(0.9693250355), 'H0': np.float64(68.30879345), 'ombh2': np.float64(0.02252050841), 'omch2': np.float64(0.1178722341), 'tau': np.float64(0.06095104174), 'A_planck': np.float64(1.00082123)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.006
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0    ombh2     omch2       tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.005842  3.053195  0.969306  68.307973  0.02252  0.117872  0.060955  1.000816  2.118292e-09  12.645476  587.209612  1405.599719     -16.721562        -17.124659                  0.403097  2005.454808                                       587.209612           12.645476            1405.599719
+ROUND {"tag": "step2", "fit": "fit1_lcdm_mnufixed", "start": 6, "round": 1, "variant": "bobyqa_rhoend0.005", "mlp": 986.0058420287651, "chi2": 2005.4548076904503, "chi2_cmb": 587.2096122157461, "chi2_bao": 12.645476367752622, "chi2_sn": 1405.5997191069514, "tauterm": 0.8061935386476486, "x": {"logA": 3.053195293248996, "ns": 0.9693056205222003, "H0": 68.30797310389408, "ombh2": 0.022520256350229893, "omch2": 0.11787246640733912, "tau": 0.06095454450549641, "A_planck": 1.0008159542411816}, "nf": 32, "flag": "0", "msg": "Success: rho has reached rhoend", "converged_cobaya": true, "improvement": 0.00012974282105915336, "wall_s": 79.53855586051941}
+STOP: round 1 improved -log post by 0.000130 < 0.001
+EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:06:39Z

@@ -1,0 +1,7 @@
+launch 2026-11-24T02:47:55Z
+deadline (no new round after) c1,c2: 1795496400 = 2026-11-24T05:00:00Z; c3: 1795494600 = 2026-11-24T04:30:00Z
+dd24040f7a0efc1dfba8323c902c94ff28ebb19a6eb53654492dc578daa0a51b  scripts/polish2.py
+165e837d6d3531622aca4a6b86a15a04f597d4e6a03d9d705a417d7c91186a6b  scripts/base_run.py
+2495f06769148dff4692a70024bccede9a470527aba75837f76eb6ee6cefe1a9  scripts/launch2.sh
+7cb21d37879159de7b1cd3f4cca84429af1d1cbdb9cc7684530cf04e877e7e18  scripts/make_yamls2.py
+c1_nptfullm1, c2_nptfull_rhobeg0.1: nice 0; c3_powell: nice 15; base fit1,fit2,cpl_mnufixed: nice 0

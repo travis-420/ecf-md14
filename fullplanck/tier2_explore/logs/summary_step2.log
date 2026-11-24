@@ -1,0 +1,148 @@
+
+===== step2 fit1_lcdm_mnufixed =====
+s0: rounds run 1; STOP: round 1 improved -log post by 0.000143 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:07:09Z
+s1: rounds run 1; STOP: round 1 improved -log post by 0.000155 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:06:40Z
+s2: rounds run 1; STOP: round 1 improved -log post by -0.000003 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:06:39Z
+s3: rounds run 3; STOP: round 3 improved -log post by 0.000190 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:12:29Z
+s4: rounds run 1; STOP: round 1 improved -log post by 0.000002 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:06:38Z
+s5: rounds run 1; STOP: round 1 improved -log post by 0.000138 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:06:50Z
+s6: rounds run 1; STOP: round 1 improved -log post by 0.000130 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:06:39Z
+s7: rounds run 2; STOP: round 2 improved -log post by 0.000547 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:09:20Z
+-- round 0
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    986.01818 |       0.01255 |      2005.5291 |          0.7140 |  587.4169  12.4571  1405.6551 |
+   s1    |    986.00698 |       0.00136 |      2005.4602 |          0.8073 |  587.2929  12.5374  1405.6298 |
+   s2    |    986.00589 |       0.00027 |      2005.4967 |          0.7848 |  587.2459  12.6544  1405.5965 |
+   s3    |    986.02498 |       0.01935 |      2005.1325 |          1.1755 |  586.7292  12.8618  1405.5416 |
+   s4    |    986.00562 |       0.00000 |      2005.4046 |          0.8643 |  587.1319  12.6842  1405.5885 |
+   s5    |    986.00690 |       0.00127 |      2005.5347 |          0.7540 |  587.2966  12.6375  1405.6006 |
+   s6    |    986.00597 |       0.00035 |      2005.4545 |          0.8053 |  587.2141  12.6394  1405.6011 |
+   s7    |    986.01012 |       0.00450 |      2005.2923 |          0.9761 |  586.9622  12.7642  1405.5658 |
+   spread(-log post, all 8) = 0.01935;  S (total chi2 max-min, all 8) = 0.4022;  in 0.25 window: 8/8, in-window S = 0.4022
+   lowest -log post: s4 986.00562 (vs July 986.0217: -0.01608); its total chi2 2005.4046 (vs certified 2005.5316: -0.1270); mean chi2 over 8 = 2005.4131 (-0.1185); median 2005.4574
+-- round 1
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    986.01803 |       0.01241 |      2005.5298 |          0.7143 |  587.4192  12.4553  1405.6552 |   45     110  True
+   s1    |    986.00683 |       0.00120 |      2005.4598 |          0.8085 |  587.2867  12.5466  1405.6265 |   33      81  True
+   s2    |    986.00589 |       0.00027 |      2005.4963 |          0.7847 |  587.2469  12.6527  1405.5967 |   32      80  True
+   s3    |    986.01837 |       0.01275 |      2005.1548 |          1.1164 |  586.8942  12.6648  1405.5958 |   60     136  True
+   s4    |    986.00562 |       0.00000 |      2005.4041 |          0.8645 |  587.1339  12.6808  1405.5894 |   32      79  True
+   s5    |    986.00676 |       0.00114 |      2005.5336 |          0.7535 |  587.2930  12.6406  1405.6000 |   37      91  True
+   s6    |    986.00584 |       0.00022 |      2005.4548 |          0.8062 |  587.2096  12.6455  1405.5997 |   32      80  True
+   s7    |    986.00835 |       0.00273 |      2005.3087 |          0.9682 |  587.0390  12.6792  1405.5905 |   64     144  True
+   spread(-log post, all 8) = 0.01275;  S (total chi2 max-min, all 8) = 0.3788;  in 0.25 window: 8/8, in-window S = 0.3788
+   lowest -log post: s4 986.00562 (vs July 986.0217: -0.01608); its total chi2 2005.4041 (vs certified 2005.5316: -0.1275); mean chi2 over 8 = 2005.4177 (-0.1139); median 2005.4573
+   round 1 cost over the 8 starts that ran it: evaluations (pybobyqa nf) total 335, per start min/median/max 32/35/64; wall per start min/median/max 1.3/1.4/2.4 min
+-- round 2
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0=   |    986.01803 |       0.01241 |      2005.5298 |          0.7143 |  587.4192  12.4553  1405.6552 |
+   s1=   |    986.00683 |       0.00120 |      2005.4598 |          0.8085 |  587.2867  12.5466  1405.6265 |
+   s2=   |    986.00589 |       0.00027 |      2005.4963 |          0.7847 |  587.2469  12.6527  1405.5967 |
+   s3    |    986.00823 |       0.00261 |      2005.3250 |          0.9519 |  587.0108  12.7403  1405.5739 |  136     238  True
+   s4=   |    986.00562 |       0.00000 |      2005.4041 |          0.8645 |  587.1339  12.6808  1405.5894 |
+   s5=   |    986.00676 |       0.00114 |      2005.5336 |          0.7535 |  587.2930  12.6406  1405.6000 |
+   s6=   |    986.00584 |       0.00022 |      2005.4548 |          0.8062 |  587.2096  12.6455  1405.5997 |
+   s7    |    986.00781 |       0.00219 |      2005.3208 |          0.9456 |  587.0554  12.6732  1405.5922 |   56      97  True
+   spread(-log post, all 8) = 0.01241;  S (total chi2 max-min, all 8) = 0.2128;  in 0.25 window: 8/8, in-window S = 0.2128
+   lowest -log post: s4 986.00562 (vs July 986.0217: -0.01608); its total chi2 2005.4041 (vs certified 2005.5316: -0.1275); mean chi2 over 8 = 2005.4405 (-0.0911); median 2005.4573
+   round 2 cost over the 2 starts that ran it: evaluations (pybobyqa nf) total 192, per start min/median/max 56/96/136; wall per start min/median/max 1.6/2.8/4.0 min
+-- round 3
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0=   |    986.01803 |       0.01241 |      2005.5298 |          0.7143 |  587.4192  12.4553  1405.6552 |
+   s1=   |    986.00683 |       0.00120 |      2005.4598 |          0.8085 |  587.2867  12.5466  1405.6265 |
+   s2=   |    986.00589 |       0.00027 |      2005.4963 |          0.7847 |  587.2469  12.6527  1405.5967 |
+   s3    |    986.00804 |       0.00242 |      2005.3263 |          0.9501 |  587.0155  12.7358  1405.5751 |   34      56  True
+   s4=   |    986.00562 |       0.00000 |      2005.4041 |          0.8645 |  587.1339  12.6808  1405.5894 |
+   s5=   |    986.00676 |       0.00114 |      2005.5336 |          0.7535 |  587.2930  12.6406  1405.6000 |
+   s6=   |    986.00584 |       0.00022 |      2005.4548 |          0.8062 |  587.2096  12.6455  1405.5997 |
+   s7=   |    986.00781 |       0.00219 |      2005.3208 |          0.9456 |  587.0554  12.6732  1405.5922 |
+   spread(-log post, all 8) = 0.01241;  S (total chi2 max-min, all 8) = 0.2128;  in 0.25 window: 8/8, in-window S = 0.2128
+   lowest -log post: s4 986.00562 (vs July 986.0217: -0.01608); its total chi2 2005.4041 (vs certified 2005.5316: -0.1275); mean chi2 over 8 = 2005.4407 (-0.0909); median 2005.4573
+   round 3 cost over the 1 starts that ran it: evaluations (pybobyqa nf) total 34, per start min/median/max 34/34/34; wall per start min/median/max 0.9/0.9/0.9 min
+
+===== step2 fit2_ecf_mnufixed =====
+s0: rounds run 1; STOP: round 1 improved -log post by 0.000174 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:08:16Z
+s1: rounds run 1; STOP: round 1 improved -log post by 0.000243 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:07:57Z
+s2: rounds run 3; STOP: round 3 improved -log post by 0.000000 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:21:29Z
+s3: rounds run 2; STOP: round 2 improved -log post by 0.000409 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:17:48Z
+s4: rounds run 1; STOP: round 1 improved -log post by 0.000491 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:08:30Z
+s5: rounds run 2; STOP: round 2 improved -log post by 0.000644 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:13:04Z
+s6: rounds run 1; STOP: round 1 improved -log post by 0.000756 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:08:03Z
+s7: rounds run 3; STOP: round 3 improved -log post by 0.000364 < 0.001; EXIT=0 start=2026-11-23T22:05:18Z end=2026-11-23T22:15:30Z
+-- round 0
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    981.88652 |       0.01359 |      1993.9537 |          0.6445 |  582.0550   9.3166  1402.5821 |
+   s1    |    981.88093 |       0.00799 |      1994.3124 |          0.2440 |  582.3886   9.3205  1402.6033 |
+   s2    |    981.92850 |       0.05557 |      1993.8171 |          0.7768 |  581.9297   9.3303  1402.5571 |
+   s3    |    982.07342 |       0.20048 |      1993.9251 |          0.9697 |  581.6989   9.7229  1402.5034 |
+   s4    |    981.87483 |       0.00189 |      1994.1077 |          0.4464 |  582.2210   9.2066  1402.6801 |
+   s5    |    981.94752 |       0.07459 |      1994.6910 |          0.0677 |  582.8103   9.2245  1402.6562 |
+   s6    |    981.87294 |       0.00000 |      1994.0853 |          0.4563 |  582.1887   9.3135  1402.5831 |
+   s7    |    981.91492 |       0.04198 |      1994.4802 |          0.1248 |  582.5822   9.3171  1402.5809 |
+   spread(-log post, all 8) = 0.20048;  S (total chi2 max-min, all 8) = 0.8739;  in 0.25 window: 8/8, in-window S = 0.8739
+   lowest -log post: s6 981.87294 (vs July 981.93936: -0.06642); its total chi2 1994.0853 (vs certified 1993.8933: +0.1920); mean chi2 over 8 = 1994.1716 (+0.2783); median 1994.0965
+-- round 1
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0    |    981.88635 |       0.01417 |      1993.9517 |          0.6444 |  582.0503   9.3195  1402.5820 |   50     177  True
+   s1    |    981.88068 |       0.00850 |      1994.3111 |          0.2446 |  582.3869   9.3208  1402.6034 |   44     158  True
+   s2    |    981.89249 |       0.02031 |      1993.9174 |          0.6753 |  582.0197   9.3164  1402.5813 |  174     532  True
+   s3    |    981.87809 |       0.00591 |      1994.0246 |          0.5103 |  582.1815   9.2093  1402.6338 |  200     608  True
+   s4    |    981.87434 |       0.00216 |      1994.1068 |          0.4470 |  582.2239   9.2063  1402.6766 |   55     191  True
+   s5    |    981.93109 |       0.05892 |      1994.6122 |          0.0816 |  582.7506   9.2231  1402.6385 |   99     317  True
+   s6    |    981.87218 |       0.00000 |      1994.0844 |          0.4579 |  582.1853   9.3152  1402.5840 |   46     164  True
+   s7    |    981.90501 |       0.03283 |      1994.4927 |          0.1340 |  582.5954   9.3196  1402.5776 |   63     214  True
+   spread(-log post, all 8) = 0.05892;  S (total chi2 max-min, all 8) = 0.6948;  in 0.25 window: 8/8, in-window S = 0.6948
+   lowest -log post: s6 981.87218 (vs July 981.93936: -0.06718); its total chi2 1994.0844 (vs certified 1993.8933: +0.1911); mean chi2 over 8 = 1994.1876 (+0.2943); median 1994.0956
+   round 1 cost over the 8 starts that ran it: evaluations (pybobyqa nf) total 731, per start min/median/max 44/59/200; wall per start min/median/max 2.6/3.4/10.1 min
+-- round 2
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0=   |    981.88635 |       0.01417 |      1993.9517 |          0.6444 |  582.0503   9.3195  1402.5820 |
+   s1=   |    981.88068 |       0.00850 |      1994.3111 |          0.2446 |  582.3869   9.3208  1402.6034 |
+   s2    |    981.88326 |       0.01109 |      1993.9744 |          0.6131 |  582.0690   9.3209  1402.5845 |   79     221  True
+   s3    |    981.87768 |       0.00550 |      1994.0243 |          0.5112 |  582.1815   9.2089  1402.6339 |   51     141  True
+   s4=   |    981.87434 |       0.00216 |      1994.1068 |          0.4470 |  582.2239   9.2063  1402.6766 |
+   s5    |    981.93045 |       0.05827 |      1994.6128 |          0.0835 |  582.7456   9.2292  1402.6379 |   53     148  True
+   s6=   |    981.87218 |       0.00000 |      1994.0844 |          0.4579 |  582.1853   9.3152  1402.5840 |
+   s7    |    981.88792 |       0.01574 |      1994.4248 |          0.1861 |  582.5184   9.3147  1402.5916 |   91     258  True
+   spread(-log post, all 8) = 0.05827;  S (total chi2 max-min, all 8) = 0.6611;  in 0.25 window: 8/8, in-window S = 0.6611
+   lowest -log post: s6 981.87218 (vs July 981.93936: -0.06718); its total chi2 1994.0844 (vs certified 1993.8933: +0.1911); mean chi2 over 8 = 1994.1863 (+0.2930); median 1994.0956
+   round 2 cost over the 4 starts that ran it: evaluations (pybobyqa nf) total 274, per start min/median/max 51/66/91; wall per start min/median/max 2.4/3.1/4.3 min
+-- round 3
+   start |    -log post | -logpost-best |     total chi2 |  tau-prior term |  chi2_CMB  chi2_BAO  chi2_SN | nf  wall_s  conv
+   s0=   |    981.88635 |       0.01417 |      1993.9517 |          0.6444 |  582.0503   9.3195  1402.5820 |
+   s1=   |    981.88068 |       0.00850 |      1994.3111 |          0.2446 |  582.3869   9.3208  1402.6034 |
+   s2    |    981.88326 |       0.01109 |      1993.9744 |          0.6131 |  582.0690   9.3209  1402.5845 |   51     217  True
+   s3=   |    981.87768 |       0.00550 |      1994.0243 |          0.5112 |  582.1815   9.2089  1402.6339 |
+   s4=   |    981.87434 |       0.00216 |      1994.1068 |          0.4470 |  582.2239   9.2063  1402.6766 |
+   s5=   |    981.93045 |       0.05827 |      1994.6128 |          0.0835 |  582.7456   9.2292  1402.6379 |
+   s6=   |    981.87218 |       0.00000 |      1994.0844 |          0.4579 |  582.1853   9.3152  1402.5840 |
+   s7    |    981.88755 |       0.01537 |      1994.4244 |          0.1865 |  582.5141   9.3187  1402.5916 |   50     140  True
+   spread(-log post, all 8) = 0.05827;  S (total chi2 max-min, all 8) = 0.6611;  in 0.25 window: 8/8, in-window S = 0.6611
+   lowest -log post: s6 981.87218 (vs July 981.93936: -0.06718); its total chi2 1994.0844 (vs certified 1993.8933: +0.1911); mean chi2 over 8 = 1994.1862 (+0.2929); median 1994.0956
+   round 3 cost over the 2 starts that ran it: evaluations (pybobyqa nf) total 101, per start min/median/max 50/50/51; wall per start min/median/max 2.3/3.0/3.6 min
+
+===== cross-fit (lowest -log post start of each fit; reporting only, no gate) =====
+round 0: chi2(fit2)-chi2(fit1) = -11.3193 (certified -11.6383: +0.3190); using 8-start means: -11.2415 (+0.3968)
+round 1: chi2(fit2)-chi2(fit1) = -11.3196 (certified -11.6383: +0.3187); using 8-start means: -11.2301 (+0.4082)
+round 2: chi2(fit2)-chi2(fit1) = -11.3196 (certified -11.6383: +0.3187); using 8-start means: -11.2542 (+0.3841)
+round 3: chi2(fit2)-chi2(fit1) = -11.3196 (certified -11.6383: +0.3187); using 8-start means: -11.2544 (+0.3839)
+
+===== cumulative cost per start (all rounds of this tag) =====
+fit1_lcdm_mnufixed s0: rounds 1, evaluations 45, wall 1.8 min
+fit1_lcdm_mnufixed s1: rounds 1, evaluations 33, wall 1.4 min
+fit1_lcdm_mnufixed s2: rounds 1, evaluations 32, wall 1.3 min
+fit1_lcdm_mnufixed s3: rounds 3, evaluations 230, wall 7.2 min
+fit1_lcdm_mnufixed s4: rounds 1, evaluations 32, wall 1.3 min
+fit1_lcdm_mnufixed s5: rounds 1, evaluations 37, wall 1.5 min
+fit1_lcdm_mnufixed s6: rounds 1, evaluations 32, wall 1.3 min
+fit1_lcdm_mnufixed s7: rounds 2, evaluations 120, wall 4.0 min
+fit1_lcdm_mnufixed: total evaluations 561; max per-start wall 7.2 min
+fit2_ecf_mnufixed s0: rounds 1, evaluations 50, wall 2.9 min
+fit2_ecf_mnufixed s1: rounds 1, evaluations 44, wall 2.6 min
+fit2_ecf_mnufixed s2: rounds 3, evaluations 304, wall 16.2 min
+fit2_ecf_mnufixed s3: rounds 2, evaluations 251, wall 12.5 min
+fit2_ecf_mnufixed s4: rounds 1, evaluations 55, wall 3.2 min
+fit2_ecf_mnufixed s5: rounds 2, evaluations 152, wall 7.8 min
+fit2_ecf_mnufixed s6: rounds 1, evaluations 46, wall 2.7 min
+fit2_ecf_mnufixed s7: rounds 3, evaluations 204, wall 10.2 min
+fit2_ecf_mnufixed: total evaluations 1106; max per-start wall 16.2 min

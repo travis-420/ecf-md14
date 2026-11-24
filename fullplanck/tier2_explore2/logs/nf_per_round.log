@@ -1,0 +1,9 @@
+c1 fit1_lcdm_mnufixed rounds 13 nf per round 103-119
+c1 fit2_ecf_mnufixed rounds 19 nf per round 132-248
+c2 fit1_lcdm_mnufixed rounds 13 nf per round 71-122
+c2 fit2_ecf_mnufixed rounds 20 nf per round 90-227
+c4 fit1_lcdm_mnufixed rounds 13 nf per round 107-113
+c4 fit2_ecf_mnufixed rounds 24 nf per round 135-280
+e2e fit1_lcdm_mnufixed rounds 11 nf per round 71-169
+e2e fit2_ecf_mnufixed rounds 22 nf per round 90-168
+cpl cpl_mnufixed rounds 31 nf per round 111-225

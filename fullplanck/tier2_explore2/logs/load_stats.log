@@ -1,0 +1,8 @@
+c1   polish rounds: n=32 min 6.7 median 9.8 max 15.0 s/eval
+c2   polish rounds: n=33 min 5.9 median 10.4 max 15.7 s/eval
+c3   polish rounds: n=16 min 3.8 median 6.3 max 13.2 s/eval
+c4   polish rounds: n=37 min 2.9 median 6.1 max 8.4 s/eval
+e2e  polish rounds: n=33 min 2.9 median 5.4 max 8.1 s/eval
+cpl  polish rounds: n=31 min 2.5 median 4.5 max 7.3 s/eval
+base runs: n=24 min 8.7 median 10.5 max 15.3 s/eval
+step-1 D1 (3 processes running): n=48 min 0.4 median 2.9 max 2.9 s/eval (per evaluation)

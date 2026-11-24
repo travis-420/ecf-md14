@@ -1,0 +1,5 @@
+step2 launch 2026-11-23T22:05:17Z; variant bobyqa_rhoend0.005; new-round deadline 2026-11-23T23:30:00Z (epoch 1795476600); MAXR=5 TOL=0.001
+f187484686a09c12253ad5e57b509ec821ed831369badd33ae1c41e865792253  scripts/polish.py
+05159550983402419e558da15d8f60b52106674058a5923d557c8a3c68bef4db  scripts/launch.sh
+21e5cc0509b39d141aa3f60352399fca3cc0e261030bae6a5e77295e5e344b3d  scripts/noise_floor.py
+all done: step2 2026-11-23T22:21:29Z

@@ -1,0 +1,19 @@
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'base_cpl_mnufixed_s6'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 9006
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0297724709436924), 'ns': np.float64(0.9637743302681908), 'H0': np.float64(68.32697272665669), 'ombh2': np.float64(0.022151295907259793), 'omch2': np.float64(0.1217159155345618), 'tau': np.float64(0.05060035767425701), 'A_planck': np.float64(0.995562207546237), 'w': np.float64(-0.7907142948764422), 'wa': np.float64(-0.6935040084458982)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'w', 'wa']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 982.848
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA       ns         H0     ombh2     omch2       tau  A_planck         w       wa            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    982.848356  3.054674  0.96627  67.629493  0.022444  0.119053  0.060247  1.000779 -0.857906 -0.51996  2.121427e-09  10.037243  583.506934  1402.899521     -15.373493        -15.694289                  0.320796  1996.443698                                       583.506934           10.037243            1402.899521
+BASE {"fit": "cpl_mnufixed", "start": 6, "yaml": "yamls/base_cpl_mnufixed_s6.yaml", "seed": 9006, "status": "converged", "mlp": 982.8483560000211, "chi2": 1996.4436981438357, "chi2_cmb": 583.506933595004, "chi2_bao": 10.037243151934774, "chi2_sn": 1402.899521396897, "tauterm": 0.6415923164613088, "x": {"logA": 3.0546742910974127, "ns": 0.966270157745496, "H0": 67.62949330176518, "ombh2": 0.022444172809060206, "omch2": 0.11905345578927481, "tau": 0.06024726043068231, "A_planck": 1.0007790004514063, "w": -0.857905716757595, "wa": -0.5199600251503933}, "nf": 427, "flag": 0, "msg": "Success: rho has reached rhoend", "x0": {"logA": 3.0297724709436924, "ns": 0.9637743302681908, "H0": 68.32697272665669, "ombh2": 0.022151295907259793, "omch2": 0.1217159155345618, "tau": 0.05060035767425701, "A_planck": 0.995562207546237, "w": -0.7907142948764422, "wa": -0.6935040084458982}, "wall_s": 4330.897727966309}
+EXIT=0 start=2026-11-24T02:47:55Z end=2026-11-24T04:00:10Z

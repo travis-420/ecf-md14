@@ -1,0 +1,183 @@
+theory:
+  camb:
+    version: 1.6.6
+    path: null
+    speed: 0.3
+    stop_at_error: false
+    extra_args:
+      halofit_version: mead
+      num_massive_neutrinos: 1
+      mnu: 0.06
+      dark_energy_model: ppf
+    ignore_obsolete: false
+    external_primordial_pk: false
+    use_non_linear_ratio: false
+    renames:
+      omegabh2: ombh2
+      omegach2: omch2
+      omegal: omega_de
+      omegak: omk
+      yhe: YHe
+      yheused: YHe
+      YpBBN: Y_p
+    input_params:
+    - As
+    - ns
+    - H0
+    - ombh2
+    - omch2
+    - tau
+    - w
+    - wa
+    output_params: []
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite_native:
+    path: null
+    dataset_file: plik_lite_v22.dataset
+    dataset_params:
+      use_cl: tt te ee
+    aliases:
+    - plikHM_TTTEEE
+    speed: 200
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  bao.desi_dr2:
+    path: null
+    measurements_file: bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt
+    cov_file: bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt
+    rs_fid: 1
+    aliases:
+    - BAO
+    speed: 2000
+    type: BAO
+    rs_rescale: null
+    prob_dist: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  sn.pantheonplus:
+    path: null
+    dataset_file: PantheonPlus/config.dataset
+    dataset_params: null
+    aliases:
+    - PantheonPlus
+    use_abs_mag: false
+    speed: 100
+    type: SN
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+prior:
+  tau_prior: 'lambda tau: -0.5*((tau-0.0544)/0.0073)**2'
+params:
+  logA:
+    prior:
+      min: 2.9
+      max: 3.2
+    ref: 3.053444585617039
+    proposal: 0.002
+    latex: \log A_s
+    drop: true
+  As:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    derived: true
+  ns:
+    prior:
+      min: 0.92
+      max: 1.01
+    ref: 0.9660893552664658
+    proposal: 0.003
+  H0:
+    prior:
+      min: 60
+      max: 76
+    ref: 67.65808733896243
+    proposal: 0.3
+  ombh2:
+    prior:
+      min: 0.02
+      max: 0.024
+    ref: 0.022437044453530484
+    proposal: 0.0001
+    renames:
+    - omegabh2
+  omch2:
+    prior:
+      min: 0.1
+      max: 0.14
+    ref: 0.11918864261647806
+    proposal: 0.0008
+    renames:
+    - omegach2
+  tau:
+    prior:
+      min: 0.02
+      max: 0.1
+    ref: 0.05962966998973786
+    proposal: 0.005
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1
+      scale: 0.0025
+    ref: 1.000654896681053
+    proposal: 0.002
+    latex: y_\mathrm{cal}
+    renames: calPlanck
+  w:
+    prior:
+      min: -1.5
+      max: -0.3
+    ref: -0.8465015830839324
+    proposal: 0.03
+    latex: w_0
+  wa:
+    prior:
+      min: -2.5
+      max: 1.0
+    ref: -0.5777879231984762
+    proposal: 0.08
+    latex: w_a
+  chi2__BAO:
+    latex: \chi^2_\mathrm{BAO}
+    derived: true
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+  chi2__SN:
+    latex: \chi^2_\mathrm{SN}
+    derived: true
+sampler:
+  minimize:
+    method: bobyqa
+    ignore_prior: false
+    max_evals: 1e6d
+    best_of: 1
+    confidence_for_unbounded: 0.9999995
+    seed: null
+    override_scipy: null
+    override_bobyqa:
+      rhoend: 0.005
+      npt: 55
+      rhobeg: 0.1
+    override_iminuit: null
+    covmat: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/cpl.covmat
+    covmat_params: null
+    version: null
+    supports_periodic_params: false
+    fallback_covmat_scale: 4
+output: cpl_cpl_mnufixed_s0_r3
+packages_path: /Users/420-420/Downloads/ecf-fullplanck-kit/packages
+version: 3.6.2

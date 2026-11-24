@@ -1,0 +1,19 @@
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'base_fit1_lcdm_mnufixed_s5'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 9005
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.0375421749957807), 'ns': np.float64(0.9744845675535759), 'H0': np.float64(67.26712140614549), 'ombh2': np.float64(0.0223599265424158), 'omch2': np.float64(0.11973701246901741), 'tau': np.float64(0.06214228072799882), 'A_planck': np.float64(0.9993321444433171)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 986.006
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA       ns        H0     ombh2    omch2       tau  A_planck            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior        chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    986.005799  3.053296  0.96928  68.30384  0.022519  0.11788  0.060982  1.000831  2.118507e-09  12.676381  587.176883  1405.590586     -16.716126        -17.122612                  0.406486  2005.44385                                       587.176883           12.676381            1405.590586
+BASE {"fit": "fit1_lcdm_mnufixed", "start": 5, "yaml": "yamls/base_fit1_lcdm_mnufixed_s5.yaml", "seed": 9005, "status": "converged", "mlp": 986.0057993406175, "chi2": 2005.4438504521454, "chi2_cmb": 587.1768831352429, "chi2_bao": 12.676381255371169, "chi2_sn": 1405.5905860615314, "tauterm": 0.8129714535949663, "x": {"logA": 3.053296454112762, "ns": 0.9692804514613242, "H0": 68.30383961120971, "ombh2": 0.022518555790740382, "omch2": 0.11787983733240964, "tau": 0.06098203986330041, "A_planck": 1.0008314857141536}, "nf": 183, "flag": 0, "msg": "Success: rho has reached rhoend", "x0": {"logA": 3.0375421749957807, "ns": 0.9744845675535759, "H0": 67.26712140614549, "ombh2": 0.0223599265424158, "omch2": 0.11973701246901741, "tau": 0.06214228072799882, "A_planck": 0.9993321444433171}, "wall_s": 1818.0620560646057}
+EXIT=0 start=2026-11-24T02:47:55Z end=2026-11-24T03:18:19Z

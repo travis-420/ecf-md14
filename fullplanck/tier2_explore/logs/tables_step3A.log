@@ -1,0 +1,41 @@
+
+**step3A, Fit 1 (ΛCDM, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (session-2 endpoint) | round 1 | round 2 | outcome |
+|---|---|---|---|---|
+| s0 | 986.01818 / 2005.5291 / 0.7140 | 986.00540 / 2005.4460 / 0.8261 | 986.00540 / 2005.4460 / 0.8261 | round 2 gain 0.000000 < 0.001 → stop |
+| s1 | 986.00698 / 2005.4602 / 0.8073 | 986.00541 / 2005.4423 / 0.8278 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s2 | 986.00589 / 2005.4967 / 0.7848 | 986.00537 / 2005.4392 / 0.8318 | = | round 1 gain 0.000520 < 0.001 → stop |
+| s3 | 986.02498 / 2005.1325 / 1.1755 | 986.00543 / 2005.4359 / 0.8396 | 986.00533 / 2005.4395 / 0.8347 | round 2 gain 0.000103 < 0.001 → stop |
+| s4 | 986.00562 / 2005.4046 / 0.8643 | 986.00541 / 2005.4394 / 0.8333 | = | round 1 gain 0.000216 < 0.001 → stop |
+| s5 | 986.00690 / 2005.5347 / 0.7540 | 986.00542 / 2005.4503 / 0.8228 | 986.00540 / 2005.4492 / 0.8235 | round 2 gain 0.000018 < 0.001 → stop |
+| s6 | 986.00597 / 2005.4545 / 0.8053 | 986.00542 / 2005.4439 / 0.8285 | = | round 1 gain 0.000557 < 0.001 → stop |
+| s7 | 986.01012 / 2005.2923 / 0.9761 | 986.00541 / 2005.4314 / 0.8393 | 986.00541 / 2005.4314 / 0.8393 | round 2 gain 0.000000 < 0.001 → stop |
+| starts entering spread and S (completed, not crashed) | 8/8 | 8/8 | 7/8 | |
+| spread of −log post (max − min) | 0.01935 | 0.00006 | 0.00009 | |
+| **S** = max − min total χ² | **0.4022** | **0.0188** | **0.0177** | |
+| lowest −log post start: its total χ² | s4: 2005.4046 | s2: 2005.4392 | s3: 2005.4395 | |
+| evaluations in this round (Py-BOBYQA nf) | — | 872 (8 starts ran it) | 422 (4 starts ran it) | |
+
+**step3A, Fit 2 (ECF, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (session-2 endpoint) | round 1 | round 2 | outcome |
+|---|---|---|---|---|
+| s0 | 981.88652 / 1993.9537 / 0.6445 | 981.87162 / 1994.0817 / 0.4855 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s1 | 981.88093 / 1994.3124 / 0.2440 | ! | ! | crashed in round 1 (Py-BOBYQA linear-algebra error) |
+| s2 | 981.92850 / 1993.8171 / 0.7768 | 981.87139 / 1994.0650 / 0.4951 | 981.86738 / 1994.1929 / 0.3648 | crashed in round 3 (Py-BOBYQA linear-algebra error) |
+| s3 | 982.07342 / 1993.9251 / 0.9697 | ! | ! | crashed in round 1 (Py-BOBYQA linear-algebra error) |
+| s4 | 981.87483 / 1994.1077 / 0.4464 | ! | ! | crashed in round 1 (Py-BOBYQA linear-algebra error) |
+| s5 | 981.94752 / 1994.6910 / 0.0677 | 981.87145 / 1994.2910 / 0.2921 | 981.86724 / 1994.1554 / 0.4165 | crashed in round 3 (Py-BOBYQA linear-algebra error) |
+| s6 | 981.87294 / 1994.0853 / 0.4563 | 981.86978 / 1994.1098 / 0.4493 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s7 | 981.91492 / 1994.4802 / 0.1248 | 981.87723 / 1994.3373 / 0.2415 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| starts entering spread and S (completed, not crashed) | 8/8 | 5/8 | 2/8 | |
+| spread of −log post (max − min) | 0.20048 | 0.00745 | 0.00014 | |
+| **S** = max − min total χ² | **0.8739** | **0.2723** | **0.0375** | |
+| lowest −log post start: its total χ² | s6: 1994.0853 | s6: 1994.1098 | s5: 1994.1554 | |
+| evaluations in this round (Py-BOBYQA nf) | — | 871 (5 starts ran it) | 273 (2 starts ran it) | |
+
+step3A vs certified (reporting only, no G1 verdict):
+  round 0: fit1 lowest-mlp s4 mlp 986.00562 (-0.01608 vs July) chi2 2005.4046 (-0.1270), range 2005.1325..2005.5347 over 8 starts; fit2 lowest-mlp s6 mlp 981.87294 (-0.06642) chi2 1994.0853 (+0.1920), range 1993.8171..1994.6910 over 8 starts; dchi2 = -11.3193 (+0.3190 vs -11.6383)
+  round 1: fit1 lowest-mlp s2 mlp 986.00537 (-0.01633 vs July) chi2 2005.4392 (-0.0924), range 2005.4314..2005.4503 over 8 starts; fit2 lowest-mlp s6 mlp 981.86978 (-0.06958) chi2 1994.1098 (+0.2165), range 1994.0650..1994.3373 over 5 starts; dchi2 = -11.3295 (+0.3088 vs -11.6383)
+  round 2: fit1 lowest-mlp s3 mlp 986.00533 (-0.01637 vs July) chi2 2005.4395 (-0.0921), range 2005.4314..2005.4492 over 7 starts; fit2 lowest-mlp s5 mlp 981.86724 (-0.07212) chi2 1994.1554 (+0.2621), range 1994.1554..1994.1929 over 2 starts; dchi2 = -11.2841 (+0.3542 vs -11.6383)

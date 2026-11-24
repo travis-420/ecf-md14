@@ -1,0 +1,108 @@
+ROUND0 {"tag": "step3A", "fit": "fit2_ecf_mnufixed", "start": 0, "round": 0, "mlp": 981.8865216940303, "x": {"logA": 3.056091055, "ns": 0.9646362531, "H0": 67.74817889, "ombh2": 0.02239821101, "omch2": 0.1198261557, "tau": 0.06026032783, "A_planck": 1.00055787, "tau_ecf": 2.153624396}, "source": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/chains/fit2_ecf_mnufixed_s0.minimum"}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore/chains', with prefix 'step3A_fit2_ecf_mnufixed_s0_r1'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 2000
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.056091055), 'ns': np.float64(0.9646362531), 'H0': np.float64(67.74817889), 'ombh2': np.float64(0.02239821101), 'omch2': np.float64(0.1198261557), 'tau': np.float64(0.06026032783), 'A_planck': np.float64(1.00055787), 'tau_ecf': np.float64(2.153624396)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+[minimize] Run 1/1 converged.
+[minimize] -log(posterior) minimized to 981.872
+[minimize] Parameter values at minimum:
+   weight  minuslogpost      logA        ns         H0     ombh2     omch2       tau  A_planck   tau_ecf            As  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0  minuslogprior__tau_prior         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    981.871616  3.054533  0.964623  67.748118  0.022398  0.119824  0.059487  1.000564  2.153639  2.121127e-09   9.316586  582.183065  1402.582011     -15.169215        -15.411972                  0.242757  1994.081662                                       582.183065            9.316586            1402.582011
+ROUND {"tag": "step3A", "fit": "fit2_ecf_mnufixed", "start": 0, "round": 1, "variant": "bobyqa_rhoend0.005_nptfull", "mlp": 981.8716161341605, "chi2": 1994.081661780736, "chi2_cmb": 582.183065099314, "chi2_bao": 9.316585922085821, "chi2_sn": 1402.5820107593363, "tauterm": 0.48551432418777046, "x": {"logA": 3.054532568068624, "ns": 0.9646227143833872, "H0": 67.74811829478566, "ombh2": 0.022397895599021996, "omch2": 0.11982438356746641, "tau": 0.059486556628601146, "A_planck": 1.0005643912488036, "tau_ecf": 2.1536392418999197}, "nf": 137, "flag": "0", "msg": "Success: rho has reached rhoend", "converged_cobaya": true, "improvement": 0.014905559869816898, "wall_s": 488.6250400543213}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore/chains', with prefix 'step3A_fit2_ecf_mnufixed_s0_r2'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 2000
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.054532568068624), 'ns': np.float64(0.9646227143833872), 'H0': np.float64(67.74811829478566), 'ombh2': np.float64(0.022397895599021996), 'omch2': np.float64(0.11982438356746641), 'tau': np.float64(0.059486556628601146), 'A_planck': np.float64(1.0005643912488036), 'tau_ecf': np.float64(2.1536392418999197)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/pybobyqa/model.py:253: LinAlgWarning: Diagonal number 42 is exactly zero. Singular matrix.
+  self.lu, self.piv = LA.lu_factor(A)
+[minimize] *ERROR* Finished unsuccessfully. Reason: Linear algebra error, e.g. the interpolation points produced a singular linear system.
+[minimize] *ERROR* Minimization failed! Here is the raw result object:
+****** Py-BOBYQA Results ******
+Solution xmin = [0. 0. 0. 0. 0. 0. 0. 0.]
+Objective value f(xmin) = 981.8716161
+Needed 48 objective evaluations (at 48 points)
+Approximate gradient = [ 9.13492638e-03  3.05687060e-03  1.24490707e-02  6.46005045e-03
+  1.02863571e-02 -6.41800906e-04 -3.90497975e-03 -1.81525525e+00]
+Approximate Hessian = [[ 9.99768315e-01  3.51516660e-01 -3.58188750e-01 -2.18406234e-01
+  -7.58041974e-01 -9.87269660e-01 -9.54697881e-01  4.81394457e-01]
+ [ 3.51516660e-01  1.03122232e+00 -4.24710598e-01  1.31467483e-02
+  -1.77748857e-01 -3.55493587e-01 -3.41185275e-01  5.68698956e-01]
+ [-3.58188750e-01 -4.24710598e-01  6.61459905e+00 -2.59337390e+00
+   3.69834752e+00  3.56904985e-01  3.44444174e-01 -8.56497665e+00]
+ [-2.18406234e-01  1.31467483e-02 -2.59337390e+00  1.80701015e+00
+  -1.15498597e+00  2.10355650e-01  2.02692734e-01  3.42195165e+00]
+ [-7.58041974e-01 -1.77748857e-01  3.69834752e+00 -1.15498597e+00
+   2.76182170e+00  7.54328062e-01  7.29408842e-01 -5.01694876e+00]
+ [-9.87269660e-01 -3.55493587e-01  3.56904985e-01  2.10355650e-01
+   7.54328062e-01  9.97079860e-01  9.48924827e-01 -2.54046985e+00]
+ [-9.54697881e-01 -3.41185275e-01  3.44444174e-01  2.02692734e-01
+   7.29408842e-01  9.48924827e-01  1.01116875e+00 -4.62931940e-01]
+ [ 4.81394457e-01  5.68698956e-01 -8.56497665e+00  3.42195165e+00
+  -5.01694876e+00 -2.54046985e+00 -4.62931940e-01  1.52639124e+01]]
+Exit flag = -3
+Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+******************************
+
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/Users/420-420/ecf-md14/fullplanck/tier2_explore/scripts/polish.py", line 115, in <module>
+    main(*sys.argv[1:])
+  File "/Users/420-420/ecf-md14/fullplanck/tier2_explore/scripts/polish.py", line 86, in main
+    upd, sampler = run(info)
+                   ^^^^^^^^^
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/run.py", line 182, in run
+    sampler.run()
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/samplers/minimize/minimize.py", line 369, in run
+    self.process_results(
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/mpi.py", line 278, in wrapper
+    result = method(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/samplers/minimize/minimize.py", line 413, in process_results
+    raise LoggedError(
+cobaya.log.LoggedError: Minimization failed! Here is the raw result object:
+****** Py-BOBYQA Results ******
+Solution xmin = [0. 0. 0. 0. 0. 0. 0. 0.]
+Objective value f(xmin) = 981.8716161
+Needed 48 objective evaluations (at 48 points)
+Approximate gradient = [ 9.13492638e-03  3.05687060e-03  1.24490707e-02  6.46005045e-03
+  1.02863571e-02 -6.41800906e-04 -3.90497975e-03 -1.81525525e+00]
+Approximate Hessian = [[ 9.99768315e-01  3.51516660e-01 -3.58188750e-01 -2.18406234e-01
+  -7.58041974e-01 -9.87269660e-01 -9.54697881e-01  4.81394457e-01]
+ [ 3.51516660e-01  1.03122232e+00 -4.24710598e-01  1.31467483e-02
+  -1.77748857e-01 -3.55493587e-01 -3.41185275e-01  5.68698956e-01]
+ [-3.58188750e-01 -4.24710598e-01  6.61459905e+00 -2.59337390e+00
+   3.69834752e+00  3.56904985e-01  3.44444174e-01 -8.56497665e+00]
+ [-2.18406234e-01  1.31467483e-02 -2.59337390e+00  1.80701015e+00
+  -1.15498597e+00  2.10355650e-01  2.02692734e-01  3.42195165e+00]
+ [-7.58041974e-01 -1.77748857e-01  3.69834752e+00 -1.15498597e+00
+   2.76182170e+00  7.54328062e-01  7.29408842e-01 -5.01694876e+00]
+ [-9.87269660e-01 -3.55493587e-01  3.56904985e-01  2.10355650e-01
+   7.54328062e-01  9.97079860e-01  9.48924827e-01 -2.54046985e+00]
+ [-9.54697881e-01 -3.41185275e-01  3.44444174e-01  2.02692734e-01
+   7.29408842e-01  9.48924827e-01  1.01116875e+00 -4.62931940e-01]
+ [ 4.81394457e-01  5.68698956e-01 -8.56497665e+00  3.42195165e+00
+  -5.01694876e+00 -2.54046985e+00 -4.62931940e-01  1.52639124e+01]]
+Exit flag = -3
+Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+******************************
+
+-------------------------------------------------------------
+
+EXIT=1 start=2026-11-23T22:17:54Z end=2026-11-23T22:28:08Z

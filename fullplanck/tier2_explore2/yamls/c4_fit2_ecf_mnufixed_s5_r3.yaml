@@ -1,0 +1,80 @@
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite_native: null
+  bao.desi_dr2: null
+  sn.pantheonplus: null
+prior:
+  tau_prior: 'lambda tau: -0.5*((tau-0.0544)/0.0073)**2'
+params:
+  logA:
+    prior:
+      min: 2.9
+      max: 3.2
+    ref: 3.0510891664584276
+    proposal: 0.002
+    latex: \log A_s
+    drop: true
+  As:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+  ns:
+    prior:
+      min: 0.92
+      max: 1.01
+    ref: 0.964643450988488
+    proposal: 0.003
+  H0:
+    prior:
+      min: 60
+      max: 76
+    ref: 67.71040578334696
+    proposal: 0.3
+  ombh2:
+    prior:
+      min: 0.02
+      max: 0.024
+    ref: 0.02239409563182796
+    proposal: 0.0001
+  omch2:
+    prior:
+      min: 0.1
+      max: 0.14
+    ref: 0.11979994079306787
+    proposal: 0.0008
+  tau:
+    prior:
+      min: 0.02
+      max: 0.1
+    ref: 0.057892064302409084
+    proposal: 0.005
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1
+      scale: 0.0025
+    ref: 1.0004915564096395
+    proposal: 0.002
+  tau_ecf:
+    prior:
+      min: 0.3
+      max: 6.0
+    ref: 2.1234784638442425
+    proposal: 0.15
+    latex: \tau_{\rm ECF}
+theory:
+  ecf_theory_cobaya.ECFCAMB:
+    python_path: /Users/420-420/ecf-md14/fullplanck
+    extra_args:
+      halofit_version: mead
+      num_massive_neutrinos: 1
+      mnu: 0.06
+sampler:
+  minimize:
+    best_of: 1
+    covmat: /Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/ecf.covmat
+    override_bobyqa:
+      rhoend: 0.005
+      npt: 45
+      user_params:
+        init.random_initial_directions: true
+        init.random_directions_make_orthogonal: false
+output: /Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains/c4_fit2_ecf_mnufixed_s5_r3
+packages_path: /Users/420-420/Downloads/ecf-fullplanck-kit/packages

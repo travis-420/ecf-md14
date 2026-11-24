@@ -1,0 +1,85 @@
+CONFIG {"label": "D1_repro", "sampler": {"minimize": {"best_of": 1, "seed": 9001, "covmat": "/Users/420-420/ecf-md14/fullplanck/tier2_rerun/covmats/ecf.covmat", "override_bobyqa": {"rhoend": 0.005, "npt": 45, "maxfun": 300}}}, "x0": {"logA": 3.05195926, "ns": 0.9644404674, "H0": 67.71037017, "ombh2": 0.02239196886, "omch2": 0.1198614366, "tau": 0.05800577565, "A_planck": 1.000708844, "tau_ecf": 2.14151012}}
+[output] Output to be read-from/written-into folder '/Users/420-420/ecf-md14/fullplanck/tier2_explore2/chains', with prefix 'diag_D1_repro'
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[ecf_theory_cobaya.ecfcamb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+[minimize] *WARNING* This run has been SEEDED with seed 9001
+[minimize] Initializing
+[minimize] Run 1/1 will start from random initial point:
+[minimize] {'logA': np.float64(3.05195926), 'ns': np.float64(0.9644404674), 'H0': np.float64(67.71037017), 'ombh2': np.float64(0.02239196886), 'omch2': np.float64(0.1198614366), 'tau': np.float64(0.05800577565), 'A_planck': np.float64(1.000708844), 'tau_ecf': np.float64(2.14151012)}
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[minimize] Covariance matrix loaded for params ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck', 'tau_ecf']
+[minimize] All parameters' covariance loaded from given covmat.
+[minimize] Starting run 1/1
+/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/pybobyqa/model.py:253: LinAlgWarning: Diagonal number 39 is exactly zero. Singular matrix.
+  self.lu, self.piv = LA.lu_factor(A)
+[minimize] *ERROR* Finished unsuccessfully. Reason: Linear algebra error, e.g. the interpolation points produced a singular linear system.
+[minimize] *ERROR* Minimization failed! Here is the raw result object:
+****** Py-BOBYQA Results ******
+Solution xmin = [0. 0. 0. 0. 0. 0. 0. 0.]
+Objective value f(xmin) = 981.8809292
+Needed 48 objective evaluations (at 48 points)
+Approximate gradient = [ 0.01999755 -0.01073913 -0.04161097  0.00202386  0.00275393 -0.03388896
+  0.00194893 -1.82443156]
+Approximate Hessian = [[ 9.99816677e-01  3.56979189e-01 -3.40217913e-01 -2.18547599e-01
+  -7.58038485e-01 -9.87370872e-01 -9.60147233e-01  4.86558517e-01]
+ [ 3.56979189e-01  1.03132572e+00 -4.14978070e-01  1.52135655e-02
+  -1.79974258e-01 -3.60350681e-01 -3.47753356e-01  5.75979314e-01]
+ [-3.40217913e-01 -4.14978070e-01  6.62390835e+00 -2.58508445e+00
+   3.66862193e+00  2.11691212e+00  3.28391921e-01 -8.71847047e+00]
+ [-2.18547599e-01  1.52135655e-02 -2.58508445e+00  1.80890004e+00
+  -1.15455196e+00  2.10492026e-01  2.04028420e-01  3.45659753e+00]
+ [-7.58038485e-01 -1.79974258e-01  3.66862193e+00 -1.15455196e+00
+   2.76084019e+00  7.54357688e-01  7.33102151e-01 -5.06575182e+00]
+ [-9.87370872e-01 -3.60350681e-01  2.11691212e+00  2.10492026e-01
+   7.54357688e-01  9.97201181e-01  9.53839261e-01 -4.84848980e-01]
+ [-9.60147233e-01 -3.47753356e-01  3.28391921e-01  2.04028420e-01
+   7.33102151e-01  9.53839261e-01  1.01096117e+00 -4.70268948e-01]
+ [ 4.86558517e-01  5.75979314e-01 -8.71847047e+00  3.45659753e+00
+  -5.06575182e+00 -4.84848980e-01 -4.70268948e-01  1.55856784e+01]]
+Exit flag = -3
+Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+******************************
+
+Traceback (most recent call last):
+  File "/Users/420-420/ecf-md14/fullplanck/tier2_explore2/scripts/crash_repro.py", line 122, in <module>
+    upd, sampler = run(info)
+                   ^^^^^^^^^
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/run.py", line 182, in run
+    sampler.run()
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/samplers/minimize/minimize.py", line 369, in run
+    self.process_results(
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/mpi.py", line 278, in wrapper
+    result = method(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/cobaya/samplers/minimize/minimize.py", line 413, in process_results
+    raise LoggedError(
+cobaya.log.LoggedError: Minimization failed! Here is the raw result object:
+****** Py-BOBYQA Results ******
+Solution xmin = [0. 0. 0. 0. 0. 0. 0. 0.]
+Objective value f(xmin) = 981.8809292
+Needed 48 objective evaluations (at 48 points)
+Approximate gradient = [ 0.01999755 -0.01073913 -0.04161097  0.00202386  0.00275393 -0.03388896
+  0.00194893 -1.82443156]
+Approximate Hessian = [[ 9.99816677e-01  3.56979189e-01 -3.40217913e-01 -2.18547599e-01
+  -7.58038485e-01 -9.87370872e-01 -9.60147233e-01  4.86558517e-01]
+ [ 3.56979189e-01  1.03132572e+00 -4.14978070e-01  1.52135655e-02
+  -1.79974258e-01 -3.60350681e-01 -3.47753356e-01  5.75979314e-01]
+ [-3.40217913e-01 -4.14978070e-01  6.62390835e+00 -2.58508445e+00
+   3.66862193e+00  2.11691212e+00  3.28391921e-01 -8.71847047e+00]
+ [-2.18547599e-01  1.52135655e-02 -2.58508445e+00  1.80890004e+00
+  -1.15455196e+00  2.10492026e-01  2.04028420e-01  3.45659753e+00]
+ [-7.58038485e-01 -1.79974258e-01  3.66862193e+00 -1.15455196e+00
+   2.76084019e+00  7.54357688e-01  7.33102151e-01 -5.06575182e+00]
+ [-9.87370872e-01 -3.60350681e-01  2.11691212e+00  2.10492026e-01
+   7.54357688e-01  9.97201181e-01  9.53839261e-01 -4.84848980e-01]
+ [-9.60147233e-01 -3.47753356e-01  3.28391921e-01  2.04028420e-01
+   7.33102151e-01  9.53839261e-01  1.01096117e+00 -4.70268948e-01]
+ [ 4.86558517e-01  5.75979314e-01 -8.71847047e+00  3.45659753e+00
+  -5.06575182e+00 -4.84848980e-01 -4.70268948e-01  1.55856784e+01]]
+Exit flag = -3
+Error (linear algebra): Singular matrix in mini-model interpolation (main loop)
+******************************
+
+SUMMARY label=D1_repro outcome=exception: Minimization failed! Here is the raw result object: n_evals=48 n_snapshots=3 wall_s=123.5 json=/Users/420-420/ecf-md14/fullplanck/tier2_explore2/logs/diag_D1_repro.json
+EXIT=0 end=2026-11-24T02:45:03Z

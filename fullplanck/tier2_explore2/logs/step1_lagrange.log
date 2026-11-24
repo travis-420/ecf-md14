@@ -1,0 +1,16 @@
+pybobyqa.trust_region.USE_FORTRAN = False
+point 17 before the geometry step (scaled, rel. to x0): [-1.  1.  0.  0.  0.  0.  0.  0.]  -> pair of coordinates ['logA', 'ns']
+kopt = 0  xopt = [0. 0. 0. 0. 0. 0. 0. 0.]
+Lagrange polynomial of point 17 at xopt: c = 0.000e+00, |g| = 0.000e+00, max|H| = 1.000e+00
+  Hessian entries above 1e-3 of max: [('logA', 'ns', np.float64(-1.0)), ('H0', 'tau', np.float64(-0.0347)), ('H0', 'tau_ecf', np.float64(-0.0128))]
+trsbox_geometry(adelt=0.1414) returns step [0. 0. 0. 0. 0. 0. 0. 0.]; |L| there = 0.000e+00
+  trsbox(min L) step norm 0.000e+00; trsbox(max L) step norm 0.000e+00
+  max |L| over the ball is at least 1.000e-02 (along logA,ns); |L| along top |eigen|-vector: 1.000e-02
+
+Initial (coordinate-direction) set as built by Py-BOBYQA with x_opt = x0 (D1 points):
+  npt = 2n+1 (cobaya default) : |grad L_k(x_opt)| coordinate points min 5.000e-01; no pair points
+      geometry step would target k=1 (distance 1.000); |grad L_k| = 5.000e-01
+  npt = (n+1)(n+2)/2 - 1      : |grad L_k(x_opt)| coordinate points min 5.000e-01; pair points min 0.000e+00 max 1.582e-17 (27 pair points)
+      geometry step would target k=17 (distance 1.414); |grad L_k| = 1.119e-17
+  npt = (n+1)(n+2)/2          : |grad L_k(x_opt)| coordinate points min 5.000e-01; pair points min 0.000e+00 max 0.000e+00 (28 pair points)
+      geometry step would target k=17 (distance 1.414); |grad L_k| = 0.000e+00

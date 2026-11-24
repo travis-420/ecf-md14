@@ -1,0 +1,15 @@
+
+**base, CPL, Σmν = 0.06 eV FIXED (cpl_full.yaml as shipped; not fit 5).** AMENDMENT_TIER2_MINIMIZER.md §2 settings, seeds 9000+k.
+
+| start | start point | status | −log post | −log post − best | total χ² | χ²_CMB | χ²_BAO | χ²_SN | τ-prior term | extra | evals | min |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
+| s0 | certified July best fit (seed 9000, inert) | converged | 982.8039 | 0.0058 | 1996.6809 | 583.3860 | 10.2594 | 1403.0355 | 0.3656 | w -0.84751, wa -0.57811 | 57 | 14.6 |
+| s1 | random, seed 9001 | converged | 982.8549 | 0.0569 | 1996.8123 | 583.4441 | 10.4271 | 1402.9412 | 0.2577 | w -0.85460, wa -0.55753 | 390 | 67.8 |
+| s2 | random, seed 9002 | converged | 982.7980 | 0.0000 | 1996.5124 | 583.4956 | 9.9418 | 1403.0750 | 0.5341 | w -0.84608, wa -0.56424 | 321 | 57.9 |
+| s3 | random, seed 9003 | converged | 982.8220 | 0.0239 | 1996.6769 | 583.5467 | 10.1946 | 1402.9355 | 0.3967 | w -0.85470, wa -0.55371 | 362 | 63.3 |
+| s4 | random, seed 9004 | converged | 982.8675 | 0.0695 | 1996.9181 | 583.3278 | 10.0442 | 1403.5461 | 0.2356 | w -0.82380, wa -0.65657 | 336 | 59.6 |
+| s5 | random, seed 9005 | converged | 982.8297 | 0.0316 | 1996.3901 | 583.1594 | 9.8551 | 1403.3756 | 0.7323 | w -0.83002, wa -0.62780 | 388 | 67.1 |
+| s6 | random, seed 9006 | converged | 982.8484 | 0.0503 | 1996.4437 | 583.5069 | 10.0372 | 1402.8995 | 0.6416 | w -0.85791, wa -0.51996 | 427 | 72.2 |
+| s7 | random, seed 9007 | converged | 982.8731 | 0.0750 | 1997.1009 | 583.7716 | 10.1660 | 1403.1633 | 0.1032 | w -0.83976, wa -0.60521 | 292 | 54.6 |
+
+SUMMARY base cpl_mnufixed: converged 8/8; in window (≤0.25) 8/8; −log post spread 0.07501; S in window 0.7107; S all converged 0.7107; lowest −log post s2 982.79805, total χ² 1996.5124; evaluations 2573 total, 57–427 per start

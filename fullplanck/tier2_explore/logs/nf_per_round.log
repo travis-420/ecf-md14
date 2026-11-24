@@ -1,0 +1,4 @@
+step3A fit1_lcdm_mnufixed: s0r1:114/4.9m s0r2:106/3.3m s3r1:106/4.6m s3r2:105/3.3m s1r1:110/4.7m s4r1:107/4.6m s5r1:110/4.7m s5r2:105/3.3m s2r1:108/4.7m s7r1:111/4.7m s7r2:106/3.3m s6r1:106/4.6m 
+step3A fit2_ecf_mnufixed: s0r1:137/8.1m s2r1:224/12.3m s2r2:138/8.8m s7r1:145/8.5m s5r1:219/12.0m s5r2:135/8.5m s6r1:146/8.6m 
+step3B fit1_lcdm_mnufixed: s0r1:214/9.0m s0r2:210/6.7m s2r1:203/8.5m s1r1:286/11.5m s3r1:532/18.9m s4r1:193/8.2m s6r1:298/11.9m s5r1:493/17.8m s7r1:196/8.3m s7r2:207/6.8m 
+step3B fit2_ecf_mnufixed: s2r1:1041/52.3m s0r1:838/42.9m s5r1:333/19.0m s5r2:274/12.8m s7r1:573/30.4m s6r1:296/17.2m 

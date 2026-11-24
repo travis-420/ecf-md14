@@ -1,0 +1,40 @@
+
+**c1, Fit 1 (ΛCDM, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (session-2 endpoint) | round 1 | round 2 | outcome | evals | min |
+|---|---|---|---|---|---|---|
+| s0 | 986.01818 | 986.00533 / 2005.4409 / 0.8323 | 986.00533 / 2005.4409 / 0.8323 | round 2 gain 0.000000 < 0.001 → stop | 221 | 34.5 |
+| s1 | 986.00698 | 986.00536 / 2005.4433 / 0.8305 | 986.00536 / 2005.4433 / 0.8305 | round 2 gain 0.000000 < 0.001 → stop | 215 | 33.6 |
+| s2 | 986.00589 | 986.00543 / 2005.4511 / 0.8186 | = | round 1 gain 0.000464 < 0.001 → stop | 108 | 18.9 |
+| s3 | 986.02498 | 986.00541 / 2005.4474 / 0.8264 | 986.00536 / 2005.4489 / 0.8256 | round 2 gain 0.000045 < 0.001 → stop | 220 | 34.4 |
+| s4 | 986.00562 | 986.00542 / 2005.4306 / 0.8426 | = | round 1 gain 0.000202 < 0.001 → stop | 108 | 18.8 |
+| s5 | 986.00690 | 986.00542 / 2005.4486 / 0.8226 | 986.00542 / 2005.4486 / 0.8226 | round 2 gain 0.000000 < 0.001 → stop | 218 | 34.0 |
+| s6 | 986.00597 | 986.00540 / 2005.4395 / 0.8328 | = | round 1 gain 0.000572 < 0.001 → stop | 108 | 18.9 |
+| s7 | 986.01012 | 986.00540 / 2005.4439 / 0.8286 | 986.00540 / 2005.4439 / 0.8286 | round 2 gain 0.000000 < 0.001 → stop | 222 | 34.5 |
+| starts entering spread and S (completed, not failed) | 0/8 | 8/8 | 8/8 | | | |
+| spread of −log post (max − min) | n/a | 0.00010 | 0.00010 | | | |
+| **S** = max − min total χ² | n/a | **0.0205** | **0.0205** | | | |
+| lowest −log post start: its total χ² | n/a | s0: 2005.4409 | s0: 2005.4409 | | | |
+| evaluations in this round | — | 897 (8 starts ran it) | 523 (5 starts ran it) | | | |
+
+SUMMARY c1 fit1_lcdm_mnufixed: starts failed (crash) 0/8; starts producing a result 8/8; still running/not finished 0; evaluations total 1420, per start 108–222; wall per start (min) 18.8–34.5; final −log post spread 0.00010; S (all result starts) 0.0205; in window (≤0.25) 8/8, S in window 0.0205; lowest −log post s0 986.00533 with total χ² 2005.4409; total χ² range 2005.4306–2005.4511
+
+**c1, Fit 2 (ECF, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (session-2 endpoint) | round 1 | round 2 | round 3 | outcome | evals | min |
+|---|---|---|---|---|---|---|---|
+| s0 | 981.88652 | 981.87114 / 1994.0805 / 0.4838 | 981.87110 / 1994.0827 / 0.4820 | = | round 2 gain 0.000047 < 0.001 → stop | 267 | 54.0 |
+| s1 | 981.88093 | 981.87423 / 1994.3072 / 0.2612 | 981.87361 / 1994.3069 / 0.2651 | = | round 2 gain 0.000613 < 0.001 → stop | 308 | 59.1 |
+| s2 | 981.92850 | 981.86706 / 1994.1588 / 0.4040 | 981.86692 / 1994.1580 / 0.4032 | = | round 2 gain 0.000137 < 0.001 → stop | 381 | 70.5 |
+| s3 | 982.07342 | 981.87411 / 1994.0327 / 0.5383 | 981.86693 / 1994.1644 / 0.3999 | 981.86683 / 1994.1645 / 0.4003 | round 3 gain 0.000105 < 0.001 → stop | 492 | 82.0 |
+| s4 | 981.87483 | 981.86945 / 1994.0921 / 0.4637 | 981.86815 / 1994.2271 / 0.3406 | 981.86794 / 1994.2238 / 0.3431 | round 3 gain 0.000205 < 0.001 → stop | 416 | 74.6 |
+| s5 | 981.94752 | 981.86785 / 1994.2180 / 0.3516 | 981.86785 / 1994.2180 / 0.3516 | = | round 2 gain 0.000000 < 0.001 → stop | 323 | 61.3 |
+| s6 | 981.87294 | 981.87170 / 1994.0912 / 0.4540 | 981.87099 / 1994.0948 / 0.4513 | = | round 2 gain 0.000716 < 0.001 → stop | 266 | 53.9 |
+| s7 | 981.91492 | 981.87858 / 1994.3442 / 0.2333 | 981.87594 / 1994.3263 / 0.2489 | 981.87567 / 1994.3243 / 0.2503 | round 3 gain 0.000276 < 0.001 → stop | 429 | 76.1 |
+| starts entering spread and S (completed, not failed) | 0/8 | 8/8 | 8/8 | 8/8 | | | |
+| spread of −log post (max − min) | n/a | 0.01152 | 0.00902 | 0.00884 | | | |
+| **S** = max − min total χ² | n/a | **0.3115** | **0.2436** | **0.2416** | | | |
+| lowest −log post start: its total χ² | n/a | s2: 1994.1588 | s2: 1994.1580 | s3: 1994.1645 | | | |
+| evaluations in this round | — | 1400 (8 starts ran it) | 1082 (8 starts ran it) | 400 (3 starts ran it) | | | |
+
+SUMMARY c1 fit2_ecf_mnufixed: starts failed (crash) 0/8; starts producing a result 8/8; still running/not finished 0; evaluations total 2882, per start 266–492; wall per start (min) 53.9–82.0; final −log post spread 0.00884; S (all result starts) 0.2416; in window (≤0.25) 8/8, S in window 0.2416; lowest −log post s3 981.86683 with total χ² 1994.1645; total χ² range 1994.0827–1994.3243

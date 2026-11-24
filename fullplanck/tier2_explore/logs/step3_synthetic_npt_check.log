@@ -1,0 +1,9 @@
+Hessian eigenvalues: [-0.9916  0.0446  0.4025  0.7459  0.9924  1.9188  3.7625 23.9436]
+noise=0 npt=45 (full)                            flag=0 nf=56 nruns=1 f-f*=3.24e+01 msg=Success: rho has reached rhoend
+noise=0 npt=44                                   flag=0 nf=84 nruns=1 f-f*=3.24e+01 msg=Success: rho has reached rhoend
+noise=0 npt=17 (default)                         flag=0 nf=276 nruns=1 f-f*=3.24e+01 msg=Success: rho has reached rhoend
+noise=0 npt=45 + soft restarts (max_unsucc 1)    flag=0 nf=76 nruns=3 f-f*=3.24e+01 msg=Success: Reached maximum number of consecutive unsuccessful 
+noise=3e-05 npt=45 (full)                            flag=0 nf=99 nruns=1 f-f*=3.24e+01 msg=Success: rho has reached rhoend
+noise=3e-05 npt=44                                   flag=0 nf=118 nruns=1 f-f*=3.24e+01 msg=Success: rho has reached rhoend
+noise=3e-05 npt=17 (default)                         flag=0 nf=235 nruns=1 f-f*=3.24e+01 msg=Success: rho has reached rhoend
+noise=3e-05 npt=45 + soft restarts (max_unsucc 1)    flag=0 nf=146 nruns=2 f-f*=3.24e+01 msg=Success: Reached maximum number of consecutive unsuccessful 

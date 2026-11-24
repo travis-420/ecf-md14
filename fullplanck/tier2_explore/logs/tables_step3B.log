@@ -1,0 +1,40 @@
+
+**step3B, Fit 1 (ΛCDM, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (session-2 endpoint) | round 1 | round 2 | outcome |
+|---|---|---|---|---|
+| s0 | 986.01818 / 2005.5291 / 0.7140 | 986.00540 / 2005.4460 / 0.8261 | 986.00540 / 2005.4460 / 0.8261 | round 2 gain 0.000000 < 0.001 → stop |
+| s1 | 986.00698 / 2005.4602 / 0.8073 | 986.00539 / 2005.4401 / 0.8324 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s2 | 986.00589 / 2005.4967 / 0.7848 | 986.00537 / 2005.4392 / 0.8318 | = | round 1 gain 0.000520 < 0.001 → stop |
+| s3 | 986.02498 / 2005.1325 / 1.1755 | 986.00540 / 2005.4453 / 0.8274 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s4 | 986.00562 / 2005.4046 / 0.8643 | 986.00541 / 2005.4394 / 0.8333 | = | round 1 gain 0.000216 < 0.001 → stop |
+| s5 | 986.00690 / 2005.5347 / 0.7540 | 986.00534 / 2005.4395 / 0.8321 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s6 | 986.00597 / 2005.4545 / 0.8053 | 986.00540 / 2005.4405 / 0.8308 | = | round 1 gain 0.000568 < 0.001 → stop |
+| s7 | 986.01012 / 2005.2923 / 0.9761 | 986.00541 / 2005.4314 / 0.8393 | 986.00541 / 2005.4314 / 0.8393 | round 2 gain 0.000000 < 0.001 → stop |
+| starts entering spread and S (completed, not crashed) | 8/8 | 8/8 | 5/8 | |
+| spread of −log post (max − min) | 0.01935 | 0.00006 | 0.00004 | |
+| **S** = max − min total χ² | **0.4022** | **0.0146** | **0.0146** | |
+| lowest −log post start: its total χ² | s4: 2005.4046 | s5: 2005.4395 | s2: 2005.4392 | |
+| evaluations in this round (Py-BOBYQA nf) | — | 2415 (8 starts ran it) | 417 (2 starts ran it) | |
+
+**step3B, Fit 2 (ECF, Σmν = 0.06 eV fixed).** Cell = −log post / total χ² / τ-prior term.
+
+| start | round 0 (session-2 endpoint) | round 1 | round 2 | outcome |
+|---|---|---|---|---|
+| s0 | 981.88652 / 1993.9537 / 0.6445 | 981.86689 / 1994.1613 / 0.4049 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s1 | 981.88093 / 1994.3124 / 0.2440 | ! | ! | crashed in round 1 (Py-BOBYQA linear-algebra error) |
+| s2 | 981.92850 / 1993.8171 / 0.7768 | 981.86690 / 1994.1641 / 0.3970 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s3 | 982.07342 / 1993.9251 / 0.9697 | ! | ! | crashed in round 1 (Py-BOBYQA linear-algebra error) |
+| s4 | 981.87483 / 1994.1077 / 0.4464 | ! | ! | crashed in round 1 (Py-BOBYQA linear-algebra error) |
+| s5 | 981.94752 / 1994.6910 / 0.0677 | 981.87145 / 1994.2910 / 0.2921 | 981.86724 / 1994.1554 / 0.4165 | crashed in round 3 (Py-BOBYQA linear-algebra error) |
+| s6 | 981.87294 / 1994.0853 / 0.4563 | 981.86978 / 1994.1098 / 0.4493 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| s7 | 981.91492 / 1994.4802 / 0.1248 | 981.86976 / 1994.2524 / 0.3330 | ! | crashed in round 2 (Py-BOBYQA linear-algebra error) |
+| starts entering spread and S (completed, not crashed) | 8/8 | 5/8 | 1/8 | |
+| spread of −log post (max − min) | 0.20048 | 0.00456 | n/a | |
+| **S** = max − min total χ² | **0.8739** | **0.1812** | n/a | |
+| lowest −log post start: its total χ² | s6: 1994.0853 | s0: 1994.1613 | n/a | |
+| evaluations in this round (Py-BOBYQA nf) | — | 3081 (5 starts ran it) | 274 (1 starts ran it) | |
+
+step3B vs certified (reporting only, no G1 verdict):
+  round 0: fit1 lowest-mlp s4 mlp 986.00562 (-0.01608 vs July) chi2 2005.4046 (-0.1270), range 2005.1325..2005.5347 over 8 starts; fit2 lowest-mlp s6 mlp 981.87294 (-0.06642) chi2 1994.0853 (+0.1920), range 1993.8171..1994.6910 over 8 starts; dchi2 = -11.3193 (+0.3190 vs -11.6383)
+  round 1: fit1 lowest-mlp s5 mlp 986.00534 (-0.01636 vs July) chi2 2005.4395 (-0.0921), range 2005.4314..2005.4460 over 8 starts; fit2 lowest-mlp s0 mlp 981.86689 (-0.07247) chi2 1994.1613 (+0.2680), range 1994.1098..1994.2910 over 5 starts; dchi2 = -11.2781 (+0.3602 vs -11.6383)

@@ -1,0 +1,9 @@
+Operator stop of remaining Powell (iii) starts, 2026-11-24T05:27:49Z, to keep within the 4-hour cap (session start 02:38:07Z).
+Processes stopped (SIGTERM), with elapsed time in their current round:
+73259    02:39:54 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c3 fit2_ecf_mn
+73260    02:39:54 /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/bin/python -I -B scripts/polish2.py c3 fit2_ecf_mn
+81768       00:00 /bin/zsh -c source /Users/420-420/.claude/shell-snapshots/snapshot-zsh-1795487879459-79yl16.sh 2>/dev/
+81771       00:00 /bin/zsh -c source /Users/420-420/.claude/shell-snapshots/snapshot-zsh-1795487879459-79yl16.sh 2>/dev/
+after stop: remaining study processes: 2
+logs/c3_fit2_ecf_mnufixed_s2.log: EXIT=143 start=2026-11-24T02:47:55Z end=2026-11-24T05:27:49Z
+logs/c3_fit2_ecf_mnufixed_s5.log: EXIT=143 start=2026-11-24T02:47:55Z end=2026-11-24T05:27:49Z

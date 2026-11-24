@@ -1,0 +1,63 @@
+[prior] *WARNING* External prior 'tau_prior' loaded. Mind that it might not be normalized!
+[camb] `camb` module loaded successfully from /Users/420-420/Downloads/ecf-fullplanck-kit/venv312/lib/python3.12/site-packages/camb
+[bao.desi_dr2] Initialized.
+# fit1: fit1_lcdm_mnufixed_s4; endpoint from fit1_lcdm_mnufixed_s4.minimum (-log post in file 986.0056230572)
+# sampled params: ['logA', 'ns', 'H0', 'ombh2', 'omch2', 'tau', 'A_planck']
+# x0 = {"logA": 3.053604125, "ns": 0.9692908611, "H0": 68.30275369, "ombh2": 0.02251810997, "omch2": 0.1178810841, "tau": 0.06118674046, "A_planck": 1.000783264}
+# OMP_NUM_THREADS=1
+centre#1                     mlp=986.005632 chi2=2005.404620 tauterm=0.864324 chi2_planck=587.131931 chi2_bao=12.684224 chi2_sn=1405.588465 dt=1.73s
+eps=1e-06 dir0 +             mlp=986.005655 chi2=2005.404431 tauterm=0.864309 chi2_planck=587.131360 chi2_bao=12.684663 chi2_sn=1405.588408 dt=1.72s
+eps=1e-06 dir0 -             mlp=986.005629 chi2=2005.404850 tauterm=0.864340 chi2_planck=587.132543 chi2_bao=12.683785 chi2_sn=1405.588522 dt=1.72s
+eps=1e-06 dir1 +             mlp=986.005633 chi2=2005.404356 tauterm=0.864340 chi2_planck=587.130999 chi2_bao=12.685061 chi2_sn=1405.588296 dt=1.71s
+eps=1e-06 dir1 -             mlp=986.005642 chi2=2005.404908 tauterm=0.864309 chi2_planck=587.132887 chi2_bao=12.683387 chi2_sn=1405.588635 dt=1.71s
+eps=1e-06 dir2 +             mlp=986.005637 chi2=2005.404396 tauterm=0.864309 chi2_planck=587.131039 chi2_bao=12.685061 chi2_sn=1405.588296 dt=1.72s
+eps=1e-06 dir2 -             mlp=986.005650 chi2=2005.404892 tauterm=0.864340 chi2_planck=587.132871 chi2_bao=12.683387 chi2_sn=1405.588635 dt=1.71s
+eps=1e-06 dir3 +             mlp=986.005622 chi2=2005.404867 tauterm=0.864309 chi2_planck=587.132574 chi2_bao=12.683676 chi2_sn=1405.588617 dt=1.73s
+eps=1e-06 dir3 -             mlp=986.005651 chi2=2005.404392 tauterm=0.864340 chi2_planck=587.131307 chi2_bao=12.684771 chi2_sn=1405.588314 dt=1.71s
+eps=1e-06 dir4 +             mlp=986.005629 chi2=2005.404348 tauterm=0.864340 chi2_planck=587.132055 chi2_bao=12.683676 chi2_sn=1405.588617 dt=1.74s
+eps=1e-06 dir4 -             mlp=986.005644 chi2=2005.404911 tauterm=0.864309 chi2_planck=587.131826 chi2_bao=12.684771 chi2_sn=1405.588314 dt=1.73s
+eps=1e-06 dir5 +             mlp=986.005626 chi2=2005.404876 tauterm=0.864309 chi2_planck=587.131533 chi2_bao=12.684952 chi2_sn=1405.588390 dt=1.72s
+eps=1e-06 dir5 -             mlp=986.005648 chi2=2005.404386 tauterm=0.864340 chi2_planck=587.132351 chi2_bao=12.683495 chi2_sn=1405.588540 dt=1.72s
+eps=1e-06 dir6 +             mlp=986.005622 chi2=2005.404868 tauterm=0.864309 chi2_planck=587.132575 chi2_bao=12.683676 chi2_sn=1405.588617 dt=1.71s
+eps=1e-06 dir6 -             mlp=986.005650 chi2=2005.404390 tauterm=0.864340 chi2_planck=587.131305 chi2_bao=12.684771 chi2_sn=1405.588314 dt=1.73s
+eps=1e-06 dir7 +             mlp=986.005643 chi2=2005.404878 tauterm=0.864340 chi2_planck=587.132843 chi2_bao=12.683495 chi2_sn=1405.588540 dt=1.73s
+eps=1e-06 dir7 -             mlp=986.005631 chi2=2005.404385 tauterm=0.864309 chi2_planck=587.131042 chi2_bao=12.684952 chi2_sn=1405.588390 dt=1.75s
+eps=1e-06 dir8 +             mlp=986.005626 chi2=2005.404845 tauterm=0.864340 chi2_planck=587.131502 chi2_bao=12.684952 chi2_sn=1405.588390 dt=1.74s
+eps=1e-06 dir8 -             mlp=986.005648 chi2=2005.404417 tauterm=0.864309 chi2_planck=587.132382 chi2_bao=12.683495 chi2_sn=1405.588540 dt=1.75s
+eps=1e-06 dir9 +             mlp=986.005636 chi2=2005.404362 tauterm=0.864340 chi2_planck=587.131020 chi2_bao=12.684952 chi2_sn=1405.588390 dt=1.74s
+eps=1e-06 dir9 -             mlp=986.005648 chi2=2005.404919 tauterm=0.864309 chi2_planck=587.132884 chi2_bao=12.683495 chi2_sn=1405.588540 dt=1.75s
+centre#2                     mlp=986.005632 chi2=2005.404620 tauterm=0.864324 chi2_planck=587.131931 chi2_bao=12.684224 chi2_sn=1405.588465 dt=1.75s
+eps=0.0001 dir0 +            mlp=986.075352 chi2=2005.515816 tauterm=0.865884 chi2_planck=587.175595 chi2_bao=12.768677 chi2_sn=1405.571544 dt=1.75s
+eps=0.0001 dir0 -            mlp=986.074705 chi2=2005.567808 tauterm=0.862767 chi2_planck=587.361134 chi2_bao=12.601236 chi2_sn=1405.605437 dt=1.75s
+eps=0.0001 dir1 +            mlp=986.049468 chi2=2005.514216 tauterm=0.865884 chi2_planck=587.173995 chi2_bao=12.768677 chi2_sn=1405.571544 dt=1.75s
+eps=0.0001 dir1 -            mlp=986.049604 chi2=2005.467436 tauterm=0.862767 chi2_planck=587.260762 chi2_bao=12.601236 chi2_sn=1405.605437 dt=1.75s
+eps=0.0001 dir2 +            mlp=986.062751 chi2=2005.490613 tauterm=0.865884 chi2_planck=587.283939 chi2_bao=12.601236 chi2_sn=1405.605437 dt=1.75s
+eps=0.0001 dir2 -            mlp=986.062730 chi2=2005.543858 tauterm=0.862767 chi2_planck=587.203637 chi2_bao=12.768677 chi2_sn=1405.571544 dt=1.72s
+eps=0.0001 dir3 +            mlp=986.073402 chi2=2005.562084 tauterm=0.865884 chi2_planck=587.223429 chi2_bao=12.757677 chi2_sn=1405.580977 dt=1.73s
+eps=0.0001 dir3 -            mlp=986.073640 chi2=2005.515509 tauterm=0.862767 chi2_planck=587.307612 chi2_bao=12.611935 chi2_sn=1405.595962 dt=1.73s
+eps=0.0001 dir4 +            mlp=986.062751 chi2=2005.490613 tauterm=0.865884 chi2_planck=587.283939 chi2_bao=12.601236 chi2_sn=1405.605437 dt=1.73s
+eps=0.0001 dir4 -            mlp=986.062730 chi2=2005.543858 tauterm=0.862767 chi2_planck=587.203637 chi2_bao=12.768677 chi2_sn=1405.571544 dt=1.72s
+eps=0.0001 dir5 +            mlp=986.018213 chi2=2005.401537 tauterm=0.865884 chi2_planck=587.193640 chi2_bao=12.611935 chi2_sn=1405.595962 dt=1.72s
+eps=0.0001 dir5 -            mlp=986.017843 chi2=2005.454083 tauterm=0.862767 chi2_planck=587.115428 chi2_bao=12.757677 chi2_sn=1405.580977 dt=1.71s
+eps=0.0001 dir6 +            mlp=986.008990 chi2=2005.386208 tauterm=0.862767 chi2_planck=587.073579 chi2_bao=12.739284 chi2_sn=1405.573344 dt=1.73s
+eps=0.0001 dir6 -            mlp=986.008093 chi2=2005.431465 tauterm=0.865884 chi2_planck=587.198034 chi2_bao=12.629805 chi2_sn=1405.603626 dt=1.72s
+eps=0.0001 dir7 +            mlp=986.064178 chi2=2005.493467 tauterm=0.865884 chi2_planck=587.260036 chi2_bao=12.629805 chi2_sn=1405.603626 dt=1.71s
+eps=0.0001 dir7 -            mlp=986.064253 chi2=2005.546902 tauterm=0.862767 chi2_planck=587.234274 chi2_bao=12.739284 chi2_sn=1405.573344 dt=1.70s
+eps=0.0001 dir8 +            mlp=986.011968 chi2=2005.442332 tauterm=0.862767 chi2_planck=587.131228 chi2_bao=12.728323 chi2_sn=1405.582781 dt=1.72s
+eps=0.0001 dir8 -            mlp=986.012258 chi2=2005.389629 tauterm=0.865884 chi2_planck=587.154931 chi2_bao=12.640543 chi2_sn=1405.594154 dt=1.72s
+eps=0.0001 dir9 +            mlp=986.024227 chi2=2005.463734 tauterm=0.865884 chi2_planck=587.255837 chi2_bao=12.611935 chi2_sn=1405.595962 dt=1.72s
+eps=0.0001 dir9 -            mlp=986.025059 chi2=2005.418347 tauterm=0.862767 chi2_planck=587.079692 chi2_bao=12.757677 chi2_sn=1405.580977 dt=1.72s
+centre#3                     mlp=986.005632 chi2=2005.404620 tauterm=0.864324 chi2_planck=587.131931 chi2_bao=12.684224 chi2_sn=1405.588465 dt=1.73s
+
+# SUMMARY fit1
+centre repeats (mlp, chi2, tauterm): (986.005632, 2005.404620, 0.864324); (986.005632, 2005.404620, 0.864324); (986.005632, 2005.404620, 0.864324)
+centre repeat max-min: mlp 0.00e+00  chi2 0.00e+00
+eps=1e-06: 20 perturbations
+   -log post  : std 1.03e-05  max-min 3.30e-05  max|f-f0| 2.30e-05  | 2nd diff mean 1.36e-05 std 5.36e-06 | antisym std 8.21e-06
+   total chi2 : std 2.49e-04  max-min 5.71e-04  max|f-f0| 2.99e-04  | 2nd diff mean 2.69e-05 std 1.07e-05 | antisym std 2.48e-04
+   tau term   : std 1.56e-05  max-min 3.12e-05
+eps=0.0001: 20 perturbations
+   -log post  : std 2.51e-02  max-min 6.73e-02  max|f-f0| 6.97e-02  | 2nd diff mean 7.90e-02 std 5.01e-02 | antisym std 2.35e-04
+   total chi2 : std 5.61e-02  max-min 1.82e-01  max|f-f0| 1.63e-01  | 2nd diff mean 1.55e-01 std 1.00e-01 | antisym std 2.44e-02
+   tau term   : std 1.56e-03  max-min 3.12e-03
+EXIT=0 end=2026-11-23T22:02:55Z
